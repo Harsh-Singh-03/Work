@@ -1,0 +1,102 @@
+[
+    {
+        "Title" : "Keynote",
+        "slug": "keynote-session",
+        "Title1" : "Session",
+        "name": "Keynote Session",
+        "para": "Experts say the combination of physical and digital lives will continue to expand people’s boundaries and opportunities in the coming decade. Are humans ready to embrace these tech innovations? During this session an industry expert will highlight the trends, challenges and opportunities that lie ahead, and how a human-centric approach will allow us to apply tech for sustainable future.",
+        "img": "/image/Ticket1.webp",
+        "Link": "https://rzp.io/l/9DErtKsx3",
+        "Link1": ""
+    },
+    {
+        "Title" : "Teachers",
+        "slug": "teachers-training",
+        "Title1" : "Training Session",
+        "name": "Teacher Training Session",
+        "img": "/image/Ticket2.png",
+        "para": "Discover methods for teaching science, technology, engineering, arts and math (STEM), with a range of STEM teaching workshop conducted by our industry experts. This workshop will talk about range of theoretical and practical learning methods for your classroom.",
+        "Link": "https://rzp.io/l/4tPsC1fGf",
+        "Link1": ""
+    },
+    {
+        "Title" : "Robotics",
+        "slug": "robotics-workshop",
+        "name": "Robotics Workshop & Training",
+        "Title1" : "Workshop & Training",
+        "img": "/image/Ticket3.png",
+        "para": "Add another dimension to your creativity with us - learn to build a robot in our interactive workshop designed by our industry experts. Experience how the world of robotics will change the way we live, work and play.",
+        "Link": "https://rzp.io/l/zFVC8wB2",
+        "Link1": ""
+    },
+    {
+        "Title" : "3d Printing",
+        "slug": "3d-printing-workshop",
+        "name": "3D Printing Workshop",
+        "Title1" : "Workshop & Training",
+        "img": "/image/Ticket4.png",
+        "para": "Add another dimension to your creativity with us - learn to 3D Print in our interactive workshop designed by our industry experts. Experience how the world of 3D Printing will change the way we live, work and play.",
+        "Link": "https://rzp.io/l/Ma9f65kMp6",
+        "Link1": ""
+    },
+    {
+        "Title" : "Code Block",
+        "slug": "code-block-workshop",
+        "name": "Code Block Workshop",
+        "Title1" : "Workshop & Training",
+        "img": "/image/Ticket7.png",
+        "para": "Add another dimension to your creativity with us - learn about the future of programming and coding in our interactive workshop designed by our industry experts. Experience how the future of programming will change the way we live, work and play",
+        "Link": "https://rzp.io/l/rVpGHd9jc",
+        "Link1": ""
+    },
+    {
+        "Title" : "AR VR",
+        "slug": "ar-vr-workshop",
+        "name": "AR VR Workshop",
+        "Title1" : "Workshop & Training",
+        "img": "/image/Ticket5.png",
+        "para": "Add another dimension to your creativity with us - learn about metaverse in our interactive workshop designed by our industry experts. Experience how immersive technologies will change the way we live, work and play.",
+        "Link": "https://rzp.io/l/hit89bpg",
+        "Link1": ""
+    },
+    {
+        "Title" : "MAD Show",
+        "slug": "mad-show",
+        "Title1" : "& Award Ceremony",
+        "name": "Mad Show & Award Ceremony",
+        "img": "/image/Ticket6.png",
+        "para": "The performing artists range from vocal and instrumental music, dance and theatre to pantomime, sung verse and beyond. They include numerous cultural display across the country and it ends with an award ceremony.",
+        "Link": "https://rzp.io/l/YKninIN4S",
+        "Link1": ""
+    },
+    {
+        "Title" : "Career",
+        "slug": "career-counselling",
+        "name": "Career Counselling",
+        "Title1" : "Counselling",
+        "img": "/image/Ticket9.png",
+        "para": "Our expert guided one - to - one sessions will helps people begin, change, or advance their careers. Custom curated program as well as assessments, activities, and projects designed to help career seekers make the most of their strengths.",
+        "Link": "https://rzp.io/l/rzce2cV",
+        "Link1": ""
+    },
+    {
+        "Title" : "Sustainability Drive",
+        "slug": "sustainability-drive",
+        "name": "Sustainability & Startup Drive",
+        "Title1" : "& Startup Drive",
+        "img": "/image/Ticket8.png",
+        "para": "The relevance of a parent - teacher & learners communication is important to create more aware society and shaping how our world lives, works and play. Discover and build relationship with inter-disciplinary educators and professionals - and shape our society.",
+        "Link": "https://rzp.io/l/O6jUapSAfT",
+        "Link1": ""
+    },
+    {
+        "Title" : "Student-Parents",
+        "slug": "networking",
+        "name": "Student Parent Teachers Networking",
+        "Title1" : "Teachers Networking",
+        "img": "/image/Ticket10.png",
+        "para": "Our network program is calling out experts and venture capitalists to helps beginners and experienced entrepreneurs build relationship, connect with cross - industry businesses and raise funding for startups, investment projects and existing businesses.",
+        "Link": "https://rzp.io/l/mrhLte2dP",
+        "Link1": ""
+    }
+]

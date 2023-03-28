@@ -1,0 +1,455 @@
+.ourSmartStore{
+    padding: 20px 0;
+    background: #EFEFEF;
+    padding-left:72px;
+    padding-right: 95px;
+    width: 100vw;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+}
+.ourSmartStore .whyustitle h1{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+
+    color: #000000;
+    transform: rotate(-90deg);
+    /* opacity: 0.7; */
+}
+.ourSmartStore .whyussolution{
+    display: flex;
+    padding: 20px ;
+    margin-left: 60px;
+}
+.whyussolution .checkoutsafe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 40px;
+    border-right: 1px solid rgba(128, 128, 128, 0.2);;
+}
+.checkoutsafe img{
+    width: 60px;
+    height: 100%;
+}
+.checkoutsafe p{
+    font-weight: 600;
+    font-size: 16px !important;
+}
+.StoreAD{
+    margin-left: 72px;
+    margin-right: 95px;
+    padding: 30px;
+    margin-top: 80px;
+    width: calc(100% - 167px);
+    background: #FFFFFF;
+border: 1.5px dashed #808080;
+display: flex;
+justify-content: space-between;
+}
+.adHeading button{
+    background: #51D015;
+    box-shadow: -2px -2px 4px #FFFFFF, -4px -4px 8px #FFFFFF, -8px -8px 16px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 18px;
+    cursor: default !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    margin-top: 50px;
+}
+.adHeading ul li{
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 15px;
+    line-height: 14px;
+    color: #000000 !important;
+}
+.adHeading ul{
+    color: #000000 !important;
+    padding-left: 13px;
+}
+.adHeading .adImage{
+    height: 100%;
+    width: 35%;
+    max-height: 300px;
+}
+.adImage img{
+    max-height: 300px;
+    width: 100%;
+    height: 100%;
+}
+/* @keyframes landingSlide {
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+
+    }
+} */
+.store_page_section{
+    width: 100vw;
+    max-width: 1440px;
+    overflow-x: hidden;
+    padding-bottom: 60px;
+    background: #f5f5f5;
+    animation : landingSlide 0.8s ease; 
+    animation-iteration-count: 1;
+}
+
+.leftSideContentBanner h4, .mobileHeadingsBanner h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.mobileHeadingsBanner{
+    display: none;
+}
+.smartStore p{
+    font-weight: 500;
+    font-size: 22px !important;
+    line-height: 72.9%;
+    color: #808080 !important;
+}
+.smartStore span{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.LandingPageBanner .imgstoreContainer .imgContainerBtnstore{
+    cursor: pointer;
+    background: #f9f9f9 !important;
+    width: 69px  ;
+    height: 69px;
+    display: grid;
+    place-items: center;
+    outline: none;
+    border-radius: 8px;
+    /* box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(236, 121, 51, 0.15); */
+    position: absolute;
+
+}
+
+.LandingPageBanner .imgstoreContainer_mobile .imgContainerBtnstore{
+    cursor: pointer;
+    background: #f9f9f9 !important;
+    width: 69px  ;
+    height: 69px;
+    display: grid;
+    place-items: center;
+    outline: none;
+    border-radius: 8px;
+    /* box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(236, 121, 51, 0.15); */
+    /* position: absolute; */
+}
+.imgstoreContainer_mobile .mobileBannerSettlement{
+    display: grid;
+    width: auto;
+    place-items: center;
+    position: absolute;
+}
+.LandingPageBanner .imgstoreContainer_mobile{
+    width: 100vw;
+    height: 100vw;
+    display: none;
+}
+.LandingPageBanner .imgstoreContainer img, .LandingPageBanner .imgstoreContainer_mobile img{
+    width: 100%;
+    height: 100%;
+}
+.LandingPageBanner .imgstoreContainer .imgContainerBtnstore1, .LandingPageBanner .imgstoreContainer_mobile .imgContainerBtnstore1{
+    top: 5%;
+    left: 42%;
+    box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(81, 208, 21, 0.22);
+}
+.LandingPageBanner .imgstoreContainer_mobile .mobileBannerSettlement1{
+    top: 5%;
+    left: 38%;
+}
+.LandingPageBanner .imgstoreContainer .imgContainerBtnstore2, .LandingPageBanner .imgstoreContainer_mobile .imgContainerBtnstore2{
+    top: 15%;
+    right: 22%;
+    box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(32, 82, 127, 0.33);
+}
+.LandingPageBanner .imgstoreContainer_mobile .mobileBannerSettlement2{
+    top: 21%;
+    right: 17%;
+}
+.LandingPageBanner .imgstoreContainer .imgContainerBtnstore3, .LandingPageBanner .imgstoreContainer_mobile .imgContainerBtnstore3{
+    top: 45%;
+    right: 10%;
+    box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(236, 121, 51, 0.15);
+}
+.LandingPageBanner .imgstoreContainer_mobile .mobileBannerSettlement3{
+    top: 45%;
+    right: 10%;
+}
+.LandingPageBanner .imgstoreContainer .imgContainerBtnstore4, .LandingPageBanner .imgstoreContainer_mobile .imgContainerBtnstore4{
+    top: 45%;
+    left: 5%;
+    box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(250, 172, 34, 0.24);
+}
+.LandingPageBanner .imgstoreContainer_mobile .mobileBannerSettlement4{
+    top: 45%;
+    left: 5%;
+}
+.LandingPageBanner .imgstoreContainer .imgContainerBtnstore5, .LandingPageBanner .imgstoreContainer_mobile .imgContainerBtnstore5{
+    top: 15%;
+    left: 15%;
+    box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(224, 68, 35, 0.28);
+}
+.LandingPageBanner .imgstoreContainer_mobile .mobileBannerSettlement5{
+    top: 19%;
+    left: 9%;
+}
+.imgstoreContainer .imgContainerBtnstore img, .imgstoreContainer_mobile .imgContainerBtnstore img{
+    width: 30px;
+    height: 30px;
+}
+@media screen and (max-width: 1420px) {
+    .ourSmartStore .whyustitle h1{
+        transform: rotate(0deg);
+        text-align: left;
+    }
+    .ourSmartStore .whyustitle{
+        transform: rotate(0deg);
+        width: 100%;
+        text-align: left;
+    }
+    .ourSmartStore .whyussolution{
+        padding: 20px 0px;
+    }
+    .whyussolution .checkoutsafe{
+        padding: 0px 30px;
+        justify-content: center;
+    }
+    .ourSmartStore{
+        flex-direction: column !important;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .ourSmartStore {
+        /* margin-left: 20px; */
+        padding: 20px 0;
+        /* margin-right: 20px; */
+        width: 100vw !important;
+    }
+    .StoreAD{
+        margin-left: 20px;
+        margin-right: 20px;
+     
+        width: calc(100vw - 40px);
+    }
+    .adHeading h4{
+        font-size: 14px !important;
+        margin-bottom: 0px;
+    }
+    .adHeading h1{
+        font-size: 28px  !important;
+    }
+    .checkoutsafe img{
+        width: 50px;
+    }
+    .whyussolution .checkoutsafe{
+        padding: 0px 20px;
+    }
+    .smartStore span{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .smartStore p{
+        font-size: 16px !important;
+    }
+    .imgstoreContainer .imgContainerBtnstore img, .imgstoreContainer_mobile .imgContainerBtnstore img{
+        width: 25px;
+        height: 25px;
+    }
+    .LandingPageBanner .imgstoreContainer .imgContainerBtnstore, .LandingPageBanner .imgstoreContainer_mobile .imgContainerBtnstore{
+        width: 50px ;
+        height: 50px;
+        border-radius: 5px;
+    }
+    .LandingPageBanner .imgstoreContainer .imgContainerBtnstore1, .LandingPageBanner .imgstoreContainer_mobile .imgContainerBtnstore1{
+        top: 5%;
+        left: 40%;
+        box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(81, 208, 21, 0.22);
+    }
+    .LandingPageBanner .imgstoreContainer .imgContainerBtnstore2, .LandingPageBanner .imgstoreContainer_mobile .imgContainerBtnstore2{
+        top: 15%;
+        right: 22%;
+        box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(32, 82, 127, 0.33);
+    }
+    .LandingPageBanner .imgstoreContainer .imgContainerBtnstore3, .LandingPageBanner .imgstoreContainer_mobile .imgContainerBtnstore3{
+        top: 40%;
+        right: 10%;
+        box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(236, 121, 51, 0.15);
+    }
+    .LandingPageBanner .imgstoreContainer .imgContainerBtnstore4, .LandingPageBanner .imgstoreContainer_mobile .imgContainerBtnstore4{
+        top: 40%;
+        left: 5%;
+        box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(250, 172, 34, 0.24);
+    }
+    .LandingPageBanner .imgstoreContainer .imgContainerBtnstore5, .LandingPageBanner .imgstoreContainer_mobile .imgContainerBtnstore5{
+        top: 15%;
+        left: 15%;
+        box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(224, 68, 35, 0.28);
+    }
+}
+@media screen and (max-width: 500px) {
+    
+    .checkoutsafe p{
+        font-size: 8px !important;
+    }
+}
+@media screen and (max-width: 800px) {
+    .LandingPageBanner .imgstoreContainer_mobile{
+        display: block;
+    }
+    .store_page_section{
+        animation: none;
+    }
+    .StoreAD{
+        flex-direction: column;
+        position: relative;
+        padding-bottom: 40px;
+    }
+    .talkforstore{
+        position: relative !important;
+    }
+    .tempconsultingIMG{
+        width: 50% !important;
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+    }
+    .tempconsultingIMG img{
+        transform: translateX(0%) !important;
+
+    }
+    .adHeading button{
+        position: absolute;
+        top: -3%;
+        right: 4%;
+        font-size: 8px;
+    
+        padding: 8px 18px;
+    }
+    .adHeading h1 {
+        font-size: 20px !important;
+        line-height: 26px !important;
+    }
+    .ourSmartStore{
+        margin-top: 0px;
+    }
+    .derailsBanner{
+        position: relative;
+    }
+    .derailsBanner .otherProductSectionBTN{
+        display: block !important;
+        font-size: 8px !important;
+        width: auto;
+        padding: 10px 20px !important;
+        position: absolute;
+        top: 10%;
+        right: 5%;
+    }
+    .ourSmartStore .whyustitle h1{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .whyussolution .checkoutsafe{
+        padding: 0px 10px;
+    }
+    .ourSmartStore .whyussolution{
+        justify-content: space-evenly;
+        margin-left: 20PX;
+        padding-top: 10px;
+        width: 100%;
+    }
+    .ourSmartStore .mobileCheckout{
+        display: none !important;
+    }
+    .checkoutsafe img{
+        width: 40px;
+    }
+    .leftSideContentBanner {
+        margin-top: 0px !important;
+    }
+    .LandingPageBanner .imgstoreContainer_mobile .imgContainerBtnstore1{
+        top: 5%;
+        left: 42%;
+        box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(81, 208, 21, 0.22);
+    }
+    .imgstoreContainer_mobile .imgContainerBtnstore img{
+        width: 20px;
+        height: 20px;
+    }
+    .LandingPageBanner .imgstoreContainer_mobile .imgContainerBtnstore{
+        width: 40px  ;
+        height: 40px;
+        border-radius: 5px;
+    }
+    .mobileHeadingsBanner{
+        display: block !important;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .smartStore p{
+        font-weight: 600;
+        font-size: 8px !important;
+        line-height: 72.9%;
+        color: #808080 !important;
+    }
+    .mobileHeadingsBanner h1{
+        display: inline;
+        font-size: 20px;
+    }
+    .deskHeadingsBanner{
+        display: none;
+    }
+    .LandingPageBannerStore{
+        flex-direction: column-reverse !important;
+    }
+
+    .accordianFirst .visiblwHead h1 {
+        font-size: 12px !important;
+        line-height: 14px !important;
+        margin-bottom: 0px;
+    }
+    .accordianFirst .visiblwHead i {
+        font-size: 14px !important;
+        transition: all 0.5s ease;
+        margin-right: 15px !important;
+    }
+    .accordianFirst .accordian_para{
+        margin-left: 30px !important;
+    }
+    .LandingPageBanner .leftSideContentBanner .landingViweMore {
+        font-size: 8px !important;
+    }
+    .leftSideContentBanner h4, .mobileHeadingsBanner h4 {
+        font-size: 12px;
+        line-height: 12px;
+        color: #000000;
+        margin-bottom: 0px
+    }
+    .mobileHeadingsBanner h4 {
+        margin-bottom: 5px;
+    }
+    .ourSmartStore {
+        padding: 12px 0;
+    }
+    .smartStore span {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}

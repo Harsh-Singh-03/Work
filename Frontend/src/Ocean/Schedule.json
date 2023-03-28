@@ -1,0 +1,72 @@
+[
+    {
+        "name" : "Keynote Session",
+        "time": "9:00 AM - 10: 00 AM",
+        "para": "Experts say the combination of physical and digital lives will continue to expand people’s boundaries and opportunities in the coming decade. Are humans ready to embrace these tech innovations? During this session an industry expert will highlight the trends, challenges and opportunities that lie ahead, and how a human-centric approach will allow us to apply tech for sustainable future.",
+        "img": "/image/Ticket1.webp",
+        "duration": ""
+    },
+    {
+        "name" : "Teachers Training Session",
+        "time": "11:00 AM - 2:00 PM",
+        "para": "",
+        "img": "/image/Ticket2.png",
+        "duration": ""
+    },
+    {
+        "name" : "Robotics Workshop & Training",
+        "time": "12:00 PM - 3:00 PM",
+        "para": "",
+        "img": "/image/Ticket3.png",
+        "duration": ""
+    },
+    {
+        "name" : "3D Printing Workshop & Training",
+        "time": "12:00 PM - 3:00 PM",
+        "para": "",
+        "img": "/image/Ticket4.png",
+        "duration": ""
+    },
+    {
+        "name" : "Code Block Workshop & Training",
+        "time": "12:00 PM - 3:00 PM",
+        "para": "",
+        "img": "/image/Ticket7.png",
+        "duration": ""
+    },
+    {
+        "name" : "AR VR Workshop & Training",
+        "time": "12:00 PM - 3:00 PM",
+           "para": "",
+        "img": "/image/Ticket5.png",
+        "duration": ""
+    },
+    {
+        "name" : "Career Counselling",
+        "time": "12:00 PM - 3:00 PM",
+           "para": "",
+        "img": "/image/Ticket9.png",
+        "duration": ""
+    },
+    {
+        "name" : "Sustainability Drive & Startup Drive",
+        "time": "1:00 PM - 6:00 PM",
+           "para": "",
+        "img": "/image/Ticket8.png",
+        "duration": ""
+    },
+    {
+        "name" : "Student-Parent Teachers Networking",
+        "time": "1:00 PM - 6:00 PM",
+           "para": "",
+              "img": "/image/Ticket10.png",
+        "duration": ""
+    },
+    {
+        "name" : "MAD Show & Award Ceremony",
+        "time": "8:00 PM - 1:00 AM",
+           "para": "",
+              "img": "/image/Ticket6.png",
+        "duration": ""
+    }
+]

@@ -1,0 +1,136 @@
+.signIn_seller{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 1440px;
+    margin-top: 40px;
+}
+.signIn_seller img{
+    width: auto;
+    height: calc(100vh - 40px);
+    max-height: 500px;
+    margin-right: 40px;
+}
+.signIn_seller .signIn-fields{
+    margin-left: 20px;
+    width: calc(100% - 20px);
+    max-width: 400px;
+}
+.signIn-fields h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    color: #000000;
+    text-transform: uppercase;
+}
+.signIn-fields input{
+    border: none;
+    border-bottom: 0.5px solid #4E4E4E;
+    outline: none !important;
+    width: calc(100% - 20px);
+    background: none;
+    cursor: pointer;
+    height: 40px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+.signIn-fields input::placeholder{
+    color: #4E4E4E;
+    font-weight: 400;
+}
+.signIn-fields input:auto-fill {
+    background: #f5f5f5 !important;
+    outline: none !important;
+}
+.signIn-fields input:-webkit-auto-fill {
+    background: #f5f5f5 !important;
+    outline: none !important;
+}
+input:-internal-autofill-selected {
+    background: none !important;
+}
+.signIn-fields button{
+ background: #F1573D;
+ margin-top: 30px;
+box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+border-radius: 5px;
+width: calc(100% - 60px);
+margin-left: 20px;
+height: 40px;
+font-size: 15px;
+line-height: 18px;
+margin-bottom: 30px;
+text-align: center;
+color: #F9F9F9;
+font-weight: 700;
+border: none;
+cursor: pointer;
+outline: none;
+}
+.signIn-fields i{
+    color: #000000;
+    right: 30px;
+    top: 20%;
+}
+.signIn-fields .tryingSomething a{
+    position: absolute;
+    bottom: -10px;
+    right: 20px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+.signIn-fields a{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+.signIn-fields p{
+    color: #000;
+    font-size: 16px;
+    font-weight:400;
+    margin-bottom: 0px !important;
+}
+@media screen and (max-width: 900px) {
+    .signIn_seller{
+        flex-direction: column;
+        margin-bottom: 40px;
+        margin-top: 0px;
+    }
+    .signIn_seller img{
+        height: auto;
+        width: 100vw;
+        max-width: 400px;
+        max-height: auto;
+        margin-right: 0px;
+    }
+    .signIn-fields h2{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .signIn-fields input{
+        margin-bottom: 20px;
+    }
+    .signIn-fields .tryingSomething a{
+      font-size: 14px;
+    }
+    .signIn-fields a{
+        font-size: 14px;
+    }
+    .signIn-fields p{
+        font-size: 14px;
+    }
+    .signIn-fields button{
+        width: calc(100% - 20px);
+        margin-left: 0px;
+    }
+    .signIn-fields h2{
+        font-size: 16px;
+    }
+}

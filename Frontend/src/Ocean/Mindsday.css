@@ -1,0 +1,820 @@
+.MindsDay{
+    width: 100vw;
+    max-width: 1440px;
+    overflow: hidden;
+}
+.MindsDay .mainVideo{
+    /* margin-top: 80px; */
+    width: 100vw;
+    max-width: 1440px;
+    height: auto;
+    position: relative;
+    z-index: -1;
+}
+.mainVideo video, .mainVideo img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    /* max-height: calc(100vh - 80px); */
+}
+.mainVideo .textinimg{
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+}
+.textinimg span{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+.textinimg p{
+    font-size: 30px;
+    margin-bottom: 0PX;
+    color: #FFF;
+    font-weight: 600;
+}
+.exprienceThefuture{
+    background: #F9F9F9;
+    box-shadow: 0px 50px 50px rgba(45, 44, 43, 0.2);
+    border-radius: 60px;
+    width: 90vw;
+    max-width: 1200px;
+    margin: auto;
+    min-height: 500px;
+    padding: 50px 80px;
+    /* margin-bottom: 100px; */
+    z-index: 2;
+    transform: translateY(-100px);
+    /* margin-top: 300px; */
+}
+.exprienceThefutureanother{
+    transform: translateY(-0px);
+}
+.exprienceThefuture .Headingss{
+    display: grid;
+    place-items: center;
+}
+.Headingss h4{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+    margin-bottom: 0px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #080A0B;
+    text-transform: uppercase;
+}
+.Headingss h1, .eventimingDection h1, .affiliate-program-section h1{
+    background: linear-gradient(to bottom, #DE3A1B 60%, #EB752F 40%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-size: 60px;
+    line-height: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.Headingsss h1{
+    font-size: 45px;
+}
+.gradientHead{
+    background: linear-gradient(to bottom, #DE3A1B 60%, #EB752F 40%) !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    font-size: larger !important;
+    -webkit-text-fill-color: transparent !important;
+}
+.eventimingDection h1{
+    font-size: 50px;
+    background: #DE3A1c;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.eventDetail{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.eventDetail .boxdestail{
+    border: 3px dashed #B7492F;
+    border-radius: 10px;
+    width: auto;
+    display: grid;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    place-items: center;
+    flex: 1 2 100px;
+    padding: 20px 0px;
+}
+.boxdestail span{
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #B7492F;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.boxdestail p{
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #B7492F;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+.instaImgBox{
+    width: 50%;
+    margin-left: 25%;
+    padding: 50px;
+    height: auto;
+    border: 1px solid #979797;
+border-radius: 20px;
+}
+.instaImgBox img{
+    width: 100%;
+    height: 100%;
+}
+.exprienceThefuture button{
+    background: #52DD21;
+    border-radius: 15px;
+    width: 300px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
+.exprienceThefuture .fillmode{
+    color: #52DD21;
+    background: transparent;
+    margin-left: 30px;
+    border: 3px solid #52DD21;
+}
+.TicketSections .dashedBorder{
+    border-top: 2px dashed #B7492F;
+    /* margin-top: 200px; */
+    z-index: -1;
+}
+.TicketSections .dashedBorder1{
+    margin-top: 150px;
+}
+.dashedBorder1{
+    width: 100%;
+    margin-bottom: 50px;
+    height: 2px;
+    border-top: 2px dashed #B7492F;
+}
+.eventimingDection{
+    display: grid;
+    place-items: center;
+    background: #F9F9F9;
+    box-shadow: 0px 20px 40px rgba(45, 44, 43, 0.2);
+    border-radius: 20px;
+    width: 70%;
+    margin-left: 15%;
+    /* min-height: 300px; */
+    padding: 40px 0;
+    z-index: 1;
+    /* margin-top: 200px; */
+    transform: translateY(-100px);
+}
+.eventimingDection p{
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    padding: 0px 8px;
+    border-right: 1px solid #000000;
+}
+.underwatersection{
+    position: relative;
+    /* min-height: 100vh;
+    max-height: 600px; */
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 100px;
+}
+.underwatersection img{
+    position: absolute;
+    top: 0;
+    left: 15%;
+    height: 100%;
+    width: 70%;
+    z-index: -1;
+}
+.underwatersection .MainTitle{
+    display: grid;
+    place-items: center;
+    position: relative;
+    min-height: 150px;
+    width: 100%;
+    z-index: 2;
+    border-bottom: 2px solid #F5f5f5;
+}
+.underwatersection .MainTitle::before{
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    background: #fff;
+    top: 0;
+    left: 15%;
+    z-index: -1;
+    opacity: 0.5;
+}
+.MainTitle p{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.underwaterdetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-left: 15%;
+    padding: 80px;
+}
+.underwaterdetails h4{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.underwaterdetails .someextradash{
+    width: 25%;
+    height: 5px;
+    margin-bottom: 40px;
+    background: #fff;
+}
+.underwaterdetails p{
+    margin-bottom: 0px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
+.underwaterdetails span{
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+.underwaterdetails .funcbtnsss, .realTicket .funcbtnticket{
+    display: flex;
+    flex-direction: column;
+}
+.funcbtnsss button, .funcbtnticket button{
+    background: rgba(255, 255, 255, 0.38);
+    border: 1.5px solid #FFFFFF;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: -0.2px;
+    padding: 10px 60px;
+    color: #FFFFFF;
+    outline: none;
+}
+.funcbtnticket button{
+    padding: 8px 40px;
+}
+.funcbtnsss #newbuttom, .funcbtnticket .newbuttom{
+    margin-top: 30px;
+    background: #fff;
+    color: #000;
+    border: none;
+}
+.funcbtnticket .newbuttom{
+    margin-top: 20px;
+}
+.realticketDOM{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0px 100px;
+    padding-bottom: 30px;
+}
+.realticketDOM .realTicket{
+    position: relative;
+    width: 45%;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    height: 20vw;
+    margin-bottom: 30px;
+   align-items: center;
+    max-height: 250px;
+    z-index: 1;
+}
+.realTicket img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* opacity: 0.5; */
+    /* filter: saturate(200%); */
+    z-index: -1;
+}
+.realTicket h4{
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0px;
+}
+.realTicket .someextradashh{
+    width: 20%;
+    height: 3px;
+    background: #fff;
+    margin: 30px 0;
+}
+.realTicket p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 0px
+}
+.realTicket span{
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 0px
+}
+.newquote{
+    background: linear-gradient(273.25deg, rgba(190, 185, 185, 0.15) -0.89%, rgba(223, 222, 222, 0) 47.89%, rgba(202, 195, 195, 0.15) 99.81%);
+    padding: 50px;
+    margin-bottom: 30px;
+}
+.newquote .newi{
+    transform: translateY(50px) !important;
+}
+.ComingUrCity{
+    position: relative;
+    margin: 0 100px;
+    overflow: hidden;
+}
+.ComingUrCity .nextLoaction{
+    position: absolute;
+    top: 15%;
+    width: 100%;
+}
+.nextLoaction h1{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    width: max-content !important;
+    color: #fff;
+    text-transform: uppercase;
+}
+.nextLoaction h4{
+    font-size: 24px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+.nextLoaction .dashededLeftLine{
+    width: auto;
+    min-width: 20%;
+    height: 2px;
+    background: #fff;
+}
+.ComingUrCity img{
+    width: 100%;
+    margin-left: 0px;
+    height: auto;
+}
+.grabYourSeat button, .join_our_program button{
+    outline: none;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #52DD21;
+    padding: 10px 80px;
+    border-radius: 16px;
+    margin: 40px 0;
+    position: relative;
+    margin-top: 10px;
+    z-index: 1;
+    cursor: pointer;
+    overflow: hidden;
+}
+.grabYourSeat button img{
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    left: -50%;
+    pointer-events: none;
+    border-radius: 16px;
+    top: -50%;
+    z-index: -1;
+}
+.join_our_program button{
+    font-size: 14px;
+    padding: 10px 40px;
+    margin-bottom: 0px;
+}
+.affiliate-program-section{
+    display: flex;
+    background: #F9F9F9;
+    align-items: flex-end;
+    box-shadow: 0px 20px 40px rgba(45, 44, 43, 0.2);
+    border-radius: 60px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 60px;
+    padding-bottom: 100px;
+}
+.affiliate-program-section img{
+    width: 150px;
+}
+.affiliate-program-section .join_our_program{
+    margin-left: 80px;
+}
+.join_our_program h2{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 59px;
+    text-transform: capitalize;
+    color: #000000;
+}
+.MindsDay .schedule{
+    position: relative;
+    display: flex;
+    justify-content: space-between !important;
+    padding: 50px;
+    padding-top: 0px;
+    padding-left: 93px;
+    padding-right: 0px;
+    align-items: center;
+    z-index: 1;
+    min-height: 400px;
+    margin-bottom: 150px;
+}
+.schedule #scheduleBG{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    height: 300px;
+    z-index: -1;
+}
+.schedule h1, .schedule1 .deskh1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #000000;
+    display: block;
+}
+.schedule1 .mobileh1{
+    display: none;
+}
+.schedule .circleBox1{
+    /* padding: 0 40px; */
+    border-right: 1px solid #D9D9D9;
+}
+.schedule .circleBox{
+    width: 130px;
+    height: 130px;
+    display: grid;
+    position: relative;
+    place-items: center;
+    /* margin: 0 50px; */
+    box-shadow: -20px -20px 50px #FFFFFF, 20px 20px 50px #D2D2D2, inset -20px -20px 50px #FFFFFF, inset 20px 20px 20px #F5F5F5;
+    border-radius: 50%;
+    border-top: 5px solid #D9D9D9;
+    border-left: 5px solid #D9D9D9;
+    /* overflow: hidden; */
+    border-bottom: 5px solid #FED40B;
+    border-right: 5px solid #FED40B;
+}
+.schedule .circleBoxBorder1{
+    border-bottom: 5px solid #00D760;
+    border-right: 5px solid #00D760;
+}
+.schedule .circleBoxBorder2{
+    border-bottom: 5px solid #357DF3;
+    border-right: 5px solid #357DF3;
+}
+.circleBox img{
+    width: 80%;
+    height: 80%;
+    padding: 10%;
+    background: #fff;
+    border-radius: 50%;
+}
+.circleBox p{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 700;
+    width: max-content;
+    transform: translateY(115px);
+}
+.instapostsection {
+    margin-top: 50px;
+    min-height: 500px ;
+}
+.instapostsection h2{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #000000;
+}
+.instapostsection .SDGoal{
+    height: 150px;
+    width: auto;
+}
+.instapostsection .SDGoal1{
+    padding-right: 100px;
+    border-right: 2px solid #DDE0E2;;
+}
+/* Schedule */
+.exactDate{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 500px;
+    margin-top: 130px;
+    margin-bottom: 80px;
+    padding: 40px 50px;
+    background: #F9F9F9;
+box-shadow: 0px 20px 40px rgba(45, 44, 43, 0.2);
+border-radius: 40px;
+position: relative;
+overflow: hidden;
+}
+.exactDate #scheduleBG1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 300px;
+    z-index: -1;
+}
+.MindsDay .schedule1{
+    display: flex;
+    justify-content: space-between !important;
+    flex-direction: column;
+    padding-right: 0px;
+    z-index: 1;
+    /* min-height: 400px;
+    margin-bottom: 150px; */
+}
+.exactDate img{
+    width: 200px;
+}
+.exactDate h2{
+    background: linear-gradient(to bottom, #DE3A1B 60%, #EB752F 40%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+}
+.eventDetail .boxdestail1{
+    width: 350px;
+}
+.eventDetail .boxdestail2{
+    margin-bottom: 30px !important;
+}
+.exactDate .middleLine{
+    width: 2px;
+    height: 400px;
+    background: #DDE0E2;
+}
+.schedule button, .schedule1 button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 15px 80px;
+    margin-right: 100px;
+    font-weight: 600;
+    border-radius: 14px;
+    background: #52DD21;
+    color: #fff;
+    font-size: 18px;
+    line-height: 100%;
+}
+.schedule1 button {
+    margin-top: 40px;
+}
+.scheduleBoxDom{
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 5%;
+}
+.scheduleBox{
+    position: relative;
+    z-index: 2;
+    background: #F9F9F9;
+    box-shadow: 0px 10px 20px rgba(45, 44, 43, 0.2);
+    border-radius: 30px 30px 30px 30px;
+    width: 44%;
+    min-width: 480px;
+    /* min-height: 400px; */
+    overflow: hidden;
+   margin-bottom: 50px;
+    padding: 30px 0;
+    padding-left: 30px;
+}
+.scheduleBox img{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    left: 0%;
+}
+.scheduleBox h4{
+    font-size: 20px;
+    /* line-height: 30px; */
+    margin-bottom: 12px;
+    color: #fff;
+    font-weight: 700;
+}
+.scheduleBox #h4-copy{
+    font-size: 18px;
+}
+.scheduleBox p{
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 100%;
+}
+.scheduleBox .sectionDeviderforschedule{
+    width: 50%;
+    height: 3px;
+    background: #c4c4c4;
+    margin: 30px 0;
+}
+.homeQuote p{
+    width: 80vw;
+    max-width: 1200px !important;
+    font-size: 32px;
+    line-height: 45px;
+}
+.homeQuote i{
+    font-size: 60px !important;
+}
+.TicketSections .boxestags{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+.boxestags .tagbox{
+   margin: 30px;
+   margin-bottom: 0px;
+    width: 200px;
+    display: grid;
+    place-items: center;
+    padding: 10px 0px;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 26px;
+    color: #B7492F;
+    border: 2px dashed #B7492F;
+}
+#Passtable{
+    width: calc(100% - 80px);
+    margin: 0 40px;
+}
+#Passtable th{
+    /* text-align: center; */
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+#Passtable td{
+    font-size: 18px;
+    font-weight: 400;
+    border-top: 2px solid #c4c4c4;
+    padding: 30px 0px !important;
+}
+#Passtable td a{
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #fff;
+    background: #52DD21;
+    cursor: pointer;
+    /* margin-right: 30px; */
+    border-radius: 10px;
+}
+.instapostsection .actualPost{
+    width: 50vw;
+    max-width: 600px;
+    margin: auto;
+    padding: 40px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    /* min-height: 800px; */
+    border: 1px solid #979797;
+border-radius: 20px;
+}
+.actualPost .Igpostvideo{
+    width: calc(100% - 50px);
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.Igpostvideo video{
+    width: 100%;
+    height: auto;
+}
+.actualPost .Headerofpost, .actualPost .bottomofpost{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Headerofpost .smallIcon{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin-right: 20px;
+    border: 1px solid #000;
+}
+.Headerofpost i{
+    font-size: 20px;
+}
+.smallIcon img{
+    width: 80%;
+}
+.Headerofpost span{
+    font-weight: 500;
+    font-size: 20px;
+}
+.actualPost p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #000;
+    margin-top: 17px;
+}
+.bottomofpost i{
+    font-size: 30px;
+    color: #000;
+    margin-right: 24px;
+}
+.actualPost .descpp{
+    font-size: 18px;
+    font-weight: 400;
+}
+.dropdownGYS{
+    font-size: 35px;
+    background: linear-gradient(to right, #DE3A1B 10%, #EB752F 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    -webkit-text-fill-color: transparent;
+}
+.dropdownGYSI{
+    padding: 10px;
+    margin-bottom: 50px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+.mainBanner{
+    position: relative;
+    padding-top: 300px;
+}
+.mainBanner img{
+    position: absolute;
+    top: 0;
+    height: auto;
+    left: 0;
+}
+.schedule1 p{
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 26px;
+    margin-top: 50px;
+}

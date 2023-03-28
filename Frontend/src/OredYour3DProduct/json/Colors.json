@@ -1,0 +1,32 @@
+[
+    {
+        "id":"color",
+        "name": "Sky",
+        "value":"sky"
+    },
+    {
+        "id":"color",
+        "name": "Green",
+        "value":"#1E8449"
+    },   
+    {
+        "id":"color",
+        "name": "Yellow",
+        "value":"#F7DC6F"
+    },
+    {
+        "id":"color",
+        "name": "Blue",
+        "value":"#283747"
+    },
+    {
+        "id":"color",
+         "name": "Red",
+        "value":"#943126"
+    },
+    {
+        "id":"color",
+        "name": "Purple",
+        "value":"#5B2C6F"
+    }
+]

@@ -1,0 +1,659 @@
+.Service_Page_Section{
+    width: 100vw;
+    max-width: 1440px;
+    height: auto;
+    /* overflow-x: hidden; */
+    padding-bottom: 70px;
+    background: #F5F5F5;
+    animation: landingSlide 0.8s ease;
+    animation-iteration-count: 1;
+}
+@keyframes landingSlide {
+    0%{
+        opacity: 0;
+        transform: translateX(1vw);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+
+    }
+}
+ .LandingPageBanner{
+    display: flex;
+}
+.LandingPageBanner .imgserviceContainer{
+    width: 60vw;
+    height: auto;
+    position: relative;
+    max-width: 750px;
+    max-height: 740px;
+    margin: 20px;
+}
+.LandingPageBanner .imgstoreContainer{
+    width: 60vw;
+    height: 60vw;
+    position: relative;
+    max-width: 720px;
+    max-height: 700px;
+    transform: translateX(20px);
+    /* margin: 20px; */
+    margin: 20px;
+}
+.LandingPageBanner .imgserviceContainer img, .LandingPageBanner .imgserviceContainer_mobile img{
+    width: 100%;
+    height: 100%;
+}
+.LandingPageBanner .imgserviceContainer_mobile, .LandingPageBanner .imgstoreContainer_mobile{
+    display: none;
+    width: 60vw;
+    height: 60vw;
+    position: relative;
+    max-width: 750px;
+    max-height: 740px;
+    margin: 20px;
+}
+.LandingPageBanner .imgserviceContainer button, .LandingPageBanner .imgserviceContainer_mobile button{
+    position: absolute;
+    background: #FFFFFF;
+    opacity: 1;
+    border: 2px solid #51D015;
+    outline: none;
+    color: #51D015;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.LandingPageBanner .imgserviceContainer .imgContainerBtn1{
+    top: 27.1%;
+    left: 12%;
+}
+.LandingPageBanner .imgserviceContainer .imgContainerBtn2{
+    bottom: 40%;
+    left: 80px;
+}
+.LandingPageBanner .imgserviceContainer .imgContainerBtn3{
+    top: 28.8%;
+    right: 20%;
+}
+.LandingPageBanner .imgserviceContainer .imgContainerBtn5{
+    right: 20%;
+    bottom: 40%;
+}
+.LandingPageBanner .imgserviceContainer .imgContainerBtn4{
+    bottom: 180px;
+    right: 42%;
+}
+.LandingPageBanner .leftSideContentBanner{
+    width: 35vw;
+    margin-left: 72px;
+    margin-top: 8%;
+}
+.LandingPageBanner .leftSideContentBanner h1{
+    font-size: 40px;
+    display: inline;
+}
+.LandingPageBanner .leftSideContentBanner p{
+    color: #808080;
+    margin-top: 26px;
+}
+.LandingPageBanner .leftSideContentBanner .landingViweMore{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: underline;
+    color: #000000;
+    cursor: pointer;
+}
+.landingViweMore a{
+    color: #000000;
+}
+.landingViweMore a:hover{
+    color: #51D015;
+}
+.dropdownDescription{
+    margin-top: 34px;
+    transition: all 1s ease-in-out;
+}
+.dropdownDescription .accordianFirst{
+    border-bottom: 2px solid #DDE0E2;
+    transition: all 0.5 ease-out;
+}
+.accordianFirst .visiblwHead{
+    display: flex;
+    padding: 20px 0;
+    width: 100%;
+    align-items: center;
+    cursor: pointer;
+
+    color: #000000;
+}
+.accordianFirst p{
+    margin-top: 0px !important;
+}
+.accordianFirst .visiblwHead h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+}
+.accordianFirst .visiblwHead i{
+    font-size: 20px;
+    transition: all 0.5s ease;
+    margin-right: 30px;
+
+}
+.ANimatedtPara{
+    animation: animAtedPara 1s ease;
+    animation-iteration-count: 1;
+}
+@keyframes animAtedPara {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.IdeasFoLife{
+    padding: 50px;
+    background: #F9F9F9;
+    box-shadow: -2px -2px 4px #FFFFFF, -4px -4px 8px #FFFFFF, -12px -12px 24px #FFFFFF, 8px 8px 16px rgba(151, 167, 195, 0.27);
+    border-radius: 10px;
+    width: 70vw;
+    max-width: 865px;
+    margin: auto;
+    margin-top: 50px;
+    animation: animw_idea 0.8s ease-in-out;
+    animation-iteration-count: 1;
+}
+
+.IdeasFoLifetest1{
+    animation: animw_idea2 0.8s ease-in-out;
+    animation-iteration-count: 1;
+}
+.IdeasFoLifetest2{
+    animation: animw_idea3 0.8s ease-in-out;
+    animation-iteration-count: 1;
+}
+.IdeasFoLifetest3{
+    animation: animw_idea4 0.8s ease-in-out;
+    animation-iteration-count: 1;
+}
+.IdeasFoLife .HeadingSection, .potentialSection .HeadingSection, .successdiv .HeadingSection{
+    display: flex;
+}
+.HeadingSection .horizontalBar{
+    width: 4px;
+    height: auto;
+    margin-right: 20px;
+    background: #000000;
+}
+.HeadingSection h4{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.IdeasFoLife .differentIdeas{
+    display: flex;
+    /* align-items: center; */
+    margin-top: 40px;
+}
+.differentIdeas .blankImgBox{
+    max-width: 150px;
+
+    margin-left: 30px;
+    margin-right: 50px;
+    height: auto;
+    /* background: #D9D9D9; */
+}
+.differentIdeas .blankImgBox img{
+    width: 100%;
+    height: auto;
+}
+.differentIdeas .ideas_Knowlage p, .differentIdeas .anime_Idea p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #808080;
+}
+.differentIdeas .anime_Idea{
+    animation: animw_idea 0.5s ease ;
+    animation-iteration-count: 1;
+}
+.differentIdeas .ideas_Knowlage{
+    animation: animw_idea2 0.5s ease ;
+    animation-iteration-count: 1;
+}
+@keyframes animw_idea {
+    0%{
+        transform: translateX(-30px);
+        opacity: 0.5;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes animw_idea3 {
+    0%{
+        /* transform: translateX(-100px); */
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes animw_idea4 {
+    0%{
+        /* transform: translateX(-100px); */
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes animw_idea2 {
+    0%{
+        transform: translateX(-30px);
+        opacity: 0.5;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+.differentIdeas .ideas_Knowlage h4,.differentIdeas .anime_Idea h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+.ideas_Knowlage .navigatingIdeas i, .anime_Idea .navigatingIdeas i{
+    font-size: 20px;
+    color: rgba(151, 167, 195, 0.65);
+    cursor: pointer;
+}
+.ideas_Knowlage .navigatingIdeas, .anime_Idea .navigatingIdeas{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 60px;
+    align-items: center;
+}
+.ideas_Knowlage .navigatingIdeas button, .anime_Idea .navigatingIdeas button{
+    width: 197px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border: none;
+    margin: auto 30px;
+    cursor: pointer;
+    outline: none;
+    background: #51D015;
+    box-shadow: -2px -2px 4px #FFFFFF, -4px -4px 8px #FFFFFF, -8px -8px 16px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+    border-radius: 4px;
+}
+
+.showingRangeI{
+    display: flex;
+    position: relative;
+    width: 50vw;
+    max-width: 600px;
+    margin: auto;
+    transition: all 1s ease-in-out;
+    margin-top: 60px;
+    justify-content: space-evenly;
+}
+.showingRangeI .rangeImgbox{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    z-index: 5;
+    color: #808080;
+    background: #F9F9F9;
+    box-shadow: -2px -2px 4px #FFFFFF, -4px -4px 8px #FFFFFF, -8px -8px 16px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+}
+.showingRangeI .rangeImgboxstart{
+    box-shadow: none;
+    position: absolute;
+    left: 10px;
+    background: none;
+    transform: translateY(9px);
+    z-index: 5;
+}
+.showingRangeI .rangeImgboxstart i{
+    font-size: 25px;
+    cursor: pointer;
+    color: #000000;
+    z-index: 5;
+}
+.showingRangeI .rangeImgbox img{
+    width: 60%;
+    height: 60%;
+}
+.showingRangeI .originalRange{
+    position: absolute;
+    top: calc(50% - 2px);
+    left: 0;
+    width: 100%;
+    transition: all 1s ease-in-out;
+    height: 4px;
+    background-color: #DDE0E2;
+    z-index: 1;
+}
+.showingRangeI .actualRange{
+    position: absolute;
+    transition: all 1s ease-in-out;
+    top: calc(50% - 2px);
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #51D015;
+    z-index: 3;
+}
+.showingRangeI .bulbMoving{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    transition: all 1s ease-in-out;
+    top: -30px;
+    left: 90%;
+    z-index: 4;
+}
+.accordianFirst .accordian_para{
+    height: auto;
+    animation: animAtedPara 1s ease;
+    animation-iteration-count: 1;
+    transition: 0.5s ease-out;
+    margin-left: 47.5px;
+}
+.accordianFirst .normalModePara{
+    transition: 0.5s ease-out;
+    /* animation: animAtedPara 1s ease; */
+    /* animation-iteration-count: 1; */
+    height: 0px;
+    overflow: hidden;
+    overflow-y: hidden;
+}
+
+.services_Ad{
+    display: grid;
+    background: #FFFFFF;
+    border: 1.5px dashed #808080;
+    width: calc(100% - 167px);
+    height: 350px;
+    margin-top: 85px;
+    margin-left: 72px;
+    padding: 30px;
+    margin-right: 95px;
+    place-items: center;
+}
+.services_Ad .bottomUnderLine, .adHeading .bottomUnderLine{
+    width: 10%;
+    height: 5px;
+    background: #000000;
+}
+.services_Ad .endToEnd{
+    height: 100px;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-evenly;
+}
+.endToEnd .Benefit{
+    display: flex;
+    /* margin: 0 30px; */
+}
+.Benefit .BenefitImg{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    z-index: 1;
+}
+.Benefit .BenefitImg img{
+    width: 100%;
+    height: 100%;
+}
+.Benefit .BenefitImg::before{
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: -20%;
+    width: 80%;
+    height: 80%;
+    background: linear-gradient(55deg, #df3c1c 10%, rgba(0,0,0,0) 10%), linear-gradient(65deg, #21517e 20%, rgba(0,0,0,0) 20%), linear-gradient(75deg, #176c8d 30%, rgba(0,0,0,0) 30%), linear-gradient(85deg, #2896a0 40%, rgba(0,0,0,0) 40%), linear-gradient(90deg, #94b5ae 50%,  rgba(0,0,0,0) 50%), linear-gradient(95deg, #f7e4be 60%, rgba(0,0,0,0) 60%), linear-gradient(105deg, #f6b67a 70%, rgba(0,0,0,0) 70%), linear-gradient(115deg, #eb7630 80%, rgba(0,0,0,0) 80%), linear-gradient(125deg, #df3c1c 90%, #21517e 90%);
+    opacity: 0.6;
+    z-index: -1;
+}
+.Benefit .innerDescription .sideBarLine{
+ width: 2px;
+ height: 20px;
+ background: #000000;
+ margin-left: 10px;
+}
+.innerDescription .bigParaTitle{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 10px;
+    color: #000000;
+    margin-bottom: 0px;
+}
+.innerDescription .paraDescription, .FYPbanner .FYPheadings p{
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0;
+    margin-left: 20px;
+    line-height: 14px;
+    margin-top: 5px;
+    max-width: 130px;
+    color: #808080;
+}
+.services_Ad h4, .adHeading h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.services_Ad h1, .adHeading h1{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 0px;
+    line-height: 47px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.services_Ad .GetToCode{
+    background: #51D015;
+    box-shadow: -2px -2px 4px #FFFFFF, -4px -4px 8px #FFFFFF, -8px -8px 16px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 250px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.CategoryBanner{
+    background: #E04423;
+    margin-top: 80px;
+    box-shadow: 0px 26px 35px rgba(224, 68, 35, 0.38);
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.CategoryBanner .categoryNavSection h1{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+.CategoryBanner .rightNavsection .rightNavsectionList{
+    display: flex;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+.rightNavsection li{
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: 15px;
+    list-style: none;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.fixyourPrinterSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 72px;
+    margin-right: 95px;
+    width: calc(100% - 167px);
+}
+.fixyourPrinterSection .mainSection{
+    min-width: 60%;
+    margin-right: 50px;
+    display: flex;
+    padding: 50px;
+    background: #F9F9F9;
+    border: 2px dashed rgba(151, 167, 195, 0.64);
+    box-shadow: -8px -8px 16px #FFFFFF, 8px 8px 16px rgba(151, 167, 195, 0.26);
+    border-radius: 8px;
+    height: 400px;
+}
+.mainSection .FYPbanner{
+    display: flex;
+}
+.FYPbanner .FYPsideBar, .SBbanner .SBsideBar{
+    width: 4px;
+    height: 50px;
+    background:#FAAC22;
+    margin-right: 24px;
+}
+.SBbanner .SBsideBar{
+    height: 30px;
+    margin-right: 15px;
+    width: 4px !important;
+    background: #E04423;
+}
+.FYPbanner .FYPheadings h4, .SBbanner .SBheadings h4{
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000000;
+}
+.FYPbanner .FYPheadings h1, .SBbanner .SBheadings h1{
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+}
+.FYPbanner .FYPheadings p{
+    min-width: 240px;
+    margin: 0px;
+}
+.FYPbanner .FYPheadings h4{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000000;
+}
+.FYPbanner .FYPheadings button, .SBbanner .SBheadings button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+    background: #F9F9F9;
+    box-shadow: -8px -8px 16px #FFFFFF, -2px -2px 4px #FFFFFF, -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+    border-radius: 4px;
+    width: 130px;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FAAC22;
+}
+.SBbanner .SBheadings button{
+    width: auto !important;
+    margin-top: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 10px;
+    line-height: 12px;
+    border: 1px solid #E04423;
+    color: #E04423;
+    padding: 7px 12px;
+}
+.mainSection .FYPImage, .SBbanner .SBImage{
+    width: 100%;
+    height: 100%;
+}
+.mainSection .FYPImage img, .SBbanner .SBImage img{
+    width: 100%;
+    height: 100%;
+}
+.SBbanner .SBImage img{
+   transform: translate(40px, -30px);
+}
+.fixyourPrinterSection .sideBoxDom{
+    min-width: 25%;
+}
+.fixyourPrinterSection .sideBoxDom .sideBox{
+    box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.26);
+    margin-bottom: 50px;
+    padding: 20px;
+    background: #F9F9F9;
+    border: 2px dashed rgba(151, 167, 195, 0.64);
+    border-radius: 7px;
+   width: 100%;
+    height: 175px;
+}
+.sideBox .SBbanner{
+    display: flex;
+}
+.SBbanner .SBheadings h4{
+    font-size: 8px;
+    line-height: 10px;
+}
+.SBbanner .SBheadings h1{
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 0;
+}
+.SBbanner .SBheadings p{
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    color: #808080;
+    max-width: 150px;
+}

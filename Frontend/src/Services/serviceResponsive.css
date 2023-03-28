@@ -1,0 +1,391 @@
+@media screen and (max-width: 1200px) {
+    .LandingPageBanner .imgserviceContainer{
+        width: 60vw;
+        height: 60vw;
+        min-height: 400px;
+        margin: 20px 0;
+    }
+    .LandingPageBanner .imgstoreContainer{
+        transform: translateX(0px);
+        max-height: 630px;
+    }
+    .LandingPageBanner .leftSideContentBanner{
+        width: 40vw;
+        margin-left: 20px;
+    }
+    .LandingPageBanner .imgserviceContainer button{
+        font-size: 10px;
+        padding: 9px 18px;
+    }
+    .LandingPageBanner .leftSideContentBanner h1{
+        font-size: 20px;
+    }
+    .accordianFirst .visiblwHead h1{
+        font-size: 15px;
+    }
+    .accordianFirst .visiblwHead{
+        padding: 10px 0;
+    }
+    .LandingPageBanner .leftSideContentBanner p{
+        margin: 15px 0px;
+        padding-right: 20px;
+    }
+    .dropdownDescription{
+        margin-top: 20px;
+    }
+    .LandingPageBanner .imgserviceContainer .imgContainerBtn1{
+        top: 20%;
+        left: 10%;
+    }
+    .LandingPageBanner .imgserviceContainer .imgContainerBtn5{
+        bottom: 35%;
+        right: 10%;
+    }
+    .LandingPageBanner .imgserviceContainer .imgContainerBtn2{
+        bottom: 40%;
+        left: 5%;
+    }
+    .LandingPageBanner .imgserviceContainer .imgContainerBtn3{
+        top: 25%;
+        right: 5%;
+    }
+    .LandingPageBanner .imgserviceContainer .imgContainerBtn4{
+        bottom: 17%;
+        right: 40%;
+    }
+    .IdeasFoLife{
+        width: calc(100vw - 40px);
+        margin: 0 20px;
+        max-width: none;
+        min-height: 300px;
+        margin-top: 34px;
+    }
+    .showingRangeI .rangeImgboxstart{
+        transform: translateY(0px);
+        
+    }
+    .showingRangeI .rangeImgboxstart i{
+        font-size: 16px;
+
+    }
+    .showingRangeI {
+        display: flex;
+        position: relative;
+        width: calc(100vw - 40px);
+        max-width: none;
+        margin: 50px 20px ;
+    }
+    .ideas_Knowlage .navigatingIdeas button, .anime_Idea .navigatingIdeas button, .services_Ad .GetToCode{
+        font-size: 12px;
+    }
+    .services_Ad .GetToCode{
+        width: 200px;
+        height: 40px;
+    }
+    .services_Ad h4{
+        font-size: 18px;
+    }
+    .services_Ad h1{
+        font-size: 24px;
+    }
+    .services_Ad{
+        width: calc(100vw - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .Benefit .BenefitImg{
+        width: 45px;
+        height: 45px;
+    }
+    .innerDescription .bigParaTitle{
+        font-size: 14px;
+    }
+    .CategoryBanner .categoryNavSection h1{
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .rightNavsection li{
+        font-size: 13px;
+    }
+    .SBbanner .SBImage{
+        display: none;
+    }
+    .services_Ad .endToEnd{
+        width: 100%;
+    }
+    .FYPbanner .FYPheadings p{
+        min-width: 120px;
+        max-width: none;
+    }
+    .fixyourPrinterSection .mainSection{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .mainSection .FYPImage img{
+        width: 60%;
+        margin-left: 40%;
+        height: 80%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .Service_Page_Section{
+        animation: none;
+    }
+    .LandingPageBanner .leftSideContentBanner{
+        width: calc(100vw - 20px);
+        margin-left: 20px;
+    }
+    .mainSection .FYPImage{
+        display: grid;
+        place-items: center;
+    }
+    .LandingPageBanner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ANimatedtPara{
+        display: none !important;
+    }
+    .dropdownDescription{
+        display: none;
+    }
+    .LandingPageBanner .imgserviceContainer_mobile, .LandingPageBanner .imgstoreContainer_mobile {
+        width: 100vw;
+        height: auto;
+        display: block;
+    }
+    .LandingPageBanner .imgserviceContainer, .LandingPageBanner .imgstoreContainer{
+        display: none;
+    }
+    .LandingPageBanner .leftSideContentBanner h1 {
+        font-size: 20px;
+    }
+    .leftSideContentBanner{
+        margin-top: 30px;
+    }
+    .LandingPageBanner .imgserviceContainer_mobile button{
+        border: 1px solid #51D015;
+        border-radius: 2px;
+        padding: 7px 20px;
+        opacity: 0.9;
+        font-weight: 700;
+        font-size: 8px;
+    }
+    .LandingPageBanner .imgserviceContainer_mobile .imgContainerBtn1{
+        top: 20%;
+        left: 10%;
+    }
+    .LandingPageBanner .imgserviceContainer_mobile .imgContainerBtn5{
+        bottom: 35%;
+        right: 10%;
+    }
+    .LandingPageBanner .imgserviceContainer_mobile .imgContainerBtn2{
+        bottom: 40%;
+        left: 5%;
+    }
+    .LandingPageBanner .imgserviceContainer_mobile .imgContainerBtn3{
+        top: 25%;
+        right: 5%;
+    }
+    .LandingPageBanner .imgserviceContainer_mobile .imgContainerBtn4{
+        bottom: 17%;
+        right: 40%;
+    }
+    .otherProduct .productsForSection, .productsForSection{
+        flex-direction: column;
+    }
+    .IdeasFoLife {
+        padding: 20px;
+        margin: auto 20px ;
+        box-shadow: -2px -2px 4px #FFFFFF, -4px -4px 8px #FFFFFF, -12px -12px 24px #FFFFFF, 8px 8px 16px rgba(151, 167, 195, 0.27);
+        margin-top: 40px;
+        border-radius: 5px;
+    }
+    .HeadingSection h4, .differentIdeas .ideas_Knowlage h4, .differentIdeas .anime_Idea h4,.services_Ad h4 {
+        font-size: 13px;
+        margin-bottom: 0px;
+    }
+    .services_Ad h4{
+        font-size: 11px;
+    }
+/* ad */
+    .services_Ad {
+        border: 2px dashed #808080;
+        width: calc(100% - 40px);
+        height: auto;
+        margin-top: 50px;
+        margin-left: 20px;
+        padding: 20px;
+        margin-right: 20px;
+    }
+    .services_Ad h1 {
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .services_Ad .bottomUnderLine{
+        height: 3px;
+        width: 20%;
+    }
+    .services_Ad .endToEnd{
+        flex-direction: column;
+        min-height: 350px;
+        height: auto;
+        margin: 10px auto;
+    }
+    .differentIdeas .blankImgBox{
+        max-width: 25vw;
+        margin-bottom: 20px;
+    }
+    .IdeasFoLife .differentIdeas{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .ideas_Knowlage .navigatingIdeas button, .anime_Idea .navigatingIdeas button, .services_Ad .GetToCode{
+        margin: auto 20px;
+        font-size: 8px;
+        width: 150px;
+        padding: 8px 20px;
+        line-height: 10px;
+    }
+    .services_Ad .GetToCode{
+        height: auto;
+    }
+    .innerDescription .bigParaTitle{
+        font-size: 11px;
+        font-weight: 700;
+    }
+    .Benefit .innerDescription .sideBarLine{
+        height: 14px;
+        margin-top: 4px;
+    }
+    .innerDescription .paraDescription{
+        font-size: 10px;
+    }
+    .services_Ad i{
+        font-size: 14px !important;
+    }
+    .Benefit .BenefitImg{
+        width: 40px;
+        height: 40px;
+    }
+    .ideas_Knowlage .navigatingIdeas, .anime_Idea .navigatingIdeas {
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .differentIdeas .ideas_Knowlage p, .differentIdeas .anime_Idea p{
+        font-size: 10px ;
+        line-height: 16px;
+    }
+    .showingRangeI {
+        display: flex;
+        position: relative;
+        width: calc(100vw - 40px);
+        margin: 50px 20px ;
+    }
+    .showingRangeI .rangeImgbox{
+        width: 25px;
+        height: 25px;
+    }
+    .showingRangeI .bulbMoving{
+        width: 35px;
+        height: 35px;
+        top: -12px;
+    }
+    .CategoryBanner .categoryNavSection h1{
+        font-size: 8px;
+    }
+    .CategoryBanner{
+        height: 50px;
+    }
+    .rightNavsection li{
+        font-size: 7px;
+        margin-right: 9px;
+    }
+    .fixyourPrinterSection{
+        width: calc(100vw - 40px);
+        margin: 50px 20px;
+        flex-direction: column;
+
+    }
+    .fixyourPrinterSection .mainSection{
+        min-width: none;
+        width: 100%;
+        /* margin-left: 20px; */
+        margin-right: 0px;
+        padding: 20px;
+        overflow: hidden;
+        height: 300px;
+        position: relative;
+        flex-direction: column;
+    }
+    .FYPbanner .FYPheadings button{
+        width: auto;
+        position: absolute;
+        font-size: 8px;
+        padding: 7px 20px;
+        top: 15px;
+        margin-top: 0px;
+        right: 20px;
+    }
+    .mainSection .FYPImage img {
+        width: 67%;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+        transform: translateX(0px);
+    }
+    .SBbanner .SBImage img{
+        display: none;
+    }
+    .FYPbanner .FYPheadings h1{
+        font-size: 15px;
+    }
+    .SBbanner .SBheadings h1 {
+        font-size: 10px;
+    }
+    .SBbanner .SBheadings p{
+        max-width: none;
+        width: 100%;
+    }
+    .SBImage{
+        display: none;
+    }
+    .SBbanner .SBsideBar {
+        height: 30px;
+        margin-right: 15px;
+        width: 4px !important;
+    }
+    .FYPbanner .FYPheadings h4 {
+        font-size: 10px;
+        margin-bottom: 4px;
+    }
+    .FYPbanner .FYPsideBar, .SBbanner .SBsideBar {
+        height: 30px;
+        margin-right: 15px;
+    }
+    .FYPbanner .FYPheadings p{
+        max-width: none;
+        font-size: 10px;
+        width: auto;
+        margin: 0px;
+    }
+    .fixyourPrinterSection .sideBoxDom{
+        display: flex;
+        width: calc(100vw - 40px);
+        margin-top: 30px;
+    }
+    .fixyourPrinterSection .sideBoxDom .sideBox {
+        padding: 10px;
+        height: 150px;
+        margin-right: 20px;
+        border-radius: 8px;
+    }
+    .SBbanner .SBheadings button{
+        width: 80px;
+        font-size: 7px;
+        margin-top: 14px;
+        padding: 7px 16px;
+        margin-left: 7px;
+    }
+}

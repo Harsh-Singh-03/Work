@@ -1,0 +1,415 @@
+.passcodeDom{
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+    width: 100%;
+    /* height: calc(100vh - 80px); */
+    max-height: 750px;
+    overflow: hidden;
+}
+.passcodeDom .imageContainer{
+    width: 50%;
+    height: auto;
+    height: calc(100vh - 80px);
+    max-height: 750px;
+    /* min-height: 400px; */
+}
+.imageContainer img{
+    width: 100%;
+    height: auto;
+}
+.passcodeDom .passcodefields{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* place-items: center; */
+    margin: auto;
+}
+.passcodefields p{
+    font-weight: 700;
+    margin-bottom: 0px;
+font-size: 18px;
+line-height: 21px;
+color: #1F2937;
+}
+.passcodefields .subP{
+    font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #6B7280;
+margin-left: 0px;
+
+}
+.passcodefields input{
+    background: #FFFFFF;
+/* Gray/coolGray.200 */
+
+border: 1px solid #E5E7EB;
+border-radius: 6px;
+width: 300px;
+height: 40px;
+outline: none;
+margin: 30px 0px;
+margin-bottom: 10px;
+padding: 10px;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #9CA3AF;
+pointer-events: all;
+}
+.passcodefields input::placeholder{
+    font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #9CA3AF;
+}
+.passcodefields button{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background:#51D015 ;
+    border: none;
+    border-radius: 6px;
+    width: 300px;
+    margin-bottom: 10px;
+    height: 40px;
+    outline: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    pointer-events: all; 
+}
+.Learinig-Material-Blog{
+    width: 90vw;
+    max-width: 1440px;
+    margin-left: 5vw;
+    /* padding-left: 100px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    /* place-items: left; */
+    overflow: hidden;
+}
+.EventVideo2{
+    width: 90vw;
+    max-width: 1000px;
+    height: auto;
+}
+.EventVideo2 iframe{
+    min-height: 500px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+}
+.Learinig-Material-Blog p, .Learinig-Material-Blog h2, .Learinig-Material-Blog h4, .Learinig-Material-Blog .blogimg2{
+    width: 90% !important;
+}
+.Learinig-Material-Blog .blogimg22{
+    width: 50% !important;
+}
+.Learinig-Material-Blog h2{
+    margin-bottom: 0px !important;
+}
+.Learinig-Material-Blog .h22-blog-ocean{
+    margin-bottom: 1rem !important;
+}
+.Learinig-Material-Blog .blogimg2{
+    margin-bottom: 40px;
+}
+.Learinig-Material-Blog .blogimg3{
+    width: 80% !important;
+}
+.overview-h4{
+    margin-bottom: 0px !important;
+}
+.Learinig-Material-Blog .mainHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px ;
+}
+ .individualFile{
+    align-items: center;
+    cursor: pointer;
+}
+.IframeForm1{
+    height: 650px !important;
+    /* justify-content: flex-start !important; */
+}
+.miniimgdom{
+    display: flex;
+    overflow: scroll;
+}
+.miniimg{
+    width: 100px;
+    height: 80px;
+    margin-right: 20px;
+    border-radius: 3%;
+    margin-bottom: 20px;
+}
+.forDesk{
+    display: flex;
+}
+.formobile{
+    display: none;
+}
+.individualFile i{
+    color: #51D015;
+    font-size: 14px;
+}
+.individualFile span{
+    color: #51D015;
+    font-size: 14px;
+    margin-left: 8px;
+    font-weight: 500;
+}
+.underLineUnder{
+    width: 30%;
+    height: 1px;
+    margin-bottom: 40px;
+    background: #000000;
+}
+.navBtn .fa-play{
+    font-weight: 400;
+    font-size: 30px;
+}
+.steps .btnprocedureslider{
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.btnprocedureslider .btnbtn{
+    width: 20px;
+    height: 20px;
+    margin-right: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    border: 2px solid #000000;
+}
+.btnprocedureslider .midbtnbtn{
+    background: #000000;
+    position: relative;
+    z-index: 1;
+}
+.btnprocedureslider .midbtnbtn::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background: #000000;
+    top: 50%;
+    left: -20px;
+    z-index: -1;
+}
+.Learinig-Material-Blog .funtionButtons{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.funtionButtons button{
+    cursor: pointer;
+    border: 2px solid #51D015;
+    border-radius: 4px;
+    outline: none;
+    padding: 10px 25px;
+    color: #51D015;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 30px;
+    line-height: 21px;
+}
+.funtionButtons .midButton{
+    background: #51D015;
+    color: #FFFFFF;
+    padding: 10px 40px;
+}
+.Learinig-Material-Blog .showRangeBlog{
+    display: flex;
+    position: relative;
+    width: 90vw;
+    max-width: 1000px;
+    margin: auto;
+    transition: all 1s ease-in-out;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+.showRangeBlog .blogSwitchrange{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: -2px -2px 4px #FFFFFF, -4px -4px 8px #FFFFFF, -8px -8px 16px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+    z-index: 5;
+    display: grid;
+    place-items: center;
+    color: #808080;
+    border: 2px solid #51D015;
+    background: #F9F9F9;
+}
+.blogSwitchrange .range-p{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    transform: translate(-5px, 50px);
+}
+.blogSwitchrange .range-p2{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    display: none;
+    /* transform: translate(-5px, 50px); */
+}
+.Learinig-Material-Blog pre{
+    background: transparent !important;
+}
+.showRangeBlog img{
+    position: absolute;
+    width: auto;
+    height: 100px;
+    z-index: 3;
+    top: calc(50% - 60px);
+}
+.showRangeBlog .originalRange{
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 0;
+    width: 100%;
+    transition: all 1s ease-in-out;
+    height: 2px;
+    background-color: #DDE0E2;
+    z-index: 1;
+}
+.codeblock{
+    padding: 40px;
+    width: 100%;
+    background: #eeeeee;
+}
+.accordTitle{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 100%;
+    padding: 30px 0px;
+    align-items: center;
+}
+.stepAccordian{
+    width: 90%;
+    border-top:  1px solid #808080 ;
+    border-bottom:  1px solid #808080 ;
+}
+.accordianCta{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* justify-content: space-evenly; */
+    background: #FFFFFF;
+    padding: 20px 40px;
+    margin-bottom: 30px;
+border: 5px dashed #808080;
+}
+.accordianCta .fa-file-arrow-down{
+    color: #51D015;
+    background: #DDE0E2;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    display: grid;
+    place-items: center;
+}
+.accordianCta .somefiles{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    min-width: 70%;
+
+}
+.somefiles .somefilesp{
+    display: inline;
+    font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+text-transform: uppercase;
+
+color: #000000;
+    width: auto !important;
+}
+.accordianCta .fa-copy, .accordianCta .fa-bars{
+    color: #808080;
+    font-size: 20px;
+    margin-right: 7px;
+}
+.accordianCta span{
+    font-size: 20px;
+    line-height: 26px;
+}
+.accordianCta button{
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: #51D015;
+    padding: 10px 40px;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.ciruitTAble .Trow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.Trow p{
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.accordianTable tr .btTypelink{
+    text-decoration: none;
+    padding: 5px 20px;
+    /* width: 200px; */
+    border: 1px solid #51D015;
+    color: #51D015;
+    cursor: pointer;
+}
+.Trow .quantityP{
+    width: auto !important;
+}
+ .accordianTable th{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+ .accordianTable td{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    padding-bottom: 20px;
+}
+ .accordianTable{
+    width: 100%;
+    margin: 40px 0;
+}
+.tryingSomething i{
+    color: #808080;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    font-size: 16px;
+    right: 20%;
+}
+@media screen and (max-width: 1440px) {
+    .Learinig-Material-Blog p, .Learinig-Material-Blog h2, .Learinig-Material-Blog h4, .Learinig-Material-Blog img{
+        width: 90vw !important;
+    }
+    .showRangeBlog img{
+        width: auto !important;
+    }
+}

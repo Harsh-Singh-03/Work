@@ -1,0 +1,285 @@
+.Ocean_challengeDOM .wholeblogdom{
+    margin-top: 100px;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    pointer-events: visible;
+    /* margin-bottom: 200px; */
+}
+.wholeblogdom .pop-up-blog{
+    width: calc(100% - 200px);
+    height: auto;
+    max-height: calc(100vh - 130px);
+    display: grid;
+    place-items: center;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 50px;
+    padding-bottom: 200px;
+    color: #000000; 
+    overflow: scroll;
+}
+.wholeblogdom .pop-up-blog-show{
+    animation: reveal 1s ease-in-out;
+    animation-iteration-count: 1;
+}
+@keyframes reveal {
+    0%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.pop-up-blog .blogimg{
+    width: 80%;
+    margin: 40px 3%;
+}
+.pop-up-blog .leaderDetails{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.leaderDetails img{
+    width: 120px;
+    height: 120px;
+    margin-right: 15px;
+}
+.leaderDetails p{
+    max-width: 250px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #0C111F;
+    margin-right: 10px;
+}
+.pop-up-blog .d-flex span, .pop-up-blog .d-flex i{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+.pop-up-blog .d-flex i{
+    cursor: pointer;
+    font-size: 30px;
+}
+
+
+.pop-up-blog .fa-play{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/*  Classes for blog */
+    .h2-blog-ocean{
+        width: 80%;
+        /* margin: 0 10%; */
+        font-size: 50px;
+        line-height: 59px;
+        font-weight: 700;
+        color: #0C111F;
+        margin-bottom: 30px;
+    }
+    .h4-blog-ocean{
+        width: 80%;
+        /* margin: 0 10%; */
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 700;
+        color: #0C111F;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .h1-blog-ocean{
+        width: 80%;
+        /* margin: 0 10%; */
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: #000000;
+    }
+    .p-blog-ocean{
+        width: 80%;
+        /* margin: 0 10%; */
+        font-size: 18px;
+        line-height: 24px;
+        color: #000000;
+
+    }
+    .span-blog-ocean{
+        margin-bottom: 30px;
+        font-size: 16px;
+        margin-top: 10px;
+        color: #000000;
+    }
+    .img-blog-ocean{
+        width: 80%;
+        height: auto;
+    }
+
+@media screen and (max-width: 1200px) {
+    .span-blog-ocean{
+        margin-bottom: 20px;
+        font-size: 12px;
+        color: #000000;
+    }
+    .h2-blog-ocean{
+        width: 90%;
+        /* margin: 0 10%; */
+        font-size: 20px;
+        line-height: 27px;
+        font-weight: 700;
+        color: #0C111F;
+        margin-bottom: 30px;
+    }
+    .h4-blog-ocean{
+        width: 90%;
+        font-size: 15px;
+        line-height: 20px;
+        color: #0C111F;
+        margin-top: 20px;
+    }
+    .h1-blog-ocean{
+        width: 90%;
+        font-size: 25px;
+        line-height: 31px;
+    }
+    .p-blog-ocean{
+        width: 90%;
+        /* margin: 0 10%; */
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+    }
+    .img-blog-ocean{
+        width: 90%;
+        height: auto;
+    }
+    .wholeblogdom .pop-up-blog{
+        width: calc(100% - 40px);
+        padding: 30px;
+        padding-bottom: 60px;
+    }
+    .pop-up-blog h1{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .pop-up-blog h2{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .dropdownBlog .parablogshow{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .dropdownBlog .parablog{
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .span-blog-ocean{
+        font-size: 10px;      
+    }
+    .h2-blog-ocean{
+        width: 90%;
+        /* margin: 0 10%; */
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 700;
+        color: #0C111F;
+        margin-bottom: 20px;
+    }
+    .h4-blog-ocean{
+        width: 90%;
+        /* margin: 0 10%; */
+        font-size: 12px;
+        line-height: 17px;
+        font-weight: 700;
+        color: #0C111F;
+        margin-bottom: 20px;
+    }
+    .h1-blog-ocean{
+        width: 90%;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .p-blog-ocean{
+        width: 90%;
+        /* margin: 0 10%; */
+        font-size: 10px;
+        line-height: 15px;
+        color: #000000;
+        margin-bottom: 20px;
+    }
+
+    .wholeblogdom .pop-up-blog{
+        padding: 15px;
+        padding-bottom: 40px;
+        border-radius: 12px;
+    }
+    .dropdownBlog .parablogshow{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .dropdownBlog .parablog{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .pop-up-blog h1{
+        font-size: 20px;
+        margin-bottom: 0px;
+        line-height: 24px;
+    }
+    .pop-up-blog .d-flex span, .pop-up-blog .d-flex i{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .pop-up-blog .leaderDetails{
+        margin-top: 20px;
+    }
+    .leaderDetails p{
+        max-width: 50%;
+        font-size: 9px;
+        line-height: 12px;
+    }
+    .leaderDetails img{
+        width: 50px;
+        height: 50px;
+    }
+    .pop-up-blog .blogimg{
+        width: 85%;
+    }
+    .leaderDetails img{
+        width: 80px;
+        height: 80px;
+    }
+    .pop-up-blog h2{
+        font-size: 16px;
+        line-height: 22px;
+        width: 85%;
+        margin: 0 7.5%;
+        margin-bottom: 20px;
+    }
+    .pop-up-blog .overviewPara{
+        width: 85%;
+        margin: 0 7.5%;
+        margin-bottom: 20px;
+    }
+    .dropdownBlogDOm .dropdownBlog{
+        width: 85%;
+        margin: 0 7.5%;
+    }
+    .dropdownBlogDOm .Titledom{
+        padding: 20px 0;
+    }
+    .dropdownBlog h4{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .dropdownBlog .Titledom span{
+        font-size: 14px;
+    }
+}

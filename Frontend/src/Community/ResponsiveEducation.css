@@ -1,0 +1,246 @@
+@media screen and (max-width: 1200px) {
+    .programsDOM .TYMprogram{
+        margin-left: 20px;
+    }
+    .programsDOM .TYMprogram h1{
+        font-size: 35px;
+    }
+    .TYMprogram .programDetails{
+        width: 60vw;
+        height: 60vw;
+    }
+    .programDetails .programbtn0{
+        top: 50%;
+        left: -15%;
+    }
+    .programDetails .programbtn2{
+        bottom: 6%;
+        left: -10%;
+    }
+    .programDetails .programbtn3{
+        bottom: 50%;
+        right: -15%;
+    }
+    .programDetails .programbtn1{
+        top: 6%;
+        right: -10%;
+    }
+    .programsDOM .navigationArrows{
+        top: 53%;
+        width: 90%;
+        left: 5%;
+    }
+    .navigationArrows i{
+        font-size: 30px;
+    }
+    .educationDetailBanner, .potentialSection{
+        margin-left: 20px ;
+        margin-right: 20px;
+        width: calc(100vw - 40px);
+    }
+    .successStories{
+        width: 80%;
+        margin: 50px 10%;
+    }
+    .hordingsDom{
+        flex-wrap: wrap;
+        padding: 40px 0px;
+    }
+    .talktoour{
+        width: calc(100% - 100px);
+        margin: 30px 50px;
+    }
+    .ctaforcontact button{
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+    .talktoour .consultant{
+        margin-left: 20px;
+    }
+    .consultant h1{
+        font-size: 18px !important;
+    }
+    .ctaforcontact p{
+        font-size: 12px;
+    }
+    .consultantImg img{
+        width: 100%;
+        max-height: none;
+        height: auto;
+    }
+    .consultantImg {
+        max-height: 300px;
+        width: 300px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .Education_page{
+        animation: none;
+    }
+    .programsDOM .TYMprogram h1{
+        font-size: 20px;
+    }
+    .TYMprogram .programDetails{
+        width: 60vw;
+        height: 60vw;
+    }
+    .consultantImg img{
+        transform: translateX(-10%);
+    }
+    .imageEducationBanner{
+        display: none;
+    }
+    .imageEducationBannerMobile{
+        width: 80vw;
+        height: auto;
+        margin: 20px 10vw;
+        display: block;
+    }
+    .programDetails .programbtn{
+        padding: 5px;
+        border-radius: 12px;
+    }
+    .programbtn button{
+        border-radius: 11px;
+        font-size: 10px;
+        padding: 8px 20px;
+        line-height: 18px;
+    }
+    .LandingPageBanner .leftSideContentBanner{
+        margin-top: 20px !important;
+    }
+    .programsDOM .navigationArrows{
+        width: 90%;
+        left: 5%;
+        top: 65%;
+    }
+    .potentialSection{
+        margin-left: 20px;
+        width: calc(100% - 40px);
+        flex-direction: column;
+    }
+    .hordingsDom{
+        flex-wrap: wrap;
+        padding: 40px 0px;
+    }
+    .HeadingSection .semiheading{
+        font-size: 10px !important;
+        line-height: 14px !important;
+        margin-bottom: 0px;
+    }
+    .hordingsDom .hordings{
+        margin: 20px 20px;
+        margin-bottom: 20px;
+        width: 280px;
+        height: 280px;
+        overflow: hidden;
+    }
+    .hordings h4{
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .hordings .hordingPara1{
+        margin-top: 15px;
+        line-height: 100%;
+        font-size: 10px;
+    }
+    .hordings .hordingPara2{
+        font-size: 10px;
+    }
+    .hordings img{
+        height: auto;
+    }
+    .successStories{
+        width: calc(100vw - 40px);
+        margin: 50px 20px;
+    }
+    .detailssuccess h4{
+        font-size: 14px;
+    }
+    .detailssuccess p{
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+    .maindetailofsuccess .imagesuccess{
+        max-width: 200px;
+        max-height: 200px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .successdiv .maindetailofsuccess{
+        flex-direction: column;
+        margin: 30px 0;
+        margin-bottom: 0px;
+    }
+    .educationDetailBanner{
+        margin-left: 20px ;
+        margin-right: 20px !important;
+        width: calc(100vw - 40px);
+    }
+    .CoolEvents{
+        width: calc(100vw - 20px);
+        margin-left: 0px;
+        flex-wrap: wrap;
+        margin-right: 0px;
+    }
+    .eventWorkshop{
+        margin-top: 40px;
+        margin-right: 0px;
+    }
+    .eventWorkshop .mainBoxofEanW{
+        width: 280px ;
+        height: 260px;
+    }
+    .mainBoxofEanW h4{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .eventWorkshop button{
+        font-size: 10px;
+        padding: 8px 18px;
+    }
+    .talktoour{
+        flex-direction: column;
+        padding: 20px;
+        margin-left:20px ;
+        margin-right:20px ;
+        width: calc(100vw - 40px);
+        padding-bottom: 0px;
+    }
+    .talktoour .consultant{
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+    .hordings h1{
+        font-size: 15px;
+    }
+    .ctaforcontact button{
+        font-size: 8px;
+        padding: 8px 16px;
+        display: flex;
+        align-items: center;
+    }
+    .ctaforcontact .bar{
+        margin: 0 10px;
+    }
+    .ctaforcontact p{
+        font-size: 10px;
+    }
+    .ctaforcontact i{
+        font-size: 10px;
+    }
+    .navigationArrows i{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 500px) {
+.programbtn button{
+    border-radius: 11px;
+    font-size: 8px;
+    padding: 7px 14px;
+    line-height: 14px;
+}
+.programsDOM .TYMprogram h1{
+    transform: translateY(50px);
+}
+}

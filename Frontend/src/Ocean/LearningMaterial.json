@@ -1,0 +1,90 @@
+[
+    {
+     
+        "Heading": "Chapter 1: Building the Arduino Robot",
+        "Overview": "In this tutorial I will show you how I made my Mecanum Wheels Robot Platform from my previous video, to work together and operate automatically with my 3D printed Robotic Arm, also an Arduino project from one of my previous videos.You can watch the following video or read the written tutorial above. So, we can control the Mecanum wheels robot with the custom-build Android application the same way as explained in the previous video. In addition to that, now the app also has buttons for controlling the robot arm.The original robot arm control app actually had sliders for controlling the robot joints, but that was causing some problems with the arm stability. In this way the arm works much better, so therefore I will provide this updated version of the robot arm control app and the Arduino code to the original robot arm project as well. Nevertheless, the coolest feature of this robot is the ability to store the movements and then automatically repeat them.Using the Save button, we can simply store the positions of the motors for each step. Then we just need to click the Run button and the robot will automatically repeat the stored movements over and over again.",
+        "Procedure": "Making Of Robot",
+        "pdf": "https://workdrive.zohopublic.in/external/34495cf250a3b7657f51b8567366ff33eccaeebb5045a889c56cd39eba7703db/download",
+        "ProcedureHead":"Procedure",
+        "Steps": [
+            {
+                "video": "",
+                "img1": "/image/SlideStep1.webp",
+                "Para1": "Ok, so here I have the Mecanum wheels platform already assembled and you can find all details about it in my previous video.\n     Also, here I have the 3D printed parts of the robot arm and the servo motors and now I will show you how to assembly them. Here’s the 3D model of this project. You can find and download this 3D model, as well as explore it in your browser on Thangs."
+            },
+            {
+                "video": "",
+                "img1": "/image/SlideStep2.webp",
+                "Para1": "The first servo of the robot arm will be directly mounted on the top cover of the mecanum wheels platform.I marked the location, and using a 10mm drill I made several holes.  Then using a rasp, I cut through the holes and then fine-tuned the opening for the servo.I secured the servo to the top plate using four M3 bolts and nuts."
+            },
+            {
+                "video": "",
+                "img1": "/image/SlideStep3.webp",
+                "Para1": "Then on this output shaft of this servo, using the round horn that comes as accessory with the servo, we need to attach the next part or the waist of the robot arm. However, we can notice that in this way the part stays around 8mm above the plate. So therefore, I attached two pieces of 8mm MDF boards, so the waist part can slide on them and so the joint will be more stable."
+            },
+            {
+                "video": "",
+                "img1": "/image/SlideStep4.webp",
+                "Para1": "The round horn is secured to the waist part using the self-tapping screws that come as accessories with the servo, and then the round horn is secured to servo shaft using the appropriate bolts that also come with the servo."
+            },
+            {
+                "video": "",
+                "img1": "/image/SlideStep5.webp",
+                "Para1": "Next we have the shoulder servo. We simply put it in place and secure it to the 3D printed part using self-tapping screws."
+            },
+            {
+                "video": "",
+                "img1": "/image/SlideStep6.webp",
+                "Para1": "Next we have the shoulder servo. We simply put it in place and secure it to the 3D printed part using self-tapping screws."
+            },
+            {
+                "video": "",
+                "img1": "/image/SlideStep7.webp",
+                "Para1": "We should note that before securing the parts, we need to make sure that the part has the full range of motion. Here I also added a rubber band to the shoulder joint so that it gives a little bit help to the servo, because this servo carries the weight of the rest of the arm as well as the payload.In similar way, I assembled the rest of the robot arm."
+            },
+            {
+                "video": "",
+                "img1": "/image/SlideStep8.webp",
+                "Para1": "Next, we need to assemble to gripper mechanism. The gripper is controlled with an SG90 servo motor, on which, first we attach a custom designed geared link. We pair this link with another geared link on the other side, which is secured using M4 bolt and nuts. Actually, all other links are connected using M4 bolts and nuts."
+            },
+            {
+                "video": "",
+                "img1": "/image/SlideStep9.webp",
+                "Para1": "The 3D model of the gripper originally has 3mm holes but I didn’t have enough M3 bolts, so therefore I expanded the holes using 4mm drill and used the M4 bolts instead.Once I assembled the gripper mechanism, I secured it to the last servo and so the robot arm was completed."
+            },
+            {
+                "video": "",
+                "img1": "/image/SlideStep10.webp",
+                "Para1": "Next I did some cable management. I passed the servo wires through the specifically designed holes of the robot arm. Using a 10mm drill I made a hole on the top plate so that the wires can pass through.Using a zip-tie I secured all the wires together, and now what’s left is to connect them to the Arduino board."
+            }
+        ]
+
+    },
+    {
+        "video": "",
+        "pdf": "https://workdrive.zohopublic.in/external/a160b95a967786a6b361cfd14db52bcda3b0bd9a68d85f81e359721ea8826073/download",
+        "Heading": "Chapter 2: Arduino Robot Circuit Diagram",
+        "Overview": "Here’s the circuit diagram of this project and how everything needs to be connected. You can get the components needed for this project from the links below: Stepper Motor – NEMA 17 …………..… Amazon / Banggood / AliExpress DRV8825 Stepper Driver ……….…….… Amazon / Banggood / AliExpress MG996R Servo Motor………………….…. Amazon / Banggood / AliExpress SG90 Micro Servo Motor …………….…. Amazon / Banggood / AliExpress HC-05 Bluetooth Module …………….… Amazon / Banggood / AliExpress Li-Po battery …………………………….…… Amazon / Banggood / AliExpress Arduino Mega Board ………….……….… Amazon / Banggood / AliExpress",
+        "Procedure": "Circuit Diagram",
+        "ProcedureHead":"Procedure",
+        "Steps": [
+            {
+                "video": "",
+                "img1": "/image/Circuit-Diagram1.webp",
+                "Para1": "In the previous tutorial I explained how the Mecanum wheels robot part works and also showed you how I made a custom PCB for it."
+
+            },
+            {
+                "video": "",
+                "img1": "/image/Circuit-Diagram1.webp",
+                "Para1": "I included a 5V voltage regulator on this PCB so that we can make this project, or connect the servo motors because they work at 5V. The voltage regulator is the LM350, which can handle up to 3 amps of current. All six servos of the robot arm can draw from around 2 amps to 3 amps of current, which means that it can handle them but that will cause the regulator to get very hot.Therefore, I attached a heat sink to it, as well as a small 12V DC fan to blow some air, because the heat sink itself wasn’t enough the cool the regulator."
+            },
+            {
+                "video": "",
+                "img1": "/image/Circuit-Diagram2.webp",
+                "Para1": "I connected the servos signal wires to the Arduino digital pins from number 5 to 10, and for powering I used the 5V pin header on the PCB. Finally, I pushed all the wires inside the platform, and secured the top plate to it using the two nuts And that’s it, now we are done with this project."
+            }
+        ]
+
+    }
+]

@@ -1,0 +1,497 @@
+.Education_page{
+    width: 100vw;
+    max-width: 1440px;
+    overflow: hidden;
+    animation: landingSlide 0.8s ease;
+    animation-iteration-count: 1;
+    padding-bottom: 60px;
+}
+.imageEducationBanner, .imageEducationBannerMobile{
+    width: 50vw;
+    margin: 20px;
+    margin-right: 100px;
+    margin-left: 120px;
+    margin-top: 4%;
+    height: auto;
+    max-width: 526px;
+    /* max-height: 526px; */
+    position: relative;
+}
+.imageEducationBannerMobile{
+    display: none;
+}
+.imageEducationBanner .mainBannerimage, .imageEducationBannerMobile .mainBannerimage{
+    width: 100%;
+    height: 100%;
+}
+.imageEducationBanner .sideImage1, .imageEducationBannerMobile .sideImage1{
+    position: absolute;
+    height: 18%;
+    width: 22%;
+    cursor: pointer;
+    top: 3%;
+    right: 33%;
+}
+.imageEducationBanner .sideImage2, .imageEducationBannerMobile .sideImage2{
+    position: absolute;
+    cursor: pointer;
+    width: 31%;
+    height: 28%;
+    top: 15%;
+    left: 20%;
+}
+.imageEducationBanner .sideImage3, .imageEducationBannerMobile .sideImage3{
+    top: 28%;
+    right: 20%;
+    position: absolute;
+    cursor: pointer;
+    width: 28%;
+    height: 24%;
+}
+.imageEducationBanner .sideImage4, .imageEducationBannerMobile .sideImage4{
+    bottom: 39%;
+    cursor: pointer;
+    position: absolute;
+    left: 32%;
+    width: 25%;
+    height: 20%;
+}
+.imageEducationBanner .sideImage5, .imageEducationBannerMobile .sideImage5{
+    cursor: pointer;
+    bottom: 15%;
+    left: 36%;
+    width: 33%;
+    position: absolute;
+    height: 25%;
+}
+.imageEducationBanner .sideImage6, .imageEducationBannerMobile .sideImage6{
+    cursor: pointer;
+    bottom: 3%;
+    left: 22%;
+    width: 23%;
+    position: absolute;
+    height: 17%;
+
+}
+.programsDOM{
+    position: relative;
+    width: 100vw;
+    max-width: 1440px;
+    z-index: 2;
+}
+.programsDOM::before{
+    content: "";
+    position: absolute;
+    width: 100vw;
+    max-width: 1440px;
+    height: 60%;
+    top: 20%;
+    left: 0%;
+    z-index: -1;
+    background: #EBEAEA;
+    opacity: 0.5;
+}
+.programsDOM .TYMprogram{
+    display: block;
+    /* margin-top: 40px; */
+    position: relative;
+    margin-left: 72px ;
+    animation: programAnimation 0.8s ease-in-out;
+    animation-iteration-count: 1;
+}
+@keyframes programAnimation {
+    0%{
+        transform: translateX(-4vw);
+        opacity: 0.4;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+.programsDOM .Ourprogram{
+    display: none;
+}
+.programsDOM .TYMprogram h1{
+    font-weight: 700;
+    z-index: 1;
+    font-size: 54px;
+    line-height: 66px;
+    text-transform: uppercase;
+    transform: translateY(100px);
+    color: #3a3a3a1d;
+}
+.TYMprogram .programDetails{
+    width: 650px;
+    position: relative;
+    height: 650px;
+    z-index: 1;
+    /* margin: auto; */
+}
+.programDetails .programbtn{
+    padding:  10px;
+    max-width: auto;
+    display: inline;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.4) 100%);
+position: absolute;
+/* Note: backdrop-filter has minimal browser support */
+box-shadow: 4px 4px 8px rgba(111, 111, 111, 0);
+cursor: pointer;
+z-index: 1;
+text-decoration: none;
+border-radius: 20px;
+}
+.programDetails .programbtn0{
+    top: 50%;
+    left: -20%;
+}
+.programDetails .programbtn2{
+    bottom: 20%;
+    left: -10%;
+}
+.programDetails .programbtn3{
+    bottom: 50%;
+    right: -20%;
+}
+.programDetails .programbtn1{
+    top: 20%;
+    right: -10%;
+}
+.programbtn button{
+    background: #FFFFFF;
+     font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    color: #000000;
+    padding: 10px 30px;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+}
+.programsDOM .navigationArrows{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.navigationArrows i{
+    font-size: 50px;
+    cursor: pointer;
+    color: #000000;
+}
+.TYMprogram .programDetails img{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+}
+
+.potentialSection{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    width: calc(100% - 92px);
+    margin-right: 20px;
+    align-items: center;
+    margin-left: 72px;
+    margin-top: 40px;
+}
+.potentialSection .imgpotential{
+    min-width: 50%;
+}
+.successStories{
+    width: 60%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    min-height: 400px;
+    margin-left: 20%;
+    padding: 20px;
+    background: #F9F9F9;
+box-shadow: -2px -2px 4px #FFFFFF, -4px -4px 8px #FFFFFF, -12px -12px 24px #FFFFFF, 8px 8px 16px rgba(151, 167, 195, 0.27);
+border-radius: 10px;
+}
+.successStories .successdiv{
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+    background: #FFFFFF;
+}
+.successdiv .maindetailofsuccess{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+    align-items: center;
+}
+.maindetailofsuccess .imagesuccess{
+    min-width: 190px;
+    min-height: 180px;
+    margin-right: 30px;
+}
+.maindetailofsuccess .imagesuccess img{
+    width: 100%;
+    height: 100%;
+}
+.detailssuccess h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+.detailssuccess p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #A0A0A0;
+}
+.detailssuccess .studentInfo{
+    margin-bottom: 10px;
+    display: flex;
+    
+}
+.studentInfo p{
+    font-weight: 700;
+font-size: 10px;
+line-height: 15px;
+    margin-bottom: 0px;
+letter-spacing: -0.2px;
+text-transform: uppercase;
+color: #212121;
+min-width: 60px;
+}
+.studentInfo span{
+    font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+/* letter-spacing: -0.2px; */
+
+color: #A0A0A0;
+}
+.potentialSection .imgpotential img{
+    width: 100%;
+    height: 100%;
+}
+.educationDetailBanner{
+    width: calc(100% - 167px);
+    margin-left: 72px;
+    margin-right: 95px !important;
+}
+.educationDetailBanner p{
+    margin-left: 34px;
+    max-width: none !important;
+    min-width: none !important;
+    margin-bottom: 86px;
+}
+.CoolEvents{
+    margin-left: 72px;
+    margin-right: 95px;
+    flex-wrap: wrap;
+    width: calc(100vw - 167px);
+    max-width: calc(1440px - 167px);
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.eventWorkshop{
+    margin-right: 40px;
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    display: grid;
+    border-radius: 16px;
+    place-items: center;
+}
+.eventWorkshop .mainBoxofEanW{
+    display: flex;
+    /* place-items: center; */
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    background: #F9F9F9;
+    box-shadow: -6px -6px 12px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+    border-radius: 16px;
+    width: 300px;
+    height: 280px;
+}
+.mainBoxofEanW h4{
+    font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-transform: capitalize;
+margin-top: 30px;
+color: #000000;
+}
+.eventWorkshop button{
+    background: #51D015;
+    box-shadow: -8px -8px 16px #FFFFFF, -2px -2px 4px #FFFFFF, -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    cursor: pointer;
+color: #FFFFFF;
+}
+.CoolEvents .owl-theme .owl-nav{
+    width: calc(100vw - 40px) !important;
+    max-width: calc(1440px - 207px) !important;
+    margin: 0 20px;
+}
+.CoolEvents .owl-theme .owl-dots{
+    margin-left: 50% !important;
+}
+.talktoour{
+    display: flex;
+    justify-content: space-between;
+    border: 2px dashed rgba(151, 167, 195, 0.64);
+    box-shadow: -8px -8px 16px #FFFFFF, 8px 8px 16px rgba(151, 167, 195, 0.26);
+    background: #f9f9f9;
+    align-items: center;
+    width: calc(100% - 200px);
+    overflow: hidden;
+    margin: 30px 100px;
+    min-height: 300px;
+}
+.talktoour .consultant{
+    margin-left: 40px;
+}
+.consultant h1::before{
+    right: 0% !important;
+    width: 80% !important;
+}
+.talktoour .ctaforcontact{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.ctaforcontact button{
+    background: #51D015;
+    box-shadow: -2px -2px 4px #FFFFFF, -4px -4px 8px #FFFFFF, -8px -8px 16px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: default !important;
+    padding: 10px 30px;
+    /* margin-top: 50px; */
+}
+.ctaforcontact .bar{
+    width: 2px;
+    height: 20px;
+    background: #000000;
+    margin:  0px 20px;
+}
+.ctaforcontact i{
+    font-size: 14px;
+    margin-right: 10px ;
+}
+.ctaforcontact p{
+    margin-bottom: 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 72.9%;
+    text-decoration: underline;
+    /* cursor: pointer; */
+    color: #000000;
+}
+.consultantImg{
+    max-height: 300px;
+    width: auto;
+}
+.consultantImg img{
+    width: auto;
+    height: fit-content;
+    max-height: 300px;
+}
+/* hordings */
+.hordingsDom{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background: #F3F2F2;
+    padding: 75px 0px;
+}
+.hordingsDom .hordings{
+    background: #ffffff;
+opacity: 0.8;
+box-shadow: -2px -2px 4px #FFFFFF, -4px -4px 8px #FFFFFF, -8px -8px 16px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+border-radius: 15px;
+width: 315px;
+height: 315px;
+overflow: hidden;
+display: flex;
+/* place-items: center;
+ */
+ flex-direction: column;
+ align-items: center;
+margin: 20px 30px;
+
+}
+.hordings h4{
+    font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+text-align: center;
+margin-top: 30px;
+text-transform: uppercase;
+}
+.hordings h1{
+    font-weight: 700;
+font-size: 28px;
+line-height: 19px;
+color: #000000;
+text-align: center;
+text-transform: uppercase;
+}
+.hordings span{
+    width: 20%;
+    height: 2px;
+    background: rgba(250, 172, 34, 1);
+
+}
+.hordings .hordingPara1{
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+margin-top: 30px;
+line-height: 127%;
+/* or 16px */
+/* margin-bottom: 10px; */
+text-align: center;
+
+color: #C4C4C4;
+}
+.hordings .hordungPara2{
+    font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 100%;
+margin-bottom: 30px;
+    text-transform: uppercase;
+color: #C4C4C4;
+}
+.mainBoxofEanW img{
+    width: 100%;
+    height: auto;
+}
+.hordings img{
+    width: 100%;
+    height: auto;
+}
+
+

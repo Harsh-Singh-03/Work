@@ -1,0 +1,34 @@
+[
+    {
+        "Title": "The Minds Day",
+        "date": "01",
+        "month": "July",
+        "img": "/image/mindsday.webp",
+        "slide":1,
+        "desc":"Career, Lifecycle and Growth",
+        "link":"/the-minds-day"
+    },
+    {
+        "Date": "01",
+        "month": "July",
+        "class": "rotate",
+        "Title": "Ocean Challenge",
+        "desc": "We all know 3D printing is the future of technology. This workshop is a head-start for anyone willing to stay ahead. You’ll learn about 3D printing in details through interactive sessions with Vania, and our expert.",
+        "img": "/image/EventOcean.webp",
+        "views": 23,
+        "link":"/ocean-challenge"
+        
+    },
+    {
+        "Date": "01",
+        "month": "July",
+        "class": "rotate",
+        "Title": "3D Printing Workshop",
+        "desc": "We all know 3D printing is the future of technology. This workshop is a head-start for anyone willing to stay ahead. You’ll learn about 3D printing in details through interactive sessions with Vania, and our expert.",
+        "img": "/image/Vaanya.png",
+        "views": 23,
+        "link":"https://register.theyoungminds.org/3d-printing-workshop"
+        
+    }
+ 
+]

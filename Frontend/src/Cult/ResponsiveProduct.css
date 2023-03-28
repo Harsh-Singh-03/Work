@@ -1,0 +1,371 @@
+@media screen and (max-width: 1405px) {
+    .det_DOM .det_DOM_IMG{
+        width: 45vw;
+        min-height: 400px;
+    }
+    .details_p .product_title, .details_p .pricingArea{
+        margin-bottom: 20px;
+    }
+    .functionalityBtns{
+        margin-top: 20px;
+    }
+    .CoolEvents .owl-theme .owl-nav{
+        width: calc(100vw - 200px) !important;
+    }
+    
+}
+@media screen and (max-width: 1200px) {
+    .det_DOM .det_DOM_IMG{
+        width: 50vw;
+        margin-right: 20px;
+    }
+    .checkout-page{
+        flex-direction: column-reverse;
+    }
+    .smartService p{
+        font-size: 10px;
+    }
+    .landingBanner{
+        width: calc(100vw - 20px);
+        margin-left: 20px;
+        justify-content: space-between;
+    }
+    .faqhorizontalLine{
+        margin-left: 20px;
+    }
+    .derailsBanner p,.moreDetailedListView .MDCategory, .derailsBanner .otherProductSectionBTN{
+        margin-left: 46px;
+    }
+    .moreDetailedListView .MDCategory{
+
+        min-width: 200px;
+        margin-right: 50px;
+    }
+    #products .owl-theme .owl-nav{
+        width: calc(90vw - 250px);
+    }
+    .derailsBanner{
+        margin-right: 40px;
+    }
+    .categoryDropDown .categoryDropDowndetail{
+        margin-right: 20px;
+    }
+    .spec_section .first_spec .first_spec_detail, .spec_section .second_spec .second_spec_detail, .spec_section .third_spec .third_spec_detail, .spec_content, .det_DOM{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .navigationToback{
+        margin-left: 20px;
+    }
+    .det_DOM .details_p{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .details_p .product_title, .details_p .printing_price{
+        font-size: 18px;
+    }
+    .details_p .price_actual{
+        font-size: 12px;
+    }
+    .owl-theme .owl-dots{
+        margin-left: calc(3% + 14vw);
+    }
+    .desc_product_cult p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .functionalityBtns .print_funtionality{
+        font-size: 12px;
+        padding: 9px 60px;
+    }
+    .ourSmartService{
+        margin-top: 20px;
+    }
+    .functionalityBtns p, .displayOnFormP{
+        font-size: 10px;
+    }
+    #query_z_form{
+        width: 50vw;
+    }
+}
+/* for mobile */
+@media screen and (max-width: 800px) {
+    /* store page */
+    .moreDetailedListView .MDCategory{
+        display: none;
+    }
+    .removeSuggestion{
+        display: none;
+    }
+    .smartService img{
+        color: #000000;
+        width: 25px;
+        height: 25px;
+    }
+    .landingBanner{
+        justify-content: flex-start;
+        flex-direction: column-reverse;
+    }
+    #query_z_form{
+        width: 100%;
+    }
+    .landingBanner img{
+        margin: 20px;
+        margin-right: 0px;
+        width: calc(100vw - 20px);
+        height: calc(100vw - 40px);
+    }
+    .landingBanner .landingBannerTitle{
+        display: none;
+    }
+    .det_DOM .details_p{
+        display: none;
+    }
+    .det_DOM .details_p_mobile{
+        display: block !important;
+    }
+    .moreDetailedListView{
+        margin-top: 0px;
+    }
+    .moreDetailedListView .MDProduct{
+        margin-left: 20px;
+    }
+    .categoryDropDown .categoryDropDowndetail{
+        margin-left: 10px;
+        width: 100px;
+        margin-right: 20px;
+        font-size: 10px;
+        padding-left: 4px;
+        border-radius: 2%;
+        height: 30px;
+        border-radius: 2px !important;
+        border-radius: 2px;
+    }
+    .categoryDropDown p{
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    .other_product_box, .text3dflip{
+        min-width: 150px;
+        width: calc(50vw - 30px);
+        margin-bottom: 10px !important;
+        height: 230px;
+        padding-top: 10px;
+        margin-right: 20px !important;
+    }
+    .text3dflip .test_other_product_box{
+        padding-top: 10px;
+        margin: 0 10px !important;
+        width: calc(100% - 20px) !important;
+        height: 67%;
+    }
+    .text3dflip .test_other_product_box img{
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .other_product_box img{
+        margin: 0 10px !important;
+        height: 67%;
+        width: calc(100% - 20px) !important;
+    }
+    .cult_option_display{
+        margin-top: 10px;
+        margin-left: 0px !important;
+    }
+    .cult_option_display h4 {
+        margin-bottom: 0 !important;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .test_backflip .backflip_btn{
+        font-size: 10px;
+        padding: 8px 0;
+    }
+    .navigationToback {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .det_DOM {
+        flex-direction: column !important;
+        margin-left: 20px;
+        margin-right: 20px;
+        transition: 1s ease;
+    }
+    .det_DOM .det_DOM_IMG {
+        width: calc(100vw - 40px);
+        margin-top: 40px;
+        margin-right: 0px;
+        min-height: 200px;
+        height: calc(100vw - 40px);
+        border-radius: 2%;
+    }
+    .det_DOM .details_p {
+        margin-top: 20px;
+        width: calc(100vw - 40px);
+        transition: 1s ease;
+        max-width: 800px;
+    }
+    .details_p .product_title, .spec_Heading h1 {
+        margin-bottom: 20px;
+        font-size: 15px;
+        line-height: 20px;
+    
+    }
+    .backtodetail{
+        display: none !important;
+    }
+    .details_p .printing_price {
+         font-size: 15px;
+        line-height: 20px;
+    }
+    .details_p .printing_span {
+        display: none;
+    }
+    .details_p .price_actual {
+        font-size: 10px;
+        line-height: 72.9%;
+    }
+    .ourSmartService{
+        margin: 20px 0px;
+        margin-bottom: 30px;
+    }
+    .smartService p {
+      font-size: 8px;
+      line-height: 10px;
+      margin: 8px;
+    }
+    .spec_Heading h1 {
+        margin: 25px 20px;
+    }
+    .desc_product_cult p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .details_p .pricingArea {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .functionalityBtns {
+        display: none !important;
+    }
+    .functionalityBtnsMobile{
+        margin-top: 20px;
+        display: flex !important;
+    }
+    .faqhorizontalLine {
+        margin-left: 20px;
+        width: 3px;
+        margin-right: 10px;
+    }
+    .product_details {
+        margin: 20px 0;
+        margin-left: 30px;
+    }
+    .product_details p {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+    }
+    .spec_section .first_spec, .spec_section .second_spec, .spec_section .third_spec {
+        padding-top: 17px;
+        padding-bottom: 17px;
+        margin-bottom: 20px;
+    }
+    .spec_content {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .product_details .product_details_p {
+        font-size: 12px;
+    }
+    .desc_product_cult .description_viewMore, .product_details .description_viewMore {
+       font-size: 10px;
+    }
+    .spec_content_show {
+        margin-top: 7px;
+        padding: 17px 0;
+        height: auto;
+    }
+    .spec_content p {
+        line-height: 24px !important;
+        margin: 0 20px;
+    }
+    .spec_Heading span {
+        font-size: 20px;
+        margin-right: 15px;
+    }
+    .otherProduct .productsForSection {
+        flex-direction: column;
+        margin-bottom: 34px;
+    }
+    .otherProduct .otherProductHeadline {
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .productsForSection #products {
+       width: calc(100vw - 40px);
+       margin: 0 20px;
+    }
+    .derailsBanner .otherProductSectionBTN{
+        display: none;
+    }
+    .derailsBanner {
+        width: 100vw;
+       margin: 0;
+    }
+    .derailsBanner p{
+        max-width: none;
+        margin: 20px;
+    }
+    #products .owl-theme .owl-nav {
+        width: 90vw;
+    }
+    .owl-carousel .owl-nav button.owl-next span, .owl-carousel .owl-nav button.owl-prev span{
+        font-size: 50px;
+    }
+    .details_p .pricingArea{
+        display: none;
+    }
+    .details_p .pricingAreaMobile{
+        display: flex !important;
+    }
+    /* .other_product_box{
+        width: 180px;
+        height: 270px;
+    } */
+    .advertisement{
+        width: calc(100% - 40px);
+        margin: 0 20px;
+        margin-bottom: 50px;
+        height: 230px;
+    }
+    .print_funtionalityMobile{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        padding: 10px 0;
+        /* margin-bottom: 50px; */
+    }
+    .otherProductHeadline{
+        justify-content: center;
+    }
+    .det_DOM .iframedpfrom{
+        max-width: none;
+        /* margin-top: 30px; */
+        width: calc(100vw - 20px);
+    }
+    #products .owl-carousel .owl-nav button.owl-next span::before, #products .owl-carousel .owl-nav button.owl-prev span::before{
+        width: 50px;
+        height: 50px;
+        
+        }
+       #products .owl-theme .owl-dots{
+            margin: auto;
+            width: auto;
+            display: flex;
+            justify-content: center;
+        }
+    
+}

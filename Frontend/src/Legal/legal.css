@@ -1,0 +1,91 @@
+.privacy_policyDOM, .conditionDOM{
+    width: 90vw;
+    max-width: 1000px;
+    margin: auto;
+    color: #000000;
+}
+.swtichBoxes{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.swtichBoxes .swtichBtn{
+    background: rgba(190, 185, 185, 0.15);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 40px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.swtichBoxes .ExtraA{
+    background: #F9F9F9;
+box-shadow: -2px -2px 4px #FFFFFF, -4px -4px 8px #FFFFFF, -8px -8px 16px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+}
+.privacy_policyDOM h1, .conditionDOM h1{
+    text-transform: uppercase;
+    /* text-align: center; */
+    display: inline;
+    margin: 30px 0px !important;
+}
+.privacy_policyDOM span, .conditionDOM span{
+    color: #000000;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 30%;
+    margin-top: 20px;
+    box-shadow:-4px -4px 8px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+}
+.privacy_policyDOM span:hover, .conditionDOM span:hover{
+    box-shadow: inset -4px -4px 8px #FFFFFF, inset 4px 4px 8px rgba(151, 167, 195, 0.5);
+}
+.privacy_policyDOM p, .conditionDOM p, .conditionDOM ul{
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.conditionDOM ul{
+    margin-left: 100px;
+}
+.conditionDOM ul li{
+    margin-bottom: 10px;
+}
+.privacy_policyDOM h4, .conditionDOM h4{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 800px){
+    .privacy_policyDOM h1, .conditionDOM h1{
+      font-size: 1.6rem;
+      margin: 30px 0px !important;
+    }
+    .swtichBoxes{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .conditionDOM ul{
+        margin-left: 70px;
+    }
+    .swtichBoxes .swtichBtn{
+        padding: 8px 20px;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 600px){
+    .privacy_policyDOM p, .conditionDOM p, .conditionDOM ul{
+        line-height: 25px;
+        font-size: 16px;
+    }
+    .conditionDOM ul{
+        margin-left: 50px;
+    }
+    .privacy_policyDOM h1, .conditionDOM h1{
+        font-size: 1.2rem;
+        font-weight: bold;
+        line-height: 25px;
+      }
+      .privacy_policyDOM h4, .conditionDOM h4{
+        font-size: 20px;
+    }
+}

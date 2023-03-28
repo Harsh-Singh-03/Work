@@ -1,0 +1,251 @@
+.Ty-page-ocean{
+    width: 100vw;
+    max-width: 1440px;
+    position: relative;
+    z-index: 2;
+    /* min-height: ; */
+    height: 100vh;
+    max-height: 1000px;
+}
+.Ty-page-ocean .maintyhead{
+    position: absolute;
+    top: 86px;
+    left: 50px;
+    font-weight: 250;
+    font-size: 90px;
+    line-height: 135px;
+    display: block;
+    z-index: 2;
+    
+    color: #48C1FF;
+}
+.Ty-page-ocean .maintyheadMobile{
+    display: none;
+}
+.Ty-page-ocean .Ty-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    z-index: -1;
+}
+
+.Ty-page-ocean .thankYouContent{
+    display: flex;
+    padding-top: 100px;
+    margin-left: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.Ty-page-ocean .thankYouContent .Turtle{
+    width: 50%;
+    height: auto;
+    z-index: 1;
+    max-height: 70vh;
+}
+.thankYouContent .ResponseUpdate h4{
+    font-weight: 500;
+font-size: 25px;
+margin: 30px 0;
+margin-top: 60px;
+line-height: 50px;
+/* identical to box height, or 200% */
+
+
+color: #FFFFFF;
+}
+.ResponseUpdate .checkoutss{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.checkoutss .status{
+    display: grid;
+    place-items: center;
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+    border: 1.30637px solid #FFFFFF;
+    margin-right: 14px;
+}
+.status span{
+    color: #fff;
+    font-size: 12px;
+}
+.checkoutss p{
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+.LoactionButtonDOM1 .buttontypeDIv2{
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid #FFFFFF;
+}
+ .extraNote{
+    padding: 30px;
+    margin-left: 50px;
+background: rgba(29, 125, 176, 0.49);
+border: 4px solid #BEDAF3;
+border-radius: 4px;
+height: auto;
+width: fit-content;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+/* position: absolute;
+bottom: 10%; */
+}
+.extraNote h4{
+    line-height: 30px !important;
+    margin: 0px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin-right: 50px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+.extraNote i{
+    font-size: 25px;
+    color: #fff;
+    animation: popup 1s ease-in-out;
+    pointer-events: none;
+    animation-iteration-count: infinite;
+}
+@keyframes popup {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.3);
+
+    }
+}
+.extraNote p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+}
+.LoactionButtonDOM1M{
+    display: none !important;
+}
+.LoactionButtonDOM1D{
+    display: flex !important;
+}
+@media screen and (max-width: 1400px) {
+    .Ty-page-ocean{
+        width: 100vw;
+        max-width: 1440px;
+        position: relative;
+        z-index: 2;
+        min-height: 850px;
+        height: 100vh;
+        max-height: 1000px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .Ty-page-ocean .maintyhead{
+        left: 20px;
+        font-size: 40px;
+        top: 100px;
+        line-height: 50px;
+    }
+    .thankYouContent .ResponseUpdate h4{
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .Ty-page-ocean .thankYouContent{
+        margin-left: 20px;
+    }
+    .extraNote{
+        bottom: 30%;
+        margin-left: 20px;
+    }
+    .LoactionButtonDOM1D{
+        right: auto;
+        left: 20px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .Ty-page-ocean .thankYouContent{
+        flex-direction: column-reverse;
+    }
+    .Ty-page-ocean .thankYouContent .Turtle{
+        width: 100vw;
+        height: auto;
+    }
+    .Ty-page-ocean .maintyheadMobile{
+        display: block;
+        font-weight: 250;
+        font-size: 30px;
+        line-height: 45px;
+        /* identical to box height */
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        z-index: 2;
+        color: #48C1FF;
+    }
+    .Ty-page-ocean .maintyhead{
+        display: none;
+    }
+    .LoactionButtonDOM1M{
+        display: flex !important;
+        position: inherit !important;
+        bottom: none !important;
+        justify-content: center !important;
+        right: none !important;
+        margin-top: 30px;
+    }
+    .LoactionButtonDOM1D{
+        display: none !important;
+    }
+    .Ty-page-ocean .thankYouContent{
+        margin-left: 20px;
+        padding-top: 150px;
+        width: calc(100vw - 40px);
+    }
+    .Ty-page-ocean{
+        min-height: 100vh;
+        overflow: hidden;
+        height: auto;
+        padding-bottom: 40px;
+        max-height: none;
+    }
+    .extraNote{
+        width: calc(100vw - 40px);
+        margin-left: 20px;
+        position: inherit;
+        justify-content: space-around;
+        bottom: auto !important;
+        padding: 15px;
+    }
+    .thankYouContent .ResponseUpdate h4{
+        margin-top: 30px;
+        text-align: center;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .checkoutss p, .extraNote p{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .ResponseUpdate .checkoutss{
+        margin-bottom: 20px;
+    }
+    .extraNote h4{
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+}

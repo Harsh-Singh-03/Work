@@ -1,0 +1,41 @@
+[
+            {
+                "id":"material",
+                "name":"ABS (Acrylonitrile Butadiene Styrene)"
+            },
+            {
+                "id":"material",
+                "name":"PLA (Polylactic acid)"
+            },
+            {
+                "id":"material",
+                "name":"PC (Polycarbonate)"
+            },
+            {
+                "id":"material",
+                "name":"Nylon"
+            },
+            {
+                "id":"material",
+                "name":"LayWood"
+            },
+            {
+                "id":"material",
+                "name":"BendLAY"
+            },
+            {
+                "id":"material",
+                "name":"TPE (Thermoplastic elastomer)"
+            },
+            {
+                "id":"material",
+                "name":"SoftPLA"
+            },
+            {
+                "id":"material",
+                "name":"HIPS (High-impact Polystyrene)"
+            }
+            
+        ]
+       
+    

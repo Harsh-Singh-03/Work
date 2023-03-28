@@ -1,0 +1,519 @@
+@media screen and (max-width: 1200px) {
+    .oceanNavigation1{
+        padding: 0 20px;
+    }
+    .oceanSection1 .steamboat{
+        top: 50%;
+    }
+    .oceanSection8 .Section8HEad{
+        margin-left: 20px;
+    }
+   .coolBlogofocean .owl-theme .owl-dots{
+    margin-left: 0px !important;
+    }
+    .LoactionButtonDOM1 .buttontypeDIv1{
+        padding: 10px 30px;
+    }
+    .oceanSection7 .trserorBox .huntTresor{
+        max-width: 120px;
+    }
+    .listOfTreseror .T1{
+        width: 60px;
+        height: 58px;
+    }
+    .oceanSection3 .typeoftrash .trashDevider{
+        margin: 0 50px;
+    }
+    .oceanSection3 .typeoftrash{
+        justify-content: space-evenly;
+    }
+    .solvetheChallenge .descriptionofsol, .LhsDesc1{
+        margin-left: 20px;
+    }
+    .trserorBox .h2-treseror{
+        font-size: 30px;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+    .trserorBox .h4-treseror{
+        font-size: 14px;
+        line-height: 100%;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+    .EventVideo #iframeVideo{
+        width: 80%;
+        height: 60vw;
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 800px) {
+.Ocean_challengeDOM{
+    width: 100vw;
+}
+.oceanNavigation{
+    height: 60px;
+}
+.trserorBox .h2-treseror{
+    font-size: 16px;
+    top: calc(20% + 10px);
+}
+.trserorBox .h4-treseror{
+    top: 20%;
+    font-size: 8px;
+   
+}
+    .Ocean_challengeDOM .oceanSection1{
+        height: auto;
+        min-height: auto;
+    }
+    .oceanSection2 .buttonParticipateM{
+        display: block;
+        top: -0%;
+    }
+    .oceanSection1 .oceanS1bg{
+        height: 100%;
+    }
+    .oceanSection1 .dolphins{
+        width: 50%;
+        bottom: -8%;
+        right: -5%;
+    }
+    .oceanSection1 .steamboat{
+        top: auto;
+        width: 40%;
+        bottom: 20%;
+    }
+    .oceanSection1 .deskoceanS1bg{
+        display: none;
+    }
+    .oceanSection1 .MoboceanS1bg{
+        display: block;
+        width: 100vw;
+        
+    }
+    .oceanNavigation1 #participate{
+        display: none !important;
+    
+    }
+    .oceanSection1 .LoactionButtonDOM1, .oceanSection8 .LoactionButtonDOM{
+        width: 100vw;
+        justify-content: center;
+        bottom: 5%;
+        flex-wrap: wrap;
+        right: inherit;
+    }
+    .oceanSection1 .LoactionButtonDOM1{
+        bottom: 0%;
+    }
+
+    .fa-anchor{
+        font-size: 20px;
+        left: calc(50% - 10px);
+    }
+    .buttontypeDIv1 .buttonDash1{
+        height: 15px;
+    margin: 0 5px;
+    }
+    .LoactionButtonDOM1 .buttontypeDIv1, .LoactionButtonDOM .buttontypeDIv{
+        margin-right: 7px;
+        padding: 5px 10px;
+        border-top: 2px solid #ffffff ;
+        margin-bottom: 7px;
+    }
+    .buttontypeDIv1 p, .buttontypeDIv p{
+        font-size: 12px;
+    }
+  
+    .buttontypeDIv1 i, .buttontypeDIv i{
+        font-size: 12px;
+    }
+     .oceanNavigation1{
+        padding: 0px;
+        padding-left: 20px;
+    }
+    .oceanNavigation1 .BrandLOGO h4{
+        font-size: 10px;
+    }
+    .oceanNavigation1 button{
+        padding: 5px 8px;
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    .oceanNavigation1 #participateimg{
+        display: block;
+    }
+    .oceanNavigation1 .BrandLOGO img{
+        width: 40px;
+        height: 35px;
+    }
+    .oceanSection2 .coolBlogofocean .coolBlogofoceanbox{
+        padding: 20px 10px;
+        margin: 0 10px;
+        width: 300px;
+        margin-bottom: 20px;
+        height: 230px;
+    }
+    .coolBlogofocean .coolBlogofoceanbox p{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .oceanSection2 .deadliestTrash, .oceanSection9 .deadliestTrash, .deadliestTrash{
+        font-size: 15px !important;
+        line-height: 20px;
+        margin: 0 13px;
+    }
+    .oceanSection2 .LineDIvider, .oceanSection9 .LineDIvider1{
+        width: 25%;
+    }
+     .EventVideo .videoofevent, .EventVideo #iframeVideo{
+        width: 90%;
+        height: 60vw;
+    }
+  
+    .solvetheChallenge .descriptionofsol{
+        margin-left: 20px;
+        margin-top: 121;
+        max-width: none;
+        width: calc(100vw - 40px);
+        z-index: 3;
+    }
+    .oceanSection4 .bottombarFriends{
+        width: calc(100vw - 40px);
+
+    }
+    .oceanSection4 .solvetheChallenge{
+        flex-direction: column;
+    }
+    .solvetheChallenge .descriptionofsol h4{
+        font-size: 10px;
+        line-height: 15px;
+        margin-bottom: 0px;
+    }
+    .solvetheChallenge .descriptionofsol h1{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .solvetheChallenge .descriptionofsol p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .solvetheChallenge .descriptionofsol .Pt1{
+        font-size: 12px;
+        line-height: 18px;
+        margin-left: 11px !important;
+    }
+    .oceanSection9 h2{
+        margin-left: 20px;
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .oceanSection9 h1{
+        margin-left: 20px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .coolSliderofocean .coolSliderofoceanbox{
+        width: 250px;
+        height: 300px;
+        margin: 0 15px;
+        margin-bottom: 20px;
+    }
+    .coolSliderofocean .coolSliderofoceanbox .image2{
+        width: 80px;
+        height: 80px;
+    }
+    .oceanSection8 .MapIndia{
+        width: 70%;
+        height: auto;
+        max-height: 500px;
+    }
+    .oceanSection8 .Section8HEad h2{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .oceanSection8 .Section8HEad p{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .IframeForm{
+        height: 750px
+    }
+     .IframeForm iframe{
+        width: 100%;
+    }
+    .oceanSection7 .trserorBox .trserorBoxImg{
+        margin: 0px;
+        width:  100%;
+        height: auto;
+    }
+    .oceanSection7 .trserorBox .listOfTreseror{
+        margin-top: 0px;
+        flex-direction: column;
+    }
+    .oceanSection7 .trserorBox .huntTresor{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+
+    }
+    .oceanSection7 .trserorBox .T1{
+        width: 50px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    .listOfTreseror span{
+        margin: 0 10px;
+    }
+    .oceanSection7 .trserorBox{
+        padding-bottom: 20px;
+        border-radius: 12px;
+        width: calc(100vw - 40px);
+        margin: 40px 20px;
+        
+    }
+    .oceanSection3 .EventVideo .playbutton{
+        width: 50px;
+        height: 50px;
+        top: calc(50% - 40px);
+    }
+    .newFooterr{
+        padding: 0 20px;
+        height: 100px;
+        padding-bottom: 50px;
+    }
+    .oceanSection3 .typeoftrash .trashDevider{
+        margin: 0 10px;
+        height: 50px;
+    }
+    .typeoftrash .trashSection .trashIMG{
+        width: 25px;
+        height: auto;
+    }
+    .typeoftrash .trashSection .trashHead{
+        font-size: 12px;
+        margin-bottom: 0px;
+        line-height: 25px;
+    }
+    .typeoftrash .trashSection .trashPara{
+        font-size: 9px;
+        line-height: 13px;
+    }
+    .oceanSection3 .typeoftrash{
+        padding: 40px 0px;
+        padding-bottom: 50px;
+        justify-content: space-evenly ;
+    }
+    .oceanSection4 .Imagesofdivers .diver1{
+        width: 50vw;
+        height: auto;
+        top: 2%;
+    }
+    .oceanSection4 .Imagesofdivers .diver2{
+        width: 40vw;
+        height: auto;
+        display: none;
+        bottom: -38%;
+    }
+    .fishImge1{
+        width: 25vw;
+    }
+    .oceanSection4 .section4bgimg{
+        height: 102%;
+    }
+    .collection1Desk{
+        display: none !important;
+    }
+    .collection1Mob{
+        display: block !important;
+    }
+    .challengesnPrize1 .prixeImgDom img{
+        margin: 0 20px;
+        width: calc(100% - 40px);
+    }
+    .challengesnPrize1 .prixeImgDom{
+        display: block;
+        height: auto;
+    }
+    .challengesnPrize1{
+        flex-direction: column-reverse;
+    }
+    .LhsDesc1{
+        width: calc(100vw - 20px);
+        display: grid;
+        place-items: left;
+        margin-left: 20px;
+    }
+    .LhsDesc1 h2{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .LhsDesc1 h1{
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .LhsDesc1 p{
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center;
+    }
+    .progressBarLevl .blankblur{
+        width: 15px;
+        height: 15px;
+    }
+    .progressBarLevl .blankblur1{
+        width: 20px;
+        height: 20px;
+    }
+    .progressBarLevl button{
+        padding: 5px 0px;
+        width: 100px;
+        font-size: 10px;
+    }
+    .progressBarLevl p{
+        margin-left: 40px;
+    margin-top: 5px;
+    font-size: 10px;
+    margin-bottom: 0px !important;
+    text-align: left;
+    line-height: 14px;
+    width: calc(100vw - 80px);
+    }
+    .newdflex{
+        display: flex;
+        margin-top: 20px !important;
+    }
+    .oceanSection5 .instructions{
+        width: calc(100vw - 40px);
+    height: 80px;
+    }
+    .oceanSection5 .instructions span{
+        font-size: 10px;
+        line-height: 13px;
+    }
+    .oceanSection5 .instructions p{
+        font-size: 20px;
+    }
+    .oceanSection5 .descriptuonRobot h1{
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .oceanSection5 .descriptuonRobot p{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .newnewDflex{
+        transform: translateY(0px);
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-left: 20px;
+        width: 100vw;
+    }
+    .oceanSection5 .ImageSub{
+        margin-right: 0px;
+        width: calc(100vw - 40px);
+        margin-top: 40px;
+    }
+    .Ocean_challengeDOM .oceanSection5 .section5bgimg{
+        top: 0px;
+    }
+    .fishj22{
+        width: 30vw;
+    }
+    .oceanSection1 .newbannersection{
+        display: grid;
+        place-items: center;
+        width: 100%;
+        margin-top: 140px;
+    }
+    .newbannersection p, .letsdive{
+        letter-spacing: 0.52em;
+        text-transform: uppercase;
+        font-size: 12px;
+        text-align: center;
+        font-weight: 400;
+        color: #00324E;
+    }
+    .newbannersection img{
+        width: 70%;
+    }
+    .letsdive{
+        margin-top: 60px;
+    }
+    .newbannersection h5{
+        font-size: 12px;
+        line-height: 17px;
+        margin-top: 10px;
+    }
+    .newbannersection span{
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center;
+        margin: 30px 0;
+        margin-top: 5px;
+        color: #202020;
+    
+    }
+    #bottombarlink{
+        position: fixed !important;
+        width: 100vw !important;
+        left: 0;
+        /* background: #fff; */
+        display: block;
+        height: 50px;
+        display: grid;
+        border-radius: 20px 20px 0px 0px;
+        place-items: center;
+        text-transform: uppercase;
+        font-weight: 500;
+        z-index: 50;
+        font-size: 14px;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        color: #fff;
+        overflow: hidden;
+        bottom: 0 !important;
+        z-index: 1;
+    }
+    #bottombarlink img{
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        z-index: -1;
+    }
+    #bottombarlinkdesk{
+        display: none;
+    }
+}
+@media screen and (max-width: 500px) {
+    .buttontypeDIv1 p, .buttontypeDIv p{
+        font-size: 12px;
+    }
+    .buttontypeDIv1 i, .buttontypeDIv i{
+        font-size: 12px;
+    }
+    .oceanSection1 .dolphins{
+        width: 50%;
+        bottom: 15%;
+        right: -5%;
+    }
+    .oceanSection7 .trserorBox .T1{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .buttontypeDIv1 p, .buttontypeDIv p{
+        font-size: 10px;
+    }
+    .buttontypeDIv1 i, .buttontypeDIv i{
+        font-size: 10px;
+    }
+}

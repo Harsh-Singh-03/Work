@@ -1,0 +1,35 @@
+    [
+        {
+            "name": "Harsh Singh",
+            "image": "/image/harsh.jpg",
+            "post": "Developer"
+        },
+     
+        {
+            "name": "Aanchal Gupta",
+            "image": "/image/aanchal.jpg",
+            "post": "Designer"
+        },
+        {
+            "name": "Gulfsan Saheen",
+            "image": "/image/gulafsan.jpg",
+            "post": "Designer"
+        },
+        {
+            "name": "Inish Bhadra",
+            "image": "/image/inish1.jpg",
+            "post": "Developer"
+        },
+        {
+            "name": "Suvadip Das",
+            "image": "/image/Suvodip.jpg",
+            "post": "Engineer"
+        },
+        {
+            "name": "Himangshu Das",
+            "image": "/image/himangshu.webp",
+            "post": "Engineer"
+        }
+
+
+    ]

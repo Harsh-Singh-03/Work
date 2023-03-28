@@ -1,0 +1,1000 @@
+.Ocean_challengeDOM{
+    width: 100vw;
+    max-width: 1440px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+.Ocean_challengeDOM .mainBannnerBG{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.oceanSection2 .buttonParticipateM{
+    display: none;
+    background: #FFFFFF;
+    border-radius: 4px; 
+    width: 70vw;
+    padding: 8px 0;
+    margin: 0 15vw;
+    position: absolute;
+    top: 30px;
+    margin-bottom: 1px;
+    font-weight: 800;
+    font-size: 12px;
+    z-index: 3;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #003358;
+}
+::-webkit-scrollbar-X{
+    opacity: 0;
+}
+.oceanSection1 .deskoceanS1bg{
+    display: block;
+}
+.oceanSection1 .newbannersection{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    /* position: absolute; */
+    /* top: 30%; */
+    margin-top: 200px;
+}
+.newbannersection p, .letsdive{
+    letter-spacing: 0.52em;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: #00324E;
+}
+.oceanNavigation1 #participateimg{
+    display: none;
+    height: 25px;
+    margin-right: 10px;
+    width: 25px;
+    border-radius: 50%;
+}
+.newbannersection img{
+    width: 70%;
+}
+.letsdive{
+    margin-top: 60px;
+}
+.newbannersection h5{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.6em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.newbannersection span{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin: 30px 0;
+    margin-top: 5px;
+    color: #202020;
+
+}
+.oceanSection1 .MoboceanS1bg{
+    display: none;
+}
+.Ocean_challengeDOM .oceanSection{
+    opacity: 0.2;
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+.Ocean_challengeDOM .activereveal{
+    opacity: 1;
+    transform: scale(1);
+    transition: 1s ease;
+}
+ .oceanNavigation{
+    width: 100vw;
+    max-width: 1440px;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    /* left: 0; */
+    /* background: rgba(0, 0, 0, 0.3); */
+    z-index: 6;
+}
+#bottombarlink{
+    display: none;
+}
+#bottombarlinkdesk{
+    display: block;
+}
+ .oceanNavigation1{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 72px;
+    padding-right: 95px;
+    align-items: center;
+    z-index: 5;
+}
+.oceanNavigation1 .BrandLOGO img{
+    width: 65px;
+    height: 53px;
+    z-index: 5 !important;
+}
+.oceanNavigation1 button{
+    outline: none;
+    background: #FFFFFF;
+    border: 2px solid #286080;
+    border-radius: 4px;
+    font-weight: 700;
+    margin-right: 30px;
+    padding: 7px 20px;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #286080;
+    cursor: pointer;
+    z-index: 5 !important;
+}
+.oceanNavigation1 .BrandLOGO h4{
+    font-weight: 700;
+font-size: 18px;
+margin-bottom: 0px;
+line-height: 21px;
+
+color: #FFFFFF;
+}
+ /* .oceanNavigation1::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+opacity: 1;
+z-index: 1;
+} */
+.Ocean_challengeDOM .oceanSection1{
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    overflow: hidden;
+    max-height: 1000px;
+    position: relative;
+    z-index: 2;
+}
+
+.oceanSection1 .dolphins{
+    width: 25%;
+    animation: Landing1 1s ease-out;
+    animation-iteration-count: 1;
+    height: auto;
+    position: absolute;
+    right: 0%;
+    bottom: 11%;
+}
+.oceanSection1 .steamboat{
+    width: 25%;
+    animation: Landing1 1s ease-out;
+    animation-iteration-count: 1;
+    height: auto;
+    position: absolute;
+    left: 0%;
+    top: calc(50% - 5%);
+}
+.Ocean_challengeDOM .oceanSection2{
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    /* min-height: 800px !important; */
+}
+.oceanSection2 .coolBlogofocean{
+    display: flex;
+    position: relative;
+    /* z-index: 2; */
+}
+.coolBlogofocean .Ttileblog{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #FFFFFF;
+    /* pointer-events: none */
+}
+.oceanSection2 .coolBlogofocean .coolBlogofoceanbox{
+    width: 400px;
+    height: 300px;
+    padding: 40px 17px;
+    position: relative;
+    display: flex;
+    margin: 30px 15px;
+    pointer-events: all !important;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.38) -33.5%, rgba(255, 255, 255, 0) 137.17%);
+    /* z-index: 2; */
+}
+.oceanSection2 .deadliestTrash, .oceanSection9 .deadliestTrash, .deadliestTrash {
+    font-size: 34px;
+    line-height: 40px;
+    margin: 0 30px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.oceanSection2 .LineDIvider, .oceanSection9 .LineDIvider1, .LineDIvider{
+    width: 30%;
+    height: 2px;
+    background: #fff;
+}
+.oceanSection2 .circulerDIvider,.oceanSection9 .circulerDIvider, .circulerDIvider{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+}
+.coolBlogofocean .coolBlogofoceanbox img{
+    width: 50%;
+    height: 100%;
+    border-radius:3%;
+    margin-right: 17px;
+    z-index: 1 !important;
+}
+.coolBlogofocean .coolBlogofoceanbox p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+.coolBlogofocean .coolBlogofoceanbox button{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    width: calc(50% - 34px);
+    height: 30px;
+    position: absolute;
+    right: 17px;
+    bottom: 40px;
+    outline: none;
+    background: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    color: #003358;
+    z-index: 1 !important;
+}
+.Ocean_challengeDOM .oceanSection3, .Ocean_challengeDOM .oceanSection4{
+    width: 100%;
+    position: relative;
+    height: auto;
+    z-index: 1;
+}
+.oceanSection3 .typeoftrash{
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px;
+    align-items: center;
+}
+
+.oceanSection3 .typeoftrash .trashSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.typeoftrash .trashSection .trashIMG{
+    width: 50px;
+    height: auto;
+}
+.typeoftrash .trashSection .trashHead{
+    font-weight: 700;
+font-size: 30px;
+line-height: 140.69%;
+/* or 42px */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.oceanSection3 .typeoftrash .trashDevider{
+    width: 2px;
+    margin: 0 100px;
+    height: 100px;
+    background: #fff;
+}
+.typeoftrash .trashSection .trashPara{
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 0px;
+    /* or 42px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.oceanSection3 .EventVideo, .EventVideo{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 40px;
+}
+.oceanSection3 .EventVideo .playbutton{
+    position: absolute;
+    top: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    z-index: 2;
+    cursor: pointer;
+    pointer-events: none;
+    display: none;
+}
+.activereveal .EventVideo .playbutton{
+    animation: glow 2s ease-in-out;
+    animation-iteration-count: 1;
+    display: block;
+    opacity: 0;
+
+}
+@keyframes glow {
+    0% {
+        display: block !important;
+        opacity: 1;
+        transform: scale(1);
+    }
+    100%{
+        display: block !important;
+        opacity: 1;
+        transform: scale(1.5);
+    }
+}
+ .EventVideo .videoofevent{
+    width: 70%;
+    height: auto;
+    z-index: 1;
+    /* min-height: 570px; */
+}
+.EventVideo #iframeVideo{
+    width: 70%;
+    height: auto;
+    z-index: 1;
+    min-height: 570px;
+}
+.oceanSection4 .solvetheChallenge{
+    display: flex;
+}
+.solvetheChallenge .descriptionofsol{
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 100px;
+    max-width: 615px;
+}
+.solvetheChallenge .descriptionofsol h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+
+}
+.solvetheChallenge .descriptionofsol h1{
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 64px;
+    margin-bottom: 0px;
+    color: #F9F9F9;
+
+}
+.oceanSection4 .bottombarFriends{
+    width: 615px;
+    height: 2px ;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.solvetheChallenge .descriptionofsol p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    z-index: 2;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+/* .oceanSection4 .Imagesofdivers{
+    position: relative;
+} */
+.oceanSection4 .Imagesofdivers .diver1{
+    position: absolute;
+    right: 0%;
+    height: 225px;
+    width: 400px;
+    top: 10%;
+}
+.oceanSection4 .Imagesofdivers .diver2{
+    position: absolute;
+    /* right: 0%; */
+    /* bottom: -15%; */
+    left: 50%;
+    z-index: 1;
+    bottom: -20%;
+    height: 400px;
+    width: 500px;
+    
+}
+.Ocean_challengeDOM .oceanSection5{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+.oceanSection5 .ImageSub{
+    width: 60%;
+    max-width: 650px;
+    margin-right: 110px;
+}
+.oceanSection5 .descriptuonRobot{
+    margin-right: 50px;  
+}
+.oceanSection5 .descriptuonRobot h1{
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 64px;
+    text-transform: uppercase;
+
+    color: #F9F9F9;
+}
+.oceanSection5 .descriptuonRobot p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+}
+.oceanSection5 .instructions{
+    width: 500px;
+    height: 120px;
+    background: #011C4D;
+    margin-bottom: 40px;
+    padding: 20px;
+    /* opacity: 0.6; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid #051ED6;
+}
+.oceanSection5 .instructions p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    margin-right: 40px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+.oceanSection5 .instructions span{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    opacity: 0.8;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+.oceanSection5 .ImageSub img{
+    width: 100%;
+    height: auto;
+}
+.Ocean_challengeDOM #oceanSection6{
+    width: 100%;
+    position: relative;
+    height: auto;
+    z-index: 1;
+    overflow: hidden;
+}
+#oceanSection6 .challengesnPrize{
+    display: flex;
+}
+.challengesnPrize1{
+    display: flex;
+    align-items: center;
+}
+.challengesnPrize1 .prixeImgDom{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 600px;
+}
+.challengesnPrize1 .prixeImgDom img{
+    width: 50%;
+    margin-right: 100px;
+    height: 100%;
+}
+.LhsDesc1{
+    width: 70%;
+    max-width: 650px;
+    margin-left: 50px;
+
+}
+.LhsDesc1 h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    color: #F9F9F9;
+}
+.LhsDesc1 h1{
+    font-weight: 700;
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 70px;
+    text-transform: uppercase;
+
+    color: #48C1FF;
+}
+.LhsDesc1 p{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+ .progressBarLevl .blankblur{
+    background: rgba(61, 151, 233, 0.5);
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    /* border: 0.5px solid rgba(47, 235, 255, 0.5); */
+}
+ .progressBarLevl .blankblur1{
+    /* background: rgba(61, 151, 233, 0.5); */
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    border: 0.5px solid rgba(47, 235, 255, 0.5);
+    margin-right: 20px;
+}
+ .progressBarLevl p{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #FFFFFF;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.collection1Desk{
+    display: block !important;
+}
+.newdflex{
+    display: flex;
+    margin-top: 50px;
+}
+.collection1Mob{
+    display: none !important;
+}
+ .progressBarLevl button{
+    border: none;
+    outline: none;
+    background: rgba(89, 141, 232, 0.15);
+    border: 2px solid #1F5696;
+    border-radius: 4px;
+    padding: 8px 0px;
+    width: 150px;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+.Ocean_challengeDOM .oceanSection7{
+    width: 100%;
+    position: relative;
+    height: auto;
+    z-index: 1;
+    overflow: hidden;
+}
+.oceanSection7 .trserorBox{
+   margin: 10px auto;
+   margin-top: 80px;
+   width: calc(100% - 60px);
+   height: auto;
+    max-width: 1242px;
+    max-height: 962px;
+    /* background: linear-gradient(109.46deg, rgba(201, 201, 201, 0.24) 1.57%, rgba(196, 196, 196, 0.03) 100%); */
+    /* border: 2px solid #FFFFFF; */
+    /* box-shadow: 8px 8px 16px #2F1726, -4px -4px 8px rgba(0, 0, 0, 0.22); */
+    /* backdrop-filter: blur(4.5px); */
+    border-radius: 27px;
+    /* Note: backdrop-filter has minimal browser support */
+    position: relative;
+}
+.oceanSection7 .trserorBox .trserorBoxImg{
+    /* margin: 0 121px; */
+    margin-top: 71px;
+    width: 100%;
+    height: auto;
+}
+.trserorBox .h4-treseror{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    width: 400px;
+    top: 30%;
+    left: calc(50% - 200px);
+}
+.trserorBox .h2-treseror{
+    font-weight: 700;
+    width: 600px;
+    font-size: 40px;
+    
+    position: absolute;
+    top: calc(30% + 30px);
+    left: calc(50% - 300px);
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+.oceanSection7 .trserorBox .huntTresor{
+    /* display: none !important; */
+    max-width: 200px;
+}
+.oceanSection7 .trserorBox .listOfTreseror{
+    background: #321942;
+    /* opacity: 0.6; */
+    margin-top: 100px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    z-index: 3;
+    justify-content: space-around;
+    align-items: center;
+}
+.listOfTreseror .T1{
+    width: 100px;
+    height: 90px;
+    z-index: 2;
+    opacity: 1;
+}
+.listOfTreseror span{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 40px;
+    color: #fff;
+    z-index: 3;
+    
+}
+.Ocean_challengeDOM .oceanSection8{
+    width: 100%;
+    position: relative;
+    height: auto;
+    z-index: 1;
+    overflow: hidden;
+}
+.oceanSection8 .Section8HEad{
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.oceanSection8 .Section8HEad p{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.oceanSection8 .MapIndia{
+    margin-top: 60px;
+    max-height: 700px;
+}
+.oceanSection8 .Section8HEad h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    color: #F9F9F9;
+}
+.oceanSection8 .Section8HEad .SectionnnDivider{
+    margin-top: 30px;
+    width: 50%;
+    height: 2px;
+    background: #fff;
+}
+.oceanSection8 .LoactionButtonDOM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.oceanSection1 .LoactionButtonDOM1, .LoactionButtonDOM1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    bottom: 10%;
+    right: 1%;
+}
+.oceanSection1 .LoactionButtonDOM1{
+    position: inherit;
+    justify-content: center;
+    bottom: 0%;
+}
+.LoactionButtonDOM1 .buttontypeDIv1{
+    display: flex;
+    align-items: center;
+    background: rgb(13 24 34 / 47%);
+    border-top: 4px solid #FFFFFF;
+    justify-content: center;
+    padding: 15px 50px;
+    color: #fff;
+    margin-right: 30px;
+}
+.fa-anchor{
+    position: absolute;
+    bottom: 5vh;
+    font-size: 50px;
+    color: #fff;
+    left: calc(50% - 25px);
+    animation: goingdown 2s ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+@keyframes goingdown {
+    0%{
+        bottom: 5vh;
+    }
+    100%{
+        bottom: 15vh;
+    }
+}
+.buttontypeDIv1 .buttonDash1{
+    width: 1px ;
+    height: 20px ;
+    margin: 0 10px;
+    background: #fff;
+}
+.buttontypeDIv1  p{
+    margin-bottom: 0px !important;
+}
+.LoactionButtonDOM .buttontypeDIv{
+    background: rgba(89, 141, 232, 0.3);
+    border: 2px solid #0282C9;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-right: 30px;
+    justify-content: center;
+}
+.LoactionButtonDOM .buttontypeDIv .buttonDash{
+   width: 1px ;
+   height: 15px ;
+   margin: 0 10px;
+   background: #fff;
+}
+.LoactionButtonDOM .buttontypeDIv p{
+margin-bottom: 0px;
+/* margin: 0 5px; */
+}
+.Ocean_challengeDOM .oceanSection9{
+    width: 100%;
+    position: relative;
+    height: auto;
+    z-index: 1;
+    overflow: hidden;
+}
+.coolSliderofocean .coolSliderofoceanbox{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    margin: 0 25px;
+    margin-bottom: 40px;
+}
+.coolSliderofocean .coolSliderofoceanbox .image1{
+    width: 100%;
+    height: 100%;
+}
+.coolSliderofocean .coolSliderofoceanbox .image2{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 160px;
+    height: 160px;
+}
+.newnewDflex{
+    /* style={{ alignItems: "center", justifyContent: "space-between", transform: "translateY(-30px)" } */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: translateY(-30px)
+}
+.oceanSection9 h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #FFFFFF;
+    }
+.oceanSection9 h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+    margin-left: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+
+    color: #48C1FF;
+    }
+    .Ocean_challengeDOM .oceanSection10{
+        width: 100%;
+        position: relative;
+        height: auto;
+        z-index: 1;
+        overflow: hidden;
+    }
+     .IframeForm{
+        width: 100%;
+        height: 600px;
+        display: flex;
+
+        justify-content: center;
+    }
+     .IframeForm iframe{
+        width: 70%;
+        height: 100%;
+    }
+    .oceanSection10 .seectionDevider{
+        width: 80%;
+        margin: 0 10%;
+        height: 1px ;
+        background: #fff;
+        /* margin-bottom: 200px; */
+    }
+    .newFooterr {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+        max-width: 1440px;
+        height: 200px;
+        padding: 0 72px;
+    }
+@keyframes Landing {
+    0%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes Landing1 {
+    0%{
+        transform: scale(1.2);
+        /* transform: translate(100px, 100px); */
+    }
+    100%{
+        transform: scale(1);
+        /* transform: translate(0px, 0px); */
+    }
+}
+@keyframes Landing2 {
+    0%{
+        opacity: 0;
+        height: 0px;
+    }
+    100%{
+        opacity: 1;
+        height: auto;
+    }
+}
+@keyframes Landing3 {
+    0%{
+        transform: translateX(-80px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+.coolBlogofocean .owl-theme .owl-nav{
+    position: absolute;
+    bottom: -35px;
+    /* width: calc(90vw - 330px); */
+    /* max-width: 970px; */
+    /* background: red; */
+    width: 200px;
+    left: calc(50% - 100px);
+    display: flex;
+    pointer-events: none;
+    justify-content: space-between;
+}
+.coolBlogofocean .owl-carousel .owl-nav button.owl-prev, .coolBlogofocean .owl-carousel .owl-nav button.owl-next{
+    color: #fff;
+    display: block;
+    border: none;
+    width: auto;
+    height: auto;
+    font-size: 70px;
+    cursor: pointer;
+    pointer-events: all;
+    z-index: 10;
+    background: transparent !important;
+    padding: 0 !important;
+}
+.coolBlogofocean .owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: transparent;
+    border: 2px solid #fff;
+    /* box-shadow: inset -2px -2px 6px #FFFFFF, inset 2px 2px 3px rgba(151, 167, 195, 0.5); */
+    display: block;
+    backface-visibility: visible;
+    transition: opacity 200ms ease;
+    border-radius: 30px;
+}
+.coolBlogofocean .owl-theme .owl-dots .owl-dot.active span, .coolBlogofocean .owl-theme .owl-dots .owl-dot:hover span {
+    /* background: #869791; */
+    position: relative;
+    background: #fff;
+    z-index: 1;
+}
+.coolBlogofocean .owl-theme .owl-dots .owl-dot.active span::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    width: 10px;
+    height: 2px;
+    background: #fff;
+    z-index: -1;
+}
+
+/*  */

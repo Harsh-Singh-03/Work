@@ -1,0 +1,560 @@
+.totheTopScroll{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    bottom: 10%;
+    right: calc((100% - 1440px)/2);
+    cursor: pointer;
+    z-index: 100;
+    opacity: 0;
+    box-shadow: 4px 4px 8px rgba(151, 167, 195, 0.5), -4px -4px 8px #FFFFFF;
+    background: #F5F5F5;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.totheTopScrollFloating{
+    position: fixed;
+    right: auto;
+    /* padding: 10px; */
+    border-radius: 50%;
+    /* background: #51D015; */
+    left: calc((100% - 1440px)/2);
+    bottom: 8%;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    box-shadow: none;
+    z-index: 100;
+    /* width: 80px; */
+    /* overflow: hidden; */
+    /* height: 80px; */
+}
+.totheTopScrollFloating img{
+    color: #51D015;
+    border-radius: 50%;
+   width: 60px;
+    cursor: pointer;
+    z-index: 100;
+    padding: 5px;
+    overflow: hidden;
+}
+.totheTopScrollFloating i::before{
+    background: transparent !important;
+}
+.scrollVisible{
+    opacity: 1;
+}
+.totheTopScroll i{
+    font-size: 30px;
+
+    color: #000000;
+}
+.totheTopScroll:hover{
+    box-shadow: inset 4px 4px 8px rgba(151, 167, 195, 0.5), inset -4px -4px 8px #FFFFFF;
+}
+.totheTopScroll h6{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+.contentAbout {
+    position: absolute;
+    top: 140px;
+    font-weight: lighter;
+    height: 250px;
+    z-index: 1 !important;
+}
+.sectionAbout .imgContainer{
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    min-height: 270px;
+}
+.sectionAbout .imgContainer img {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+}
+.shadowheading{
+    position: relative;
+    display: inline;
+}
+.shadowheading::before{
+    content: "";
+    position: absolute;
+    bottom: 0%;
+    right: -10%;
+    height: 40%;
+    /* transform: skewX(20deg); */
+    width: 100%;
+    /* border-radius: 10px; */
+    background: linear-gradient(55deg, #df3c1c 10%, rgba(0,0,0,0) 10%), linear-gradient(65deg, #21517e 20%, rgba(0,0,0,0) 20%), linear-gradient(75deg, #176c8d 30%, rgba(0,0,0,0) 30%), linear-gradient(85deg, #2896a0 40%, rgba(0,0,0,0) 40%), linear-gradient(90deg, #94b5ae 50%,  rgba(0,0,0,0) 50%), linear-gradient(95deg, #f7e4be 60%, rgba(0,0,0,0) 60%), linear-gradient(105deg, #f6b67a 70%, rgba(0,0,0,0) 70%), linear-gradient(115deg, #eb7630 80%, rgba(0,0,0,0) 80%), linear-gradient(125deg, #df3c1c 90%, #21517e 90%);
+    opacity: 0.6;
+    z-index: -1;
+}
+.contentAbout .title {
+    margin: 20px;
+    color:#F5F5F5;
+    font-weight: 500;
+}
+
+.contentAbout .midHeading {
+    margin: 20px;
+    margin-top: 30px;
+    color: #000000;
+    position: relative;
+
+}
+
+.contentAbout .title {
+    opacity: 0;
+}
+.midHeading p{
+    width: 40vw;
+    max-width: 480px;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 15px;
+    margin-bottom: 0;
+}
+.contentAbout .midHeading .heading,.contentAbout .bannerHeading_c h2 {
+    font-size: 16px;
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-weight: 700;
+}
+.midHeading a{
+    text-decoration: none;
+}
+.contentAbout .midHeading .dropdownButton{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin: 10px;
+    margin-left: 0;
+    border-radius: 12px;
+}
+.contentAbout .midHeading .normalButton{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: #51D015;
+    color: #FFFFFF !important;
+    padding: 8px 16px;
+    font-size: 10px;
+    margin: 10px;
+    margin-left: 0;
+    box-shadow: 4px 4px 8px rgba(151, 167, 195, 0.5), -4px -4px 8px #FFFFFF;
+    border-radius: 3px;
+}
+.contentAbout .midHeading .servicebtnwithdisable{
+    background: #000000;
+    color: #FFFFFF !important;
+    padding: 8px 16px;
+    font-size: 10px;
+    box-shadow: 4px 4px 8px rgba(151, 167, 195, 0.5), -4px -4px 8px #FFFFFF;
+    border-radius: 12px;
+}
+.contentAbout .midHeading h4 {
+    font-size: 12px;
+    color: #97A7C3;
+}
+.contentAbout .bannerHeading_c h4{
+    font-size: 12px;
+    margin-bottom: 0px !important;
+    color: #000000;
+}
+.inputDOM {
+    margin-top: 10px;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.inputDOM span{
+    position: absolute;
+    font-size: 20px;
+    left: 220px;
+    top: calc(50% - 10px);
+    color: #000000;
+    pointer-events: none;
+}
+.inputDOM input {
+    background: #FFFFFF;
+    width: 120px;
+    height: 30px;
+    border: 1px solid rgba(20, 24, 31, 0.08);
+    box-sizing: border-box;
+    border-radius: 12px;
+    outline: none;
+    color: rgba(20, 24, 31, 0.48);
+}
+.inputDOM input::placeholder {
+    padding-left: 10px;
+    font-size: 10px;
+    color: rgba(20, 24, 31, 0.48);
+}
+.inputDOM i {
+    font-size: 10px;
+    color: rgba(20, 24, 31, 0.48);
+    cursor: pointer;
+    position: absolute;
+    transition: 1s ease;
+}
+.para {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+.para i {
+    font-size: 16px;
+}
+.para i::before {
+    color: white;
+    border-radius: 5px;
+    margin: 0 10px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.para p {
+    text-align: center;
+    color: #000000;
+    line-height: 24px;
+    font-weight: bold;
+    font-size: 12px;
+    max-width: 800px;
+}
+.blank {
+    width: 90%;
+    margin: 20px 5%;
+    border: 0.5px dashed #97A7C3;
+}
+.contentAbout .midHeading::before{
+    content: "";
+    position: absolute;
+    width: 22vw;
+    height: 22vw;
+    max-width: 300px;
+    max-height: 300px;
+    z-index: -1;
+    clip-path: circle(50.0% at 3% 50%);
+    opacity: 0.2;
+    transform: translateX(-20%);
+    background: #97A7C3;
+}
+@media screen and (max-width: 1440px){
+.totheTopScroll{
+    right: 2%;
+}
+.totheTopScrollFloating{
+    left: 2%;
+}
+.contentAbout .midHeading::after{
+        content: "";
+        position: absolute;
+        top: -4vw;
+        width: 30vw;
+        height: 30vw;
+        border-radius: 50%;
+        z-index: -1;
+        opacity: 0.3;
+        transform: translateX(-70%);
+       border: 1px solid black;
+    }
+}
+@media screen and ( min-width: 500px) {
+    .para p {
+        font-size: 14px;
+    }
+    .contentAbout .midHeading {
+        margin-left: 30px;
+    }
+    .inputDOM input{
+        width: 150px;
+        height: 35px;
+        border-radius: 10px;
+    }
+    .inputDOM i , .inputDOM input::placeholder{
+        font-size: 10px;
+    }
+    .inputDOM input::placeholder{
+        padding-left: 20px;
+    }
+    .contentAbout .midHeading .heading,.contentAbout .bannerHeading_c h2{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .contentAbout .midHeading h4, .contentAbout .bannerHeading_c h4 {
+        font-size: 12px;
+    }
+    .contentAbout .midHeading .normalButton{
+        font-size: 12px;
+        margin: 20px;
+        margin-left: 0;
+    }
+    .contentAbout .midHeading .dropdownButton{
+        margin: 20px;
+        margin-left: 0;
+    }
+    .contentAbout .midHeading .servicebtnwithdisable{
+        font-size: 12px;
+    }
+    .midHeading p{
+        font-size: 10px;
+        line-height: 18px;
+    }
+}
+@media screen and (min-width: 600px) {
+    .contentAbout {
+        top: 160px;
+    }
+    .sectionAbout .imgContainer{
+        min-height: 300px;
+    }
+    .inputDOM {
+        margin-top: 10px;
+    }
+    .inputDOM input{
+        width: 180px;
+        height: 40px;
+        border-radius: 14px;
+    }
+    .inputDOM i , .inputDOM input::placeholder{
+        font-size: 12px;
+    }
+    .inputDOM input::placeholder{
+        padding-left: 25px;
+    }
+    .para p {
+        font-size: 16px;
+    }
+
+    .contentAbout .midHeading {
+        margin-left: 40px;
+    }
+
+    .contentAbout .midHeading .heading, .contentAbout .bannerHeading_c h2 {
+        font-size: 1.6rem;
+        line-height: 30px;
+    }
+
+    .contentAbout .midHeading h4, .contentAbout .bannerHeading_c h4 {
+        font-size: 0.9rem;
+        margin-bottom: 8px;
+    }
+}
+@media screen and (max-width: 600px) {
+  
+    .contentAbout .midHeading .heading {
+         margin-bottom: 4px;
+    }
+
+}
+@media screen and (max-width: 800px) {
+    .inputDOM span{
+        font-size: 16px;
+        left: 128px;
+        top: calc(50% - 10px);
+    }
+    .totheTopScrollFloating{
+        left: 2%;
+        bottom: 18%;
+        width: 60px;
+        height: 60px;
+    }
+    .totheTopScrollFloating i{
+        font-size: 40px;
+    }
+    .contentAbout .bannerHeading_c h4{
+        margin-top: 10px !important;
+    }
+    .contentAbout {
+        top: 100px;
+    }
+    .totheTopScroll{
+        display: none;
+    }
+    .inputDOM #dropdownCat{
+        padding: 7px 14px;
+        font-size: 12px;
+        min-width: 150px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .contentAbout {
+        top: 85px;
+    }
+}
+@media screen and (min-width: 750px) {
+    .para {
+        margin-top: 50px;
+    }
+    .sectionAbout .imgContainer{
+        min-height: 400px;
+    }
+    .inputDOM input{
+        width: 220px;
+        height: 45px;
+        border-radius: 14px;
+    }
+    .inputDOM i , .inputDOM input::placeholder{
+        font-size: 12px;
+    }
+    .midHeading p{
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .inputDOM input::placeholder{
+        padding-left: 30px;
+    }  
+    .para p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .contentAbout .title {
+        font-size: 2.5rem;
+        opacity: 0;
+    }
+    .contentAbout .midHeading {
+        margin-left: 50px;
+        margin-top: 60px;
+    }
+    .contentAbout .midHeading h4,.contentAbout .bannerHeading_c h4 {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .contentAbout .midHeading .heading,.contentAbout .bannerHeading_c h2 {
+        font-size: 1.6rem;
+        line-height: 34px;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .sectionAbout .imgContainer{
+        min-height: 500px;
+    }
+    .contentAbout .midHeading .normalButton{
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .contentAbout .midHeading .servicebtnwithdisable{
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .contentAbout {
+        top: 170px;
+    }
+    .inputDOM input{
+        width: 260px;
+        height: 50px;
+        border-radius: 16px;
+    }
+    .midHeading p{
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .contentAbout .midHeading {
+        margin-left: 60px;
+        margin-top: 70px;
+    }
+    .sectionAbout .imgContainer{
+        min-height: 400px;
+    }
+}
+@media screen and (min-width: 940px) {
+    .contentAbout .midHeading {
+        margin-left: 70px;
+        margin-top: 80px;
+    }
+    .inputDOM input{
+        width: 300px;
+    }
+    .midHeading p{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .contentAbout .midHeading h4,.contentAbout .bannerHeading_c h4 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+    .contentAbout .midHeading .heading, .contentAbout .bannerHeading_c h2 {
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 0.1rem;
+    }
+    .sectionAbout .imgContainer{
+        min-height: 600px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .contentAbout .title {
+        margin: 0;
+    }
+    .totheTopScrollFloating i{
+        font-size: 30px;
+    }
+    .totheTopScrollFloating{
+        bottom: 20%;
+        right: 2%;
+        left: auto;
+        width: 50px;
+        height: 50px;
+    }
+    .inputDOM span{
+        font-size: 14px;
+        left: 109px;
+    }
+    .para{
+        margin-top: 20px;
+    }
+    .contentAbout {
+        top: 75px;
+    }
+    .sectionAbout .imgContainer{
+        min-height: 190px;
+    }
+    .midHeading p{
+        font-size: 8px;
+        line-height: 13px;
+    }
+    .inputDOM input{
+        width: 100px;
+        height: 25px;
+        border-radius: 10px;
+    }
+    .inputDOM i , .inputDOM input::placeholder{
+        font-size: 8px;
+    }
+    .inputDOM input::placeholder{
+        padding-left: 10px;
+    }
+    .contentAbout .midHeading .heading, .contentAbout .bannerHeading_c h2 {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .contentAbout .midHeading {
+        margin-top: 20px;
+    }
+    .contentAbout .midHeading h4,.contentAbout .bannerHeading_c h4{
+        font-size: 8px;
+    }
+    .para p{
+        line-height: 20px;
+    }
+    .contentAbout .midHeading .normalButton{
+        padding: 6px 12px;
+        font-size: 10px;
+    }
+    .contentAbout .midHeading .servicebtnwithdisable{
+        padding: 6px 12px;
+        font-size: 10px;
+    }
+
+}

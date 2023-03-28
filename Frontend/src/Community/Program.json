@@ -1,0 +1,38 @@
+[
+    {
+        "Title": "kindergarten",
+        "img": "/image/kinder.png",
+        "btn": [{"name": "Superhero Program", "link": "https://register.theyoungminds.org/kindergarten-superhero-program"}]
+        
+    },
+    {
+        "Title": "Primary",
+        "img": "/image/primary.png",
+        "btn": [{"name": "Superhero Program", "link": "https://register.theyoungminds.org/primary-superhero-program"},{"name": "CAREER CONSULTANcy", "link": "https://register.theyoungminds.org/primary-career-consultancy"}]
+        
+    },
+    {
+        "Title": "Secondary",
+        "img": "/image/secondary.png",
+        
+        "btn": [{"name": "Superhero Program", "link": "https://register.theyoungminds.org/secondary-superhero-program"},{"name": "CAREER CONSULTANcy", "link": "https://register.theyoungminds.org/career-consultancy"},{"name":"Student Exchange", "link": "https://register.theyoungminds.org/young-minds-student-exchange-program"}]
+    },
+    {
+        "Title": "Graduate",
+        "img": "/image/graduate.png",
+        "btn": [{"name": "Entrepreneurship", "link": "https://register.theyoungminds.org/graduate-entrepreneurship-program"},{"name": "Skill Development", "link": "https://register.theyoungminds.org/graduate-skill-development"},{"name":"Vocational Training", "link": "https://register.theyoungminds.org/graduate-vocational-training"},{"name":"Student Exchange", "link": "https://register.theyoungminds.org/graduate-student-exchange-program"}]
+        
+    },
+    {
+        "Title": "Professional",
+        "img": "/image/professional.png",
+        "btn": [{"name": "Entrepreneurship", "link": "https://register.theyoungminds.org/young-minds-entrepreneurship-program"},{"name": "Skill Development", "link": "https://register.theyoungminds.org/professional-skill-development"},{"name":"Vocational Training", "link": "https://register.theyoungminds.org/professional-vocational-training"},{"name":"Teacher Training", "link": "https://register.theyoungminds.org/teacher-training-program"}]
+        
+    },
+    {
+        "Title": "Retired",
+        "img": "/image/retired.png",
+        "btn": [{"name": "Back to School", "link": "https://register.theyoungminds.org/back-to-school"}]
+        
+    }
+]

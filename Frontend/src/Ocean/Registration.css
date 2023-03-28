@@ -1,0 +1,472 @@
+.OceanRegistration_ {
+    width: 100vw;
+    max-width: 1440px;
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    z-index: 2;
+}
+
+.OceanRegistration_ .RegistrationBg {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.OceanRegistration_ .formSection {
+    display: grid;
+    place-items: center;
+}
+
+.formSection .QrForm {
+    width: calc(50% - 140px);
+    margin-top: 180px;
+    margin-left: 100px;
+    margin-right: 40px;
+    height: auto;
+}
+
+.formSection .oceanActualForm {
+    margin-top: 100px;
+    height: 700px;
+    width: 50%;
+}
+
+.OceanRegistration_ .maintitle {
+    font-weight: 800;
+    margin-top: 17px;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.OceanRegistration_ .RobotKit {
+    display: flex;
+    z-index: 1;
+    position: relative;
+    width: calc(100% - 200px);
+    min-height: 200px;
+    margin: 50px 100px;
+   padding-right: 20px;
+}
+.RobotKit .Robotkitpng,
+.MiniRobotkit .Robotkitpng {
+    width: 50%;
+    height: auto;
+    margin-right: 70px;
+    transform: translate(30px, 30px);
+}
+
+.MiniRobotkit .Robotkitpng {
+    width: 50%;
+    height: auto;
+    transform: translate(30px, 60px);
+    margin-right: 60px;
+}
+.MiniRobotkit .RobotkitpngDesk{
+    display: block;
+}
+.MiniRobotkit .RobotkitMobile{
+    display: none;
+}
+.OceanRegistration_ .RobotKit::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    background: #B4DCFB;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    left: 0;
+}
+
+.RobotKit h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 0px;
+    /* line-height: 64px; */
+
+    color: #FFFFFF;
+}
+
+.RobotKit .blankDashing {
+    width: 20%;
+    height: 2px;
+    background: #fff;
+    margin: 30px 0;
+}
+
+.RobotKit p {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 173.5%;
+    /* or 26px */
+
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
+
+.OceanRegistration_ .MiniRobotDOM {
+    margin: 100px;
+}
+
+.MiniRobotDOM .MiniRobotkit {
+    display: flex;
+    z-index: 1;
+    position: relative;
+    width: calc(50% - 15px);
+    min-height: 200px;
+    margin-right: 30px;
+}
+
+.MiniRobotDOM .MiniRobotkit::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    background: #B4DCFB;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    opacity: 0.4;
+    left: 0;
+}
+
+.MiniRobotkit h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 137.69%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 60px;
+    color: #FFFFFF;
+}
+
+.MiniRobotkit p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.tagss, .tagsss{
+    background: rgba(0, 0, 0, 0.5);
+/* opacity: 0.6; */
+border: 2px solid #FFFFFF;
+width: max-content;
+display: flex;
+}
+.tagss p{
+    margin-bottom: 0px;
+    font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+display: inline;
+
+color: #FFFFFF;
+    padding: 10px 20px;
+}
+.tagsss p{
+    margin-bottom: 0px;
+    font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+display: inline;
+
+color: #FFFFFF;
+    padding: 10px 20px;
+}
+.OceanRegistration_ .prizes_grand{
+    display: grid;
+    place-items: center;
+    margin-top: 120px;
+    position: relative;
+}
+.prizes_grand .head_grand{
+    position: absolute;
+    top: 55%;
+}
+.prizes_grand h4{
+    font-weight: 700;
+font-size: 40px;
+/* identical to box height */
+    margin-bottom: 0px;
+text-align: center;
+text-transform: uppercase;
+
+color: #F9F9F9;
+}
+.prizes_grand h2{
+    font-weight: 700;
+font-size: 60px;
+line-height: 70px;
+text-align: center;
+text-transform: uppercase;
+
+color: #48C1FF;
+}
+.prizes_grand img, .prizes_grand video{
+    width: 80%;
+    height: auto;
+    margin-top: 1rem;
+    max-height: 740px;
+}
+.OceanRegistration_ .winner_list{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+.OceanRegistration_ .winner_listDesk{
+    display: flex;
+}
+.OceanRegistration_ .winner_listMobile{
+    display: none;
+}
+.winner_list .winnerListBox{
+    padding: 25px;
+    position: relative;
+    width: 25%;
+    display: grid;
+    place-items: center;
+    height: fit-content;
+    background: rgba(5, 73, 151, 0.8);
+    border: 8px solid #0B6AE0;
+    border-radius: 20px;
+    /* min-height: 300px; */
+}
+.winnerListBox img{
+    width: 200px;
+    height: 200px;
+    /* margin: 40px; */
+}
+.winnerListBox h4{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+    margin-bottom: 40px;
+    /* margin-bottom: 0px; */
+    color: #FFFFFF;
+}
+.winnerListBox .subParaimg{
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+    background: #fff;
+    border-radius: 4%;
+}
+.winnerListBox .subParaimg img{
+    width: 100%;
+    height: 100%;
+}
+.winnerListBox p{
+    font-size: 14px;
+line-height: 137.69%;
+/* or 19px */
+margin-bottom: 0px;
+letter-spacing: 0.05em;
+/* min-width: calc(100% - 50px); */
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+.winnerListBox .CrownImg{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+@media screen and (max-width: 1200px) {
+    .formSection .oceanActualForm{
+        width: 80%;
+    }
+    .oceanSection2 .deadliestTrash, .oceanSection9 .deadliestTrash, .deadliestTrash{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .RobotKit .Robotkitpng, .MiniRobotkit .Robotkitpng{
+        margin-right: 60px;
+    }
+    .RobotKit h1{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .RobotKit .blankDashing{
+        margin: 20px 0;
+    }
+    .RobotKit p{
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .winner_list .winnerListBox{
+        width: 30%;
+    }
+
+    .OceanRegistration_ .maintitle{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .OceanRegistration_ .RobotKit{
+        width: calc(100% - 40px);
+        margin: 100px 20px;
+    }
+    .OceanRegistration_ .MiniRobotDOM{
+        margin: 100px 20px;
+    }
+    .MiniRobotkit .Robotkitpng{
+        margin-right: 40px;
+        transform: translate(20px, 40px);
+    }
+    .winnerListBox h4{
+        font-size: 14px;
+        margin-bottom: 22px;
+    }
+    .winnerListBox img{
+        width: 150px;
+        height: 150px;
+    }
+    .winnerListBox p{
+        font-size: 12px;
+    }
+    .MiniRobotkit h4{
+        font-size: 14px;
+        margin-top: 40px;
+
+    }
+    .MiniRobotkit p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .OceanRegistration_{
+        width: 100vw;
+    }
+    .formSection .oceanActualForm{
+        width: 100vw;
+        height: 650px;
+    }
+    .tagsss, .tagss{
+        margin-top: 20px;
+    }
+    .tagss p, .tagsss p{
+        font-size: 10px;
+        padding: 5px 15px;
+    }
+    .MiniRobotkit .RobotkitpngDesk{
+        display: none;
+    }
+    .MiniRobotkit .RobotkitMobile{
+        display: block;
+    }
+    .OceanRegistration_ .winner_listDesk{
+        display: none;
+    }
+
+    .OceanRegistration_ .winner_listMobile{
+        display: flex;
+        flex-direction: column;
+    }
+    .winner_list .winnerListBox{
+        width: calc(100vw - 40px);
+        margin-left: 20px;
+        margin-bottom: 40px;
+        margin-right: 0px;
+    }
+    .winnerListBox img{
+        width: 120px;
+        height: 120px;
+    }
+    .winnerListBox p{
+        font-size: 10px;
+    }
+    .winnerListBox .subParaimg{
+        width: 25px;
+        height: 25px;
+    }
+    .winnerListBox .CrownImg{
+        width: 70px;
+        height: 70px;
+        left: calc(50% - 35px);
+        top: -35px;
+    }
+    .OceanRegistration_ .winner_list{
+        margin-bottom: 40px;
+    }
+    .OceanRegistration_ .maintitle{
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .OceanRegistration_ .RobotKit, .MiniRobotDOM .MiniRobotkit{
+        margin: 30px 20px;
+        width: calc(100% - 40px);
+        padding: 20px;
+        flex-direction: column-reverse;
+    }
+    .MiniRobotDOM .MiniRobotkit{
+        margin: 60px 20px;
+    }
+    .MiniRobotkit h4{
+        margin-top: 0px;
+        font-size: 16px;
+        display: inline;
+    }
+    .RobotKit h1{
+        margin-top: 0px !important;
+        font-size: 15px;
+        display: inline;
+        margin-right: 5px;
+        line-height: 18px;
+    }
+    .RobotKit p, .MiniRobotkit p{
+        font-size: 10px;
+        line-height: 14px;
+        margin-bottom: 0px;
+    }
+    .RobotKit .blankDashing{
+        margin: 20px 0;
+        margin-top: 7px;
+    
+    }
+    .RobotKit .Robotkitpng, .MiniRobotkit .Robotkitpng{
+        width: 100%;
+        height: auto;
+        transform: translate(0px, 60px);
+        margin-right: 0px;
+    }
+    .OceanRegistration_ .MiniRobotDOM{
+        flex-direction: column;
+        margin: 60px 0px;
+    }
+    .OceanRegistration_ .prizes_grand{
+        margin-top: 60px;
+    }
+    .prizes_grand h4{
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 0px;
+    }
+    .prizes_grand h2{
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .prizes_grand img, .prizes_grand video{
+        width: calc(100% - 40px);
+       
+        /* margin-left: 20px; */
+    }
+    .OceanRegistration_ .winner_list{
+        margin-top: 0px;
+    }
+}

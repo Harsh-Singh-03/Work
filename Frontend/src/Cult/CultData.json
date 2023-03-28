@@ -1,0 +1,317 @@
+[
+    {
+      "name": "Mechanical Planetarium",
+      "slug": "mechanical-planetarium",
+      "id": "121",
+      "url": "https://workdrive.zohopublic.in/external/eb0512f4d2e878338eceb91ef2d5c93a9fc2cfc9fedaf4be88a18b3ae6380a90/download",
+      "price": 4999,
+      "illustrationImageUrl": "https://images.cults3d.com/OsKyESBtY8MoBJ0lWhxKkWpVVhY=/516x516/https://files.cults3d.com/uploaders/13100539/illustration-file/b7425836-6e3c-454c-9a48-4daf6343b1ca/screenie05.jpg",
+      "publishedAt": "2020-10-05T12:34:00Z",
+      "downloadsCount": 1989,
+      "viewsCount": 32534,
+      "likesCount": 285,
+      "description": "A working planetarium*, modelling the orbits of the inner 6 planets and the Moon. One rotation of the dial equals 14 days of movement. \r\n\r\nhttps://youtu.be/AKBxbvwoRgs\r\n\r\nAccuracy (orbital period in Earth days, actual / model)\r\nMercury  87.97 / 86.31\r\nVenus  224.70 / 224.87\r\nEarth  365.26 / 365.26\r\nMars  686.98 / 688.65\r\nJupiter  4332.80 / 4325.32\r\nSaturn  10755.70 / 10787.85\r\n\r\nThis model is based on plans for a mechanical planetarium shared by Ken Condal (http://zeamon.com). I have adjusted the gear ratio for Venus for better gear meshing, at the cost of ~1.5 days accuracy in the orbit of Mercury.\r\n\r\nWatch the following video for how to assemble the gear train: https://youtu.be/gCyWxUscdN0\r\n\r\nIn addition to the printed parts you will need M3 screws, 5 and 10mm, about 10 of each ought to do it. I painted the planets with dollar store nail polish.\r\n\r\nSuccess with this project will depend on organization (not mixing up parts), willingness to sand the many tightly-fitting parts, and your print quality. \"Elephant foot\" will ruin gear meshing, a problem that can be addressed either through printing on a raft or within your slicer's settings.\r\n\r\nThe OpenSCAD files used to generate the parts are included here. To use it, you will need to download the gear generator file \"Getriebe.scad\" by Dr Jörg Janssen from Thingiverse (https://www.thingiverse.com/thing:1604369), and place it in the directory of your project file. If your gears are not meshing well, try changing the \"idler_length_correction\" a bit up or down. A word of caution, the planet peg lengths are a bit off, so I just eyeballed at assembly time and clipped off to height with nippers.\r\n\r\n*-- Yes, I'm aware of the 4th Earl of Orrery, who received a mechanical planetarium in 1704, and in one of the English language's many injustices, became the common name of all future mechanical planetaria. The Earl played zero part in the conception, design, or manufacture of his particular device, which was a copy by John Rowley of a model designed by George Graham and Thomas Tompion. Further, mechanical planetaria predate his by millennia.",
+      "tags": [
+        "orrery",
+        "planets",
+        "physics_astronomy"
+      ],
+      "illustrations": [
+        {
+          "imageUrl": "https://images.cults3d.com/OsKyESBtY8MoBJ0lWhxKkWpVVhY=/516x516/https://files.cults3d.com/uploaders/13100539/illustration-file/b7425836-6e3c-454c-9a48-4daf6343b1ca/screenie05.jpg"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/ifx_R7CPmdhiuI8daXzBsMVduI4=/516x516/https://files.cults3d.com/uploaders/13100539/illustration-file/13aaf207-47e3-4bef-898f-95609dd87f6d/screenie06.jpg"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/AL52I8hNj7qsAs6kYW7nMqzL84w=/516x516/https://files.cults3d.com/uploaders/13100539/illustration-file/aeea1959-0d9c-4bb9-846f-881df1aa6ba3/screenie04.jpg"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/Z_nLJfp0HgKep8D9Q6aFvflcgrM=/516x516/https://files.cults3d.com/uploaders/13100539/illustration-file/607de347-efb5-4501-8fbd-03da9a889695/VenusPlanetArm.png"
+        }
+      ],
+      "creator": {
+        "bio": ""
+      }
+    },
+    {
+      "name": "CUP OF GREED (CUP OF PYTHAGORAS)",
+      "slug": "cup-of-greed-cup-of-pythagoras",
+      "id":"422",
+      "url": "https://workdrive.zohopublic.in/external/a21d873db052b4e01916a9724d2860815deabfd95e859c0d9ea0393e2ecb07e2/download",
+      "price": 300,
+      "illustrationImageUrl": "https://videos.cults3d.com/G8jrklKUJDB4YhFl1JKLT1xDh9U=/516x516/https://files.cults3d.com/uploaders/15438945/illustration-file/3ce84582-d68c-4e43-9508-899079e0b2ee/20210814_131523.gif",
+      "publishedAt": "2021-08-14T13:42:10Z",
+      "downloadsCount": 103,
+      "viewsCount": 2900,
+      "likesCount": 10,
+      "description": "The Pythagorean cup (also known as Tantalus cup, cup of the greedy, cup of justice) is a drinking vessel that forces the user to drink in moderation.\r\n\n\n\r\n\n\nThis invention, attributed to Pythagoras of Samos, allows the cup to be filled to a certain level, and beyond this limit, the cup empties its contents.\r\n\n\n\r\n\n\nWhen the cup is filled, so is the conduit. However, following Pascal's principle of communicating vessels, when the liquid level exceeds the inflection point of the cup's conduit, the cup empties. The hydrostatic pressure creates a siphon that evacuates the liquid through the orifice at the foot of the cup.\r\n\n\n\r\n\n\nI hope you like it!",
+      "tags": [
+        "cup",
+        "pythagoras",
+        "greed",
+        "pascal",
+        "mathematics",
+        "physics"
+      ],
+      "illustrations": [
+        {
+          "imageUrl": "https://videos.cults3d.com/G8jrklKUJDB4YhFl1JKLT1xDh9U=/516x516/https://files.cults3d.com/uploaders/15438945/illustration-file/3ce84582-d68c-4e43-9508-899079e0b2ee/20210814_131523.gif"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/a8MCDCI8M2HjCcB6Eo3r0BXChnE=/516x516/https://files.cults3d.com/uploaders/15438945/illustration-file/a1ec8e7e-c9b7-4e89-963b-5265cbfffaee/Screenshot_7.jpg"
+        }
+      ],
+      "creator": {
+        "bio": "Curioseando siempre sobre matemáticas, arte y 3D.\r\n\r\nPero sobre todo Artista y Maker 3D \r\n\r\n"
+      }
+    },
+    {
+      "name": "PRINT-IN-PLACE PHONE HOLDER - FOR SPACE?!",
+      "slug": "print-in-place-phone-holder-for-space",
+      "id":"423",
+      "url": "https://workdrive.zohopublic.in/external/4d8d98a22bd6a3932c9f408549de6df86615d8b6a3a7507d294a5b4604593369/download",
+      "price": 500,
+      "illustrationImageUrl": "https://videos.cults3d.com/aLVwRuw12PY8P_rCtjbSeHNAg-U=/516x516/https://files.cults3d.com/uploaders/13845051/illustration-file/6936ff5c-2348-41cb-a8d4-1162960b3744/giff-2.gif",
+      "publishedAt": "2020-03-12T14:51:00Z",
+      "downloadsCount": 13534,
+      "viewsCount": 113174,
+      "likesCount": 841,
+      "description": "This is my Fully 3D-Printed Phone Holder for your desk, car or Space station? Find out how why this is designed for space, and see it in action in my YouTube video: \r\nhttps://youtu.be/TPQqFZdLm9o\r\n\r\nNot print in place enough for you? See my “elevated” print in place Phone holder, where I combine it with a print in place scissor jack!: https://cults3d.com/en/3d-model/gadget/elevated-print-in-place-phone-holder\r\n\r\nPrint settings:\r\n\r\nLayer height: 0.2mm or finer\r\nInfill: 15-30% - Cubic\r\nCooling fan: 100%\r\nZ-Seam alignment: Random\r\nTop and bottom layers: 3, with lines pattern\r\nHorizontal expansion compensation: -This is printer specific; I use -0.07mm, but I included a test piece for easier tuning.\r\n\r\n---\r\nCheck out my social media for sneak peaks and memes:\r\n[YouTube](https://www.youtube.com/user/a09a21a)\r\n[Facebook](https://www.facebook.com/SunShine13337/)\r\n[Instagram](https://www.instagram.com/sunshine_turbo)",
+      "tags": [
+        "phone",
+        "holder",
+        "mechanical",
+        "stand",
+        "print",
+        "in",
+        "place"
+      ],
+      "illustrations": [
+        {
+          "imageUrl": "https://videos.cults3d.com/aLVwRuw12PY8P_rCtjbSeHNAg-U=/516x516/https://files.cults3d.com/uploaders/13845051/illustration-file/6936ff5c-2348-41cb-a8d4-1162960b3744/giff-2.gif"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/IdomS1OP40Wc_Py1AuJIBt0Ae3Y=/516x516/https://files.cults3d.com/uploaders/13845051/illustration-file/5954365a-f587-494a-82c2-4bc1fe3029e7/2.JPG"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/6d0ztB0tVIf5hpZQ2IKo7fxKUUI=/516x516/https://files.cults3d.com/uploaders/13845051/illustration-file/4f969ed9-6a2f-4d81-bd27-93e42a779116/3.JPG"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/GTfXKflWAGtbH6IWyYyfELi2vBs=/516x516/https://files.cults3d.com/uploaders/13845051/illustration-file/4818a0ad-b650-4606-9e38-e79bbd35b7e9/4.JPG"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/S3LBLgefNOuMS0w-uc1kLzXKBk8=/516x516/https://files.cults3d.com/uploaders/13845051/illustration-file/1d9d4d7b-af25-4d6b-be64-4184dd4e2daa/5.JPG"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/hjlY-2ORHupm8Ze6LZgj-jQP6Vc=/516x516/https://files.cults3d.com/uploaders/13845051/illustration-file/ca36e166-c4ec-4d95-9087-f05da3ca915d/Capture.PNG"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/UzBmT9ctz0r_eTK7IrU-SUPLE4g=/516x516/https://files.cults3d.com/uploaders/13845051/illustration-file/446e5d16-5d52-42b3-85bf-cdb52febb000/7.JPG"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/9YzNC1979whViylq4prw7oGZ5Q8=/516x516/https://files.cults3d.com/uploaders/13845051/illustration-file/2a36a61b-41d2-4f7b-adcb-eee6bd2c714a/8.JPG"
+        },
+        {
+          "imageUrl": "https://videos.cults3d.com/neQjeBQtZTgivvrWIlWLqHDZO68=/516x516/https://files.cults3d.com/uploaders/13845051/illustration-file/bd8970c5-1a35-463f-bb3e-1612a9aef073/gifff3.gif"
+        }
+      ],
+      "creator": {
+        "bio": "Creating things for fun and entertainment!\r\n\r\nCheck out my social media for sneak peaks and memes:\r\nyoutube.com/user/a09a21a\r\n\r\ninstagram.com/sunshine_turbo"
+      }
+    },
+    {
+      "name": "HEART PENCIL HOLDER",
+      "slug": "heart-pencil-holder",
+      "id": "321",
+      "url": "https://workdrive.zohopublic.in/external/a8918adf4ac2ad8a1d6f14363025618a09c460a7b56137cb85a84eec6297e2df/download",
+      "price": 500,
+      "illustrationImageUrl": "https://videos.cults3d.com/jK6s3RgOIwplfYO153KUblvVju0=/516x516/https://files.cults3d.com/uploaders/14228233/illustration-file/19f292b5-0cb0-4a98-867c-40d1008f7c4d/corazon_1.gif",
+      "publishedAt": "2022-07-01T12:23:56Z",
+      "downloadsCount": 109,
+      "viewsCount": 1432,
+      "likesCount": 20,
+      "description": "Heart pen holder..., a heart in love..., a broken heart... or a heart to share..., a minimalist design <3, very meaningful and very dynamic, elegant pen holder to share and why not to use it, a gift for an anniversary, I hope you like it very much :)\r\n\n\n\r\n\n\nhttps://youtu.be/uYZpRtcA27U",
+      "tags": [
+        "pen holder",
+        "pen holder",
+        "pens",
+        "heart",
+        "articuladle",
+        "puzzles",
+        "assemblable heart",
+        "heart in love",
+        "part",
+        "toys",
+        "heart",
+        "heart in love",
+        "heart-shaped pen holder"
+      ],
+      "illustrations": [
+        {
+          "imageUrl": "https://videos.cults3d.com/jK6s3RgOIwplfYO153KUblvVju0=/516x516/https://files.cults3d.com/uploaders/14228233/illustration-file/19f292b5-0cb0-4a98-867c-40d1008f7c4d/corazon_1.gif"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/-CViPxP8LSqt1lERJVugurU1jcI=/516x516/https://files.cults3d.com/uploaders/14228233/illustration-file/9364cfcc-3433-453d-9792-79efc19ff474/corazon-1.jpg"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/pJeiidTra25GkpGWNTiilKekiXc=/516x516/https://files.cults3d.com/uploaders/14228233/illustration-file/04d65f98-1dcf-471c-bcee-de8f6c7d7ac7/corazon-2.jpg"
+        }
+      ],
+      "creator": {
+        "bio": ""
+      }
+    },
+    {
+      "name": "Stiffened Polygons",
+      "slug": "stiffened-polygons",
+      "id": "521",
+      "url": "https://workdrive.zohopublic.in/external/0d9b10c554a03da4162660b6c36d28df3c6df5f9fa65dee23096d30d96d8529c/download",
+      "price": 200,
+      "illustrationImageUrl": "https://images.cults3d.com/GKA-OG6TFT3kDZLAOBUKfDmepX4=/516x516/https://files.cults3d.com/uploaders/20766360/illustration-file/eeb6c41d-aa81-4cc4-bc15-c78d3e2d81e7/201102_overview-2.jpg",
+      "publishedAt": "2021-12-01T00:03:31Z",
+      "downloadsCount": 85,
+      "viewsCount": 1832,
+      "likesCount": 9,
+      "description": "Polygons with 3d-printed strands as mechanical reinforcements.\r\n\r\nTo introduce stiffness to a polygonal frame multiple triangles are inscribed into the shape, changing rotation with z-height. The triangles themselves are strands of filament extruded into the air. This technique is called bridging, because it doesn't make use of support structures (eventually the different triangles may touch each other). Each strand consist of two layers.\r\n\r\nThe diameter of all three polygons - pentagon, hexagon and heptagon - is approximately 10cm. The rotation of the triangle is bound to 1/3 of the length of the polygon outline, not to an angle. Therefore this principle is adaptive to the applied shape and every curve point is connected to exactly two strands. The result has a relative high stiffness compared to the amount of material used.\r\n\r\nGeometry was created using Rhino/Grasshopper.",
+      "tags": [
+        "bridging",
+        "bridging test",
+        "geometric",
+        "geometrical design",
+        "geometry",
+        "heptagon",
+        "hexagon",
+        "hexagonal",
+        "math",
+        "mathematical art",
+        "mathematics",
+        "math art",
+        "pentagon",
+        "polygon",
+        "math_art"
+      ],
+      "illustrations": [
+        {
+          "imageUrl": "https://images.cults3d.com/GKA-OG6TFT3kDZLAOBUKfDmepX4=/516x516/https://files.cults3d.com/uploaders/20766360/illustration-file/eeb6c41d-aa81-4cc4-bc15-c78d3e2d81e7/201102_overview-2.jpg"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/-VVZkym0AqVWNGXJzn-ohOTVkjs=/516x516/https://files.cults3d.com/uploaders/20766360/illustration-file/a118b396-6821-4fa8-a3ba-2b8ccc0fe855/201102_heptagon-closeup.jpg"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/HMUf5P2YuZrMhjxaCCqS7bzhy1o=/516x516/https://files.cults3d.com/uploaders/20766360/illustration-file/c26edd12-8919-4532-bc91-345602097429/201102_hexagon-closeup.jpg"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/19ZD1O7G2yxqFhUr-Bbr_owN6uI=/516x516/https://files.cults3d.com/uploaders/20766360/illustration-file/f081d643-6506-4b38-a2f9-4a38bb1316e9/201102_pentagon-closeup.jpg"
+        }
+      ],
+      "creator": {
+        "bio": "My name is Alec Singh and I’m working in architecture and structural engineering. I have a strong background in computational design and digital fabrication methods.This is the place where I share my work and research."
+      }
+    },
+    {
+      "name": "Air Raid Siren - hand crank version",
+      "slug": "air-raid-siren-hand-crank-version",
+      "id":"225",
+      "url": "https://workdrive.zohopublic.in/external/929af89cdbb0909ca1714e1527ce0baf8850b40918c73df679fe8f988ec4c051/download",
+      "price": 999,
+      "illustrationImageUrl": "https://images.cults3d.com/7NYMZjtC09LrOZf4FPSIU2L5qP0=/516x516/https://files.cults3d.com/uploaders/13215517/illustration-file/eef89c93-084b-4f71-b5cb-9ef3bf5ba2e1/Capture%20d%E2%80%99e%CC%81cran%202017-05-03%20a%CC%80%2011.41.00.png",
+      "publishedAt": "2017-05-03T09:52:22Z",
+      "downloadsCount": 531,
+      "viewsCount": 6829,
+      "likesCount": 20,
+      "description": "There's a newer version of this design:\nhttps://cults3d.com/en/users/MlePh\n\nThis design is 100% 3D printed. Works fine but may have friction when rotating fast!\n\nBe careful when using it! Dont touch the moving parts while they are rotating!",
+      "tags": [
+        "engineering",
+        "makeitloud",
+        "middle_school",
+        "steam",
+        "stem",
+        "tvy"
+      ],
+      "illustrations": [
+        {
+          "imageUrl": "https://images.cults3d.com/7NYMZjtC09LrOZf4FPSIU2L5qP0=/516x516/https://files.cults3d.com/uploaders/13215517/illustration-file/eef89c93-084b-4f71-b5cb-9ef3bf5ba2e1/Capture%20d%E2%80%99e%CC%81cran%202017-05-03%20a%CC%80%2011.41.00.png"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/M8iGW9tVC1EIFuYcJUq0qBGExAg=/516x516/https://files.cults3d.com/uploaders/13215517/illustration-file/7d8c23a2-57b6-4cbe-9442-4c2f92456a24/Capture%20d%E2%80%99e%CC%81cran%202017-05-03%20a%CC%80%2011.41.15.png"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/3i1agFZjYYPQ4f4t9DaDmRghl1Q=/516x516/https://files.cults3d.com/uploaders/13215517/illustration-file/fb24dc7d-1eb5-4831-9cb1-3c4428b9ad23/Capture%20d%E2%80%99e%CC%81cran%202017-05-03%20a%CC%80%2011.41.20.png"
+        }
+      ],
+      "creator": {
+        "bio": "I am a civil engineer. In my work i do stuff like modeling digital surfaces for excavators. Something like 3D printing in a bigger scale..\r\n\r\nFor my latest designs i use fusion 360. It's perfect for 3D printing!.Earlier designs like the siren where made with AutoCAD. Something i don't recommend for 3D printing. It's awful for 3D modeling...\r\n\r\nI come from Austria and my native language is german. So if my words sometimes don't look right the reason for that is that i don't speak english very often."
+      }
+    },
+    {
+      "name": "Collapsible Sword - Épée dépliable - No support / Print In place Version 1",
+      "slug": "collapsible-sword-epée-dépliable-no-support-print-in-place-version-1",
+      "id":"325",
+      "url": "https://workdrive.zohopublic.in/external/188eb5cde5e5094953e3bec330b0f34b8228ee64081836b4b34473c36a16a588/download",
+      "price": 1499,
+      "illustrationImageUrl": "https://videos.cults3d.com/N6jbEBvmr63fGyiF-m_gmzsr5T8=/516x516/https://files.cults3d.com/uploaders/14822584/illustration-file/46ab656c-b0f7-42f0-80c9-033642a95726/VID_20210709_185231.gif",
+      "publishedAt": "2021-07-11T23:05:18Z",
+      "downloadsCount": 3319,
+      "viewsCount": 27987,
+      "likesCount": 319,
+      "description": "Hello,\r\n\n\n\r\n\n\nHere is a folding sword, another project that I had a lot of fun with!\r\n\n\n\r\n\n\nOnce unfolded it measures more than 130cm !\r\n\n\n\r\n\n\nThe sword is available in a print in place version or a disassembled version.\r\n\n\n\r\n\n\nNO support is needed, everything is printable as-is.\r\n\n\n\r\n\n\nCan't wait to see your full color creations or modifications.\r\n\n\nFeel free to contact me if something is wrong or you want to suggest modifications.\r\n\n\n\r\n\n\nPs: I added the .STEP files so you can easily customize the different elements.\r\n\n\n\r\n\n\nRemember to subscribe to my account to be aware of my new items!\r\n\n\nIf you find it useful and you like my work, you can thank me with a like, a comment or even a donation whatever it is. This helps me cover the design time and prototypes so I can offer you as many nice items as possible!\r\n\n\nThank you, Have a good print and above all have fun!!!\r\n\n\n\r\n\n\nBrixodin 3D Perf",
+      "tags": [
+        "knight",
+        "collapsible",
+        "collapsing sword",
+        "construction toys",
+        "cosplay",
+        "cosplay accessory",
+        "cosplay weapon",
+        "dmontable",
+        "foldable",
+        "fidget toy",
+        "knight",
+        "print in place",
+        "sword",
+        "toy"
+      ],
+      "illustrations": [
+        {
+          "imageUrl": "https://videos.cults3d.com/N6jbEBvmr63fGyiF-m_gmzsr5T8=/516x516/https://files.cults3d.com/uploaders/14822584/illustration-file/46ab656c-b0f7-42f0-80c9-033642a95726/VID_20210709_185231.gif"
+        },
+        {
+          "imageUrl": "https://videos.cults3d.com/QErn_twuobY8GfN5kYc8ULb_KtY=/516x516/https://files.cults3d.com/uploaders/14822584/illustration-file/7d849b08-80ac-43b5-a736-2f689cbd2176/VID_20210706_090801.gif"
+        },
+        {
+          "imageUrl": "https://videos.cults3d.com/MCTZX492uYtJMPHsyywXMJYlFkg=/516x516/https://files.cults3d.com/uploaders/14822584/illustration-file/ff86af82-3988-43c8-a260-a1377d6d26d8/sword-gif.gif"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/K7Fh1rggC6GSnxhs7PZ1W18aTb8=/516x516/https://files.cults3d.com/uploaders/14822584/illustration-file/58ce4541-894d-4fa2-bce8-2588d386b496/1.jpg"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/mUjJ1fYBJ0mExLoFbiZS3YxyhqU=/516x516/https://files.cults3d.com/uploaders/14822584/illustration-file/1f504dac-7e3a-467e-b94b-2736ae2e90e5/2.jpg"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/yNseHAdx08FTZx7f0464kYQ7IOk=/516x516/https://files.cults3d.com/uploaders/14822584/illustration-file/9a9c7bd1-03ce-4e04-a48a-e43bc7e3d508/3.jpg"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/CFmTGVxo_Y_9G9zoBDp8IAMP_zQ=/516x516/https://files.cults3d.com/uploaders/14822584/illustration-file/03cffff4-7ea1-4dd8-be85-b564772f5c2c/4.jpg"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/vkUNgTsy2TM9T-MVWNZ-RxSnay0=/516x516/https://files.cults3d.com/uploaders/14822584/illustration-file/6bbc5389-a7d9-4404-b321-c534c7e1d4a2/5.jpg"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/pHTGDukyzbyPxyi7r973QxUv8nM=/516x516/https://files.cults3d.com/uploaders/14822584/illustration-file/5d855983-9f73-49cd-bdff-36b3fe7c7543/print-orientation.jpg"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/yWN_bPSxfsW94_rZ0o1lxeC08jw=/516x516/https://files.cults3d.com/uploaders/14822584/illustration-file/7dc6d7b4-0cd8-4443-875f-72c5a5cf17c2/Sword_BXN_Print_In_Place.png"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/SdkRXKdXYPZ4agh2ldjUCEswHlU=/516x516/https://files.cults3d.com/uploaders/14822584/illustration-file/ce3dfaca-ac31-4147-8789-e341bc11443d/BXN_Sword_-_Corps.png"
+        },
+        {
+          "imageUrl": "https://images.cults3d.com/hgvQYBpu3NjowZgIDLYsW6UKcJ8=/516x516/https://files.cults3d.com/uploaders/14822584/illustration-file/832a452a-b59e-4dc1-b6cb-9f3e2c80386c/BXN_Sword_-_Bouchon.png"
+        }
+      ],
+      "creator": {
+        "bio": "\"Géo-trouve tout\" j'aime inventer toutes sorte de choses !\r\nN'hésitez pas à me contacter si vous aimez mon travail et que vous souhaitez une modification ou une personnalisation !"
+      }
+    }
+  ]

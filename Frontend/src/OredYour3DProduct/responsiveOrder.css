@@ -1,0 +1,205 @@
+@media screen and (min-width: 500px) {
+    .fontHeading1 h2, .suggestionTips h2 {
+        font-size: 22px;
+    }
+    .suggestionTab p, .underline p, .letGetPlace p, .inpuText p, .dashFild p, .mx-2 p,.fontHeading1 p, .form-select, .its_FAQ p, .toggleinputuser{
+        font-size: 13px;
+    }
+    .toggleTitle_acc span, .underCap span{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 600px) {
+    .toggleTitle_acc{
+        min-height: 100px !important;
+    }
+    .service_accordian .Uploadfile_acc{
+        min-height: 100px !important;
+    }
+    .fontHeading1 h2, .suggestionTips h2 {
+        font-size: 2rem;
+    }
+    .yesIcon{
+        width: 40px;
+        height: 40px;
+        right: 10px;
+        top: calc(50% - 20px);
+    }
+    .yesIcon i{
+        font-size: 14px;
+    }
+    .fontHeading1 h4,.fontHeading2 h4, .suggestionTab h4, .underCap h4,.toggleTitle_acc h4,.letGetPlace h4, .its_FAQ h4{
+        font-size: 1.4rem !important;
+    }
+    .form-control, .blockLine{
+        font-size: 15px;
+    }
+    .suggestionTab p, .underline p, .letGetPlace p, .inpuText p, .dashFild p, .mx-2 p,.newserviceDOM p,.fontHeading1 p,.form-select, .its_FAQ p, .toggleinputuser{
+        font-size: 15px;
+    }
+    .underCap span{
+        font-size: 13px;
+    }
+    .toggleTitle_acc span{
+        font-size: 14px;
+    }
+    .dashBorder svg{
+        width: 250px !important;
+        height: 70px!important;
+    }
+    .fileListBox{
+        margin-bottom: 30px;
+        height: 80px;
+    }
+    .suggestionTab{
+        margin :20px 0 !important;
+        padding: 10px !important;
+        padding-right: 20px !important;
+        padding-left: 20px !important
+    }
+    .inputBox_u{
+        height: 40px !important;
+        margin-top: 10px !important;
+    }
+    .cartMrOr svg{
+        height: 27px !important;
+        width: 27px!important;
+    }
+    .round svg{
+        height: 20px !important;
+        width: 20px!important;
+    }
+    .cartInHead{
+        font-size: medium;
+    }
+    .focusInputColor{
+        width: 40px !important;
+        height: 40px;
+    }
+    .manufactutingService {
+        margin-top: 30px;
+    }
+}
+@media screen and (min-width: 940px) {
+    .yesIcon{
+        width: 50px;
+        height: 50px;
+        right: 10px;
+        top: calc(50% - 25px);
+    }
+    .yesIcon i{
+        font-size: 18px;
+    }
+    .manufactutingService {
+        margin-top: 40px;
+    }
+    .inputN {
+        width: 190px;
+    }
+    .fontHeading1 h2,.suggestionTips h2 {
+        font-size: 40px;
+        font-weight: 700 !important;
+    }
+    .suggestionTips h2{
+        margin-bottom: 20px !important;
+    }
+    .fontHeading1 h4,.fontHeading2 h4, .suggestionTab h4, .underCap h4, .suggestionTips h4, .toggleTitle_acc h4,.letGetPlace h4, .its_FAQ h4{
+        font-size: 24px !important; 
+    }
+    .fontHeading2 .MatHead{
+        margin-bottom: 20px !important;
+    }
+    .underCap p{
+        font-size: 16px;
+    }
+    .toggleTitle_acc span{
+        font-size: 18px;
+    }
+    .underCap span{
+        font-size: 16px;
+    }
+    .toggleTitle_acc{
+        min-height: 100px;
+    }
+    .shadowInput{
+        border-radius: 7px;
+    }
+    .suggestionTab p, .underline p, .letGetPlace p, .inpuText p, .dashFild p, .toggleinputuser, .newserviceDOM p,.fontHeading1 p, .form-select, .its_FAQ p{
+        font-size: 20px;
+    }
+    .cartInHead{
+        font-size: large !important;
+    }
+    .inpuText{
+        width: 88px;
+    }
+    .dashBorder svg{
+        width: 300px !important;
+        height: 60px!important;
+    }
+    .addMore, .fontHeading2 .delHead{
+        margin: 20px 0px !important;
+    }
+
+
+    .fileListBox{
+        margin-bottom: 30px;
+        height: 100px;
+    }
+    .mx-2 p{
+        font-size: 20px;
+        margin-bottom: 0 !important;
+        color: #193566;
+    }
+ 
+    .any{
+        justify-content: space-between;
+    }
+    .inputRange{
+        margin-bottom: 50px !important;
+    }
+    .leftdiv label{
+        font-size: 30px !important;
+        margin-left: 20px!important;
+
+    }
+    .form-control, .blockLine{
+        font-size: 20px;
+    }
+    .roundRetrangel {
+        font-size: 20px;
+        height: 60px;
+    }
+ .inputBox_u{
+        height: 50px !important;
+      
+    }
+    .cartMrOr{
+    margin-top: 30px;
+    min-height: 100px !important;
+    }
+    .cartMrOr svg{
+        height: 40px !important;
+        width: 40px !important;
+    }
+    .focusInputColor{
+        width: 50px !important;
+        height: 50px;
+        align-items: center;
+    }
+    .underCap{
+        font-size: large;
+    }
+    .round svg{
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    #query_z_form{
+        /* width: 100vw !important; */
+        margin: 20px 0;
+    }
+    /* .underCap{
+        font-size: 12px !important;
+    } */
+}
